@@ -1059,7 +1059,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "สพด.",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -1067,7 +1067,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -1077,7 +1077,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-1 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-1 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -1095,7 +1095,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "สพด.",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -1103,7 +1103,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -1113,7 +1113,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-2 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-2 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -1131,7 +1131,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "สพด.",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -1139,7 +1139,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -1149,7 +1149,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-3 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-3 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -1167,7 +1167,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "สพด.",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -1175,7 +1175,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -1185,7 +1185,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-4 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-4 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -1203,7 +1203,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "สพด.",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -1211,7 +1211,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -1221,7 +1221,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-5 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-5 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -1239,7 +1239,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "บช.",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -1247,7 +1247,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -1257,7 +1257,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-6 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-6 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -1275,7 +1275,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "บช.",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -1283,7 +1283,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -1293,7 +1293,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-7 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-7 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -1311,7 +1311,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "บช.",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -1319,7 +1319,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -1329,7 +1329,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-8 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-8 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -1347,7 +1347,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "บช.",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -1355,7 +1355,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -1365,7 +1365,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-9 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-9 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -1383,7 +1383,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -1391,7 +1391,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -1401,7 +1401,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-10 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-10 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -1419,7 +1419,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "บช.",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -1427,7 +1427,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -1437,7 +1437,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-11 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-11 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -1455,7 +1455,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "การเงิน",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -1463,7 +1463,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -1473,7 +1473,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-12 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-12 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -1491,7 +1491,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "การเงิน",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -1499,7 +1499,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -1509,7 +1509,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-13 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-13 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -1527,7 +1527,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "การเงิน",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -1535,7 +1535,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -1545,7 +1545,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-14 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-14 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -1563,7 +1563,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -1571,7 +1571,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -1581,7 +1581,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-15 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-15 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -1599,7 +1599,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -1607,7 +1607,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -1617,7 +1617,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-16 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-16 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -1635,7 +1635,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -1643,7 +1643,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -1653,7 +1653,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-17 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-17 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -1671,7 +1671,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -1679,7 +1679,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -1689,7 +1689,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-18 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-18 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -1707,7 +1707,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -1715,7 +1715,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -1725,7 +1725,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-19 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-19 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -1743,7 +1743,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -1751,7 +1751,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -1761,7 +1761,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-20 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-20 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -1779,7 +1779,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -1787,7 +1787,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -1797,7 +1797,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-21 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-21 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -1815,7 +1815,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -1823,7 +1823,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -1833,7 +1833,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-22 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-22 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -1851,7 +1851,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -1859,7 +1859,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -1869,7 +1869,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-23 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-23 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -1887,7 +1887,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -1895,7 +1895,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -1905,7 +1905,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-24 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-24 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -1923,7 +1923,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -1931,7 +1931,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -1941,7 +1941,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-25 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-25 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -1959,7 +1959,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -1967,7 +1967,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -1977,7 +1977,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-26 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-26 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -1995,7 +1995,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -2003,7 +2003,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -2013,7 +2013,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-27 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-27 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -2031,7 +2031,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -2039,7 +2039,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -2049,7 +2049,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-28 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-28 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -2067,7 +2067,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -2075,7 +2075,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -2085,7 +2085,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-29 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-29 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -2103,7 +2103,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -2111,7 +2111,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -2121,7 +2121,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-30 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-30 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -2139,7 +2139,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -2147,7 +2147,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -2157,7 +2157,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-31 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-31 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -2175,7 +2175,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -2183,7 +2183,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -2193,7 +2193,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-32 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-32 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -2211,7 +2211,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -2219,7 +2219,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -2229,7 +2229,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-33 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-33 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -2247,7 +2247,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -2255,7 +2255,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -2265,7 +2265,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-34 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-34 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -2283,7 +2283,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -2291,7 +2291,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -2301,7 +2301,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-35 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-35 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -2319,7 +2319,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -2327,7 +2327,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -2337,7 +2337,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-36 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-36 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -2355,7 +2355,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -2363,7 +2363,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -2373,7 +2373,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-37 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-37 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -2391,7 +2391,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -2399,7 +2399,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -2409,7 +2409,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-38 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-38 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -2427,7 +2427,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -2435,7 +2435,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -2445,7 +2445,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-39 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-39 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -2463,7 +2463,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -2471,7 +2471,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -2481,7 +2481,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-40 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-40 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -2499,7 +2499,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -2507,7 +2507,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -2517,7 +2517,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-41 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-41 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -2535,7 +2535,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -2543,7 +2543,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -2553,7 +2553,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-42 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-42 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -2571,7 +2571,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -2579,7 +2579,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -2589,7 +2589,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-43 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-43 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -2607,7 +2607,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -2615,7 +2615,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -2625,7 +2625,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-44 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-44 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -2643,7 +2643,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -2651,7 +2651,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -2661,7 +2661,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-45 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-45 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -2679,7 +2679,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -2687,7 +2687,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -2697,7 +2697,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-46 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-46 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -2715,7 +2715,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -2723,7 +2723,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -2733,7 +2733,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-47 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-47 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -2751,7 +2751,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -2759,7 +2759,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -2769,7 +2769,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-48 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-48 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -2787,7 +2787,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -2795,7 +2795,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -2805,7 +2805,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-49 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-49 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -2823,7 +2823,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -2831,7 +2831,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -2841,7 +2841,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-50 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-50 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -2859,7 +2859,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -2867,7 +2867,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -2877,7 +2877,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-51 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-51 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -2895,7 +2895,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -2903,7 +2903,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -2913,7 +2913,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-52 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-52 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -2931,7 +2931,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -2939,7 +2939,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -2949,7 +2949,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-53 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-53 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -2967,7 +2967,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -2975,7 +2975,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -2985,7 +2985,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-54 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-54 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -3003,7 +3003,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -3011,7 +3011,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -3021,7 +3021,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-55 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-55 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -3039,7 +3039,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -3047,7 +3047,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -3057,7 +3057,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-56 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-56 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -3075,7 +3075,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -3083,7 +3083,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -3093,7 +3093,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-57 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-57 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -3111,7 +3111,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -3119,7 +3119,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -3129,7 +3129,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-58 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-58 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -3147,7 +3147,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -3155,7 +3155,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -3165,7 +3165,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-59 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-59 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -3183,7 +3183,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -3191,7 +3191,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -3201,7 +3201,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-60 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-60 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -3219,7 +3219,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -3227,7 +3227,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -3237,7 +3237,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-61 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-61 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -3255,7 +3255,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -3263,7 +3263,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -3273,7 +3273,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-62 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-62 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -3291,7 +3291,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -3299,7 +3299,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -3309,7 +3309,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-63 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-63 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -3327,7 +3327,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -3335,7 +3335,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -3345,7 +3345,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-64 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-64 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -3363,7 +3363,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -3371,7 +3371,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -3381,7 +3381,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-65 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-65 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -3399,7 +3399,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -3407,7 +3407,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -3417,7 +3417,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-66 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-66 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -3435,7 +3435,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -3443,7 +3443,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -3453,7 +3453,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-67 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-67 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -3471,7 +3471,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -3479,7 +3479,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -3489,7 +3489,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-68 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-68 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -3507,7 +3507,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -3515,7 +3515,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -3525,7 +3525,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-69 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-69 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -3543,7 +3543,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -3551,7 +3551,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -3561,7 +3561,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-70 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-70 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -3579,7 +3579,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -3587,7 +3587,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -3597,7 +3597,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-71 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-71 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -3615,7 +3615,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -3623,7 +3623,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -3633,7 +3633,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-72 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-72 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -3651,7 +3651,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 3000,
@@ -3659,7 +3659,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 3000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -3669,7 +3669,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-73 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ โต้ะทำงาน 3 ลิ้นชักขนาด w120xD60XH75CM รหัส 69/1-01-001-73 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -3687,7 +3687,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -3695,7 +3695,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -3705,7 +3705,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-1 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-1 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -3723,7 +3723,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -3731,7 +3731,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -3741,7 +3741,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-2 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-2 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -3759,7 +3759,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -3767,7 +3767,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -3777,7 +3777,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-3 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-3 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -3795,7 +3795,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -3803,7 +3803,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -3813,7 +3813,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-4 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-4 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -3831,7 +3831,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -3839,7 +3839,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -3849,7 +3849,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-5 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-5 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -3867,7 +3867,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -3875,7 +3875,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -3885,7 +3885,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-6 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-6 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -3903,7 +3903,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -3911,7 +3911,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -3921,7 +3921,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-7 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-7 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -3939,7 +3939,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -3947,7 +3947,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -3957,7 +3957,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-8 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-8 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -3975,7 +3975,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -3983,7 +3983,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -3993,7 +3993,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-9 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-9 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -4011,7 +4011,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -4019,7 +4019,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -4029,7 +4029,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-10 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-10 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -4047,7 +4047,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -4055,7 +4055,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -4065,7 +4065,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-11 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-11 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -4083,7 +4083,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -4091,7 +4091,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -4101,7 +4101,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-12 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-12 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -4119,7 +4119,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -4127,7 +4127,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -4137,7 +4137,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-13 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-13 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -4155,7 +4155,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -4163,7 +4163,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -4173,7 +4173,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-14 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-14 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -4191,7 +4191,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -4199,7 +4199,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -4209,7 +4209,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-15 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-15 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -4227,7 +4227,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -4235,7 +4235,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -4245,7 +4245,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-16 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-16 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -4263,7 +4263,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -4271,7 +4271,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -4281,7 +4281,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-17 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-17 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -4299,7 +4299,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -4307,7 +4307,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -4317,7 +4317,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-18 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-18 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -4335,7 +4335,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -4343,7 +4343,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -4353,7 +4353,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-19 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-19 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -4371,7 +4371,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -4379,7 +4379,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -4389,7 +4389,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-20 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-20 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -4407,7 +4407,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -4415,7 +4415,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -4425,7 +4425,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-21 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-21 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -4443,7 +4443,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -4451,7 +4451,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -4461,7 +4461,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-22 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-22 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -4479,7 +4479,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -4487,7 +4487,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -4497,7 +4497,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-23 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-23 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -4515,7 +4515,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -4523,7 +4523,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -4533,7 +4533,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-24 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-24 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -4551,7 +4551,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -4559,7 +4559,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -4569,7 +4569,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-25 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-25 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -4587,7 +4587,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -4595,7 +4595,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -4605,7 +4605,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-26 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-26 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -4623,7 +4623,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -4631,7 +4631,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -4641,7 +4641,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-27 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-27 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -4659,7 +4659,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -4667,7 +4667,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -4677,7 +4677,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-28 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-28 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -4695,7 +4695,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -4703,7 +4703,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -4713,7 +4713,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-29 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-29 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -4731,7 +4731,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -4739,7 +4739,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -4749,7 +4749,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-30 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-30 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -4767,7 +4767,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -4775,7 +4775,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -4785,7 +4785,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-31 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-31 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -4803,7 +4803,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -4811,7 +4811,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -4821,7 +4821,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-32 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-32 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -4839,7 +4839,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -4847,7 +4847,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -4857,7 +4857,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-33 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-33 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -4875,7 +4875,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -4883,7 +4883,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -4893,7 +4893,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-34 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-34 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -4911,7 +4911,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -4919,7 +4919,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -4929,7 +4929,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-35 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-35 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -4947,7 +4947,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -4955,7 +4955,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -4965,7 +4965,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-36 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-36 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -4983,7 +4983,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -4991,7 +4991,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -5001,7 +5001,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-37 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-37 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -5019,7 +5019,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -5027,7 +5027,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -5037,7 +5037,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-38 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-38 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -5055,7 +5055,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -5063,7 +5063,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -5073,7 +5073,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-39 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-39 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -5091,7 +5091,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -5099,7 +5099,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -5109,7 +5109,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-40 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-40 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -5127,7 +5127,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -5135,7 +5135,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -5145,7 +5145,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-41 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-41 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -5163,7 +5163,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -5171,7 +5171,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -5181,7 +5181,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-42 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-42 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -5199,7 +5199,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -5207,7 +5207,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -5217,7 +5217,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-43 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-43 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -5235,7 +5235,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -5243,7 +5243,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -5253,7 +5253,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-44 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-44 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -5271,7 +5271,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -5279,7 +5279,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -5289,7 +5289,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-45 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-45 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -5307,7 +5307,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -5315,7 +5315,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -5325,7 +5325,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-46 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-46 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -5343,7 +5343,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -5351,7 +5351,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -5361,7 +5361,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-47 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-47 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -5379,7 +5379,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -5387,7 +5387,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -5397,7 +5397,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-48 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-48 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -5415,7 +5415,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -5423,7 +5423,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -5433,7 +5433,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-49 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-49 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -5451,7 +5451,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -5459,7 +5459,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -5469,7 +5469,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-50 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-50 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -5487,7 +5487,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -5495,7 +5495,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -5505,7 +5505,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-51 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-51 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -5523,7 +5523,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -5531,7 +5531,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -5541,7 +5541,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-52 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-52 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -5559,7 +5559,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -5567,7 +5567,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -5577,7 +5577,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-53 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-53 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -5595,7 +5595,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -5603,7 +5603,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -5613,7 +5613,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-54 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-54 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -5631,7 +5631,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -5639,7 +5639,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -5649,7 +5649,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-55 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-55 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -5667,7 +5667,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -5675,7 +5675,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -5685,7 +5685,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-56 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-56 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -5703,7 +5703,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -5711,7 +5711,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -5721,7 +5721,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-57 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-57 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -5739,7 +5739,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -5747,7 +5747,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -5757,7 +5757,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-58 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-58 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -5775,7 +5775,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -5783,7 +5783,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -5793,7 +5793,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-59 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-59 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -5811,7 +5811,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -5819,7 +5819,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -5829,7 +5829,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-60 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-60 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -5847,7 +5847,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -5855,7 +5855,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -5865,7 +5865,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-61 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-61 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -5883,7 +5883,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -5891,7 +5891,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -5901,7 +5901,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-62 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-62 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -5919,7 +5919,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -5927,7 +5927,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -5937,7 +5937,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-63 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-63 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -5955,7 +5955,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -5963,7 +5963,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -5973,7 +5973,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-64 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-64 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -5991,7 +5991,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -5999,7 +5999,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -6009,7 +6009,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-65 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-65 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -6027,7 +6027,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -6035,7 +6035,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -6045,7 +6045,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-66 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-66 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -6063,7 +6063,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -6071,7 +6071,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -6081,7 +6081,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-67 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-67 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -6099,7 +6099,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -6107,7 +6107,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -6117,7 +6117,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-68 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-68 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -6135,7 +6135,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -6143,7 +6143,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -6153,7 +6153,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-69 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-69 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -6171,7 +6171,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -6179,7 +6179,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -6189,7 +6189,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-70 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-70 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -6207,7 +6207,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -6215,7 +6215,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -6225,7 +6225,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-71 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-71 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -6243,7 +6243,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -6251,7 +6251,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -6261,7 +6261,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-72 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-72 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -6279,7 +6279,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1600,
@@ -6287,7 +6287,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1600,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -6297,7 +6297,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-73 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เก้าอี๋สำนักงานบุหนังดำ ขนาด w60xD65XH869960M รหัส 69/1-01-002-73 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -6315,7 +6315,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 4500,
@@ -6323,7 +6323,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 4500,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -6333,7 +6333,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ ตู้เอกสารโล่ง 5 ชั้นแผ่นชั้น 4 แผ่น ขนาด w80*D30*H220CM รหัส 69/1-01-006-1 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ ตู้เอกสารโล่ง 5 ชั้นแผ่นชั้น 4 แผ่น ขนาด w80*D30*H220CM รหัส 69/1-01-006-1 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -6351,7 +6351,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 4500,
@@ -6359,7 +6359,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 4500,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -6369,7 +6369,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ ตู้เอกสารโล่ง 5 ชั้นแผ่นชั้น 4 แผ่น ขนาด w80*D30*H220CM รหัส 69/1-01-006-2 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ ตู้เอกสารโล่ง 5 ชั้นแผ่นชั้น 4 แผ่น ขนาด w80*D30*H220CM รหัส 69/1-01-006-2 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -6387,7 +6387,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 4500,
@@ -6395,7 +6395,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 4500,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -6405,7 +6405,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ ตู้เอกสารโล่ง 5 ชั้นแผ่นชั้น 4 แผ่น ขนาด w80*D30*H220CM รหัส 69/1-01-006-3 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ ตู้เอกสารโล่ง 5 ชั้นแผ่นชั้น 4 แผ่น ขนาด w80*D30*H220CM รหัส 69/1-01-006-3 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -6423,7 +6423,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 4500,
@@ -6431,7 +6431,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 4500,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -6441,7 +6441,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ ตู้เอกสารโล่ง 5 ชั้นแผ่นชั้น 4 แผ่น ขนาด w80*D30*H220CM รหัส 69/1-01-006-4 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ ตู้เอกสารโล่ง 5 ชั้นแผ่นชั้น 4 แผ่น ขนาด w80*D30*H220CM รหัส 69/1-01-006-4 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -6459,7 +6459,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 4500,
@@ -6467,7 +6467,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 4500,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -6477,7 +6477,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ ตู้เอกสารโล่ง 5 ชั้นแผ่นชั้น 4 แผ่น ขนาด w80*D30*H220CM รหัส 69/1-01-006-5 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ ตู้เอกสารโล่ง 5 ชั้นแผ่นชั้น 4 แผ่น ขนาด w80*D30*H220CM รหัส 69/1-01-006-5 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -6495,7 +6495,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 2300,
@@ -6503,7 +6503,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 2300,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -6513,7 +6513,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-1 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-1 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -6531,7 +6531,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 2300,
@@ -6539,7 +6539,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 2300,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -6549,7 +6549,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-2 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-2 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -6567,7 +6567,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 2300,
@@ -6575,7 +6575,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 2300,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -6585,7 +6585,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-3 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-3 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -6603,7 +6603,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 2300,
@@ -6611,7 +6611,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 2300,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -6621,7 +6621,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-4 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-4 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -6639,7 +6639,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 2300,
@@ -6647,7 +6647,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 2300,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -6657,7 +6657,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-5 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-5 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -6675,7 +6675,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 2300,
@@ -6683,7 +6683,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 2300,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -6693,7 +6693,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-6 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-6 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -6711,7 +6711,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 2300,
@@ -6719,7 +6719,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 2300,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -6729,7 +6729,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-7 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-7 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -6747,7 +6747,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 2300,
@@ -6755,7 +6755,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 2300,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -6765,7 +6765,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-8 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-8 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -6783,7 +6783,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 2300,
@@ -6791,7 +6791,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 2300,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -6801,7 +6801,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-9 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-9 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -6819,7 +6819,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 2300,
@@ -6827,7 +6827,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 2300,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -6837,7 +6837,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-10 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-10 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -6855,7 +6855,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 2300,
@@ -6863,7 +6863,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 2300,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -6873,7 +6873,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-11 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-11 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -6891,7 +6891,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 2300,
@@ -6899,7 +6899,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 2300,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -6909,7 +6909,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-12 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-12 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -6927,7 +6927,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 2300,
@@ -6935,7 +6935,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 2300,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -6945,7 +6945,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-13 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-13 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -6963,7 +6963,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 2300,
@@ -6971,7 +6971,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 2300,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -6981,7 +6981,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-14 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-14 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -6999,7 +6999,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 2300,
@@ -7007,7 +7007,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 2300,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -7017,7 +7017,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-15 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-15 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -7035,7 +7035,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 2300,
@@ -7043,7 +7043,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 2300,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -7053,7 +7053,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-16 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-16 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -7071,7 +7071,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 2300,
@@ -7079,7 +7079,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 2300,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -7089,7 +7089,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-17 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-17 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -7107,7 +7107,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 2300,
@@ -7115,7 +7115,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 2300,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -7125,7 +7125,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-18 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-18 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -7143,7 +7143,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 2300,
@@ -7151,7 +7151,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 2300,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -7161,7 +7161,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-19 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-19 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -7179,7 +7179,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 2300,
@@ -7187,7 +7187,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 2300,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -7197,7 +7197,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-20 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-20 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -7215,7 +7215,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 2300,
@@ -7223,7 +7223,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 2300,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -7233,7 +7233,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-21 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-21 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -7251,7 +7251,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 2300,
@@ -7259,7 +7259,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 2300,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -7269,7 +7269,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-22 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-22 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -7287,7 +7287,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 2300,
@@ -7295,7 +7295,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 2300,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -7305,7 +7305,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-23 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-23 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -7323,7 +7323,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 2300,
@@ -7331,7 +7331,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 2300,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -7341,7 +7341,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-24 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-24 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -7359,7 +7359,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 2300,
@@ -7367,7 +7367,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 2300,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -7377,7 +7377,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-25 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-25 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -7395,7 +7395,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 2300,
@@ -7403,7 +7403,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 2300,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -7413,7 +7413,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-26 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-26 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -7431,7 +7431,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 2300,
@@ -7439,7 +7439,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 2300,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -7449,7 +7449,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-27 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-27 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -7467,7 +7467,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 2300,
@@ -7475,7 +7475,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 2300,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -7485,7 +7485,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-28 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-28 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -7503,7 +7503,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 2300,
@@ -7511,7 +7511,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 2300,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -7521,7 +7521,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-29 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-29 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -7539,7 +7539,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 2300,
@@ -7547,7 +7547,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 2300,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -7557,7 +7557,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-30 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-30 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -7575,7 +7575,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 2300,
@@ -7583,7 +7583,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 2300,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -7593,7 +7593,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-31 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-31 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -7611,7 +7611,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 2300,
@@ -7619,7 +7619,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 2300,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -7629,7 +7629,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-32 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-32 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -7647,7 +7647,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 2300,
@@ -7655,7 +7655,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 2300,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -7665,7 +7665,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-33 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w120*H120CM รหัส 69/1-01-007-33 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -7683,7 +7683,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1850,
@@ -7691,7 +7691,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1850,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -7701,7 +7701,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w80*H120CM รหัส 69/1-01-007-34 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w80*H120CM รหัส 69/1-01-007-34 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -7719,7 +7719,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1850,
@@ -7727,7 +7727,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1850,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -7737,7 +7737,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w80*H120CM รหัส 69/1-01-007-35 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ พาทิชั่นบุผ้าฝ้าย ขนาด w80*H120CM รหัส 69/1-01-007-35 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -7755,7 +7755,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1000,
@@ -7763,7 +7763,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -7773,7 +7773,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เสาจบพาทิชั่นสูง120CM รหัส 69/1-01-007-36 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เสาจบพาทิชั่นสูง120CM รหัส 69/1-01-007-36 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -7791,7 +7791,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1000,
@@ -7799,7 +7799,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -7809,7 +7809,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เสาจบพาทิชั่นสูง120CM รหัส 69/1-01-007-37 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เสาจบพาทิชั่นสูง120CM รหัส 69/1-01-007-37 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -7827,7 +7827,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1000,
@@ -7835,7 +7835,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -7845,7 +7845,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เสาจบพาทิชั่นสูง120CM รหัส 69/1-01-007-38 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เสาจบพาทิชั่นสูง120CM รหัส 69/1-01-007-38 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -7863,7 +7863,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1000,
@@ -7871,7 +7871,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -7881,7 +7881,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เสาจบพาทิชั่นสูง120CM รหัส 69/1-01-007-39 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เสาจบพาทิชั่นสูง120CM รหัส 69/1-01-007-39 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -7899,7 +7899,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1000,
@@ -7907,7 +7907,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -7917,7 +7917,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เสาจบพาทิชั่นสูง120CM รหัส 69/1-01-007-40 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เสาจบพาทิชั่นสูง120CM รหัส 69/1-01-007-40 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -7935,7 +7935,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1000,
@@ -7943,7 +7943,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -7953,7 +7953,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เสาจบพาทิชั่นสูง120CM รหัส 69/1-01-007-41 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เสาจบพาทิชั่นสูง120CM รหัส 69/1-01-007-41 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -7971,7 +7971,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1000,
@@ -7979,7 +7979,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -7989,7 +7989,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เสาจบพาทิชั่นสูง120CM รหัส 69/1-01-007-42 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เสาจบพาทิชั่นสูง120CM รหัส 69/1-01-007-42 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -8007,7 +8007,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 1000,
@@ -8015,7 +8015,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 1000,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -8025,7 +8025,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ เสาจบพาทิชั่นสูง120CM รหัส 69/1-01-007-43 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ เสาจบพาทิชั่นสูง120CM รหัส 69/1-01-007-43 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -8043,7 +8043,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 250,
@@ -8051,7 +8051,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 250,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -8061,7 +8061,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ ขาตั้งพาทิชั่น รหัส 69/1-01-007-44 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ ขาตั้งพาทิชั่น รหัส 69/1-01-007-44 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -8079,7 +8079,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 250,
@@ -8087,7 +8087,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 250,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -8097,7 +8097,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ ขาตั้งพาทิชั่น รหัส 69/1-01-007-45 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ ขาตั้งพาทิชั่น รหัส 69/1-01-007-45 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -8115,7 +8115,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 250,
@@ -8123,7 +8123,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 250,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -8133,7 +8133,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ ขาตั้งพาทิชั่น รหัส 69/1-01-007-46 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ ขาตั้งพาทิชั่น รหัส 69/1-01-007-46 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -8151,7 +8151,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 250,
@@ -8159,7 +8159,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 250,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -8169,7 +8169,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ ขาตั้งพาทิชั่น รหัส 69/1-01-007-47 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ ขาตั้งพาทิชั่น รหัส 69/1-01-007-47 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -8187,7 +8187,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 250,
@@ -8195,7 +8195,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 250,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -8205,7 +8205,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ ขาตั้งพาทิชั่น รหัส 69/1-01-007-48 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ ขาตั้งพาทิชั่น รหัส 69/1-01-007-48 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -8223,7 +8223,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 250,
@@ -8231,7 +8231,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 250,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -8241,7 +8241,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ ขาตั้งพาทิชั่น รหัส 69/1-01-007-49 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ ขาตั้งพาทิชั่น รหัส 69/1-01-007-49 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -8259,7 +8259,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 250,
@@ -8267,7 +8267,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 250,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -8277,7 +8277,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ ขาตั้งพาทิชั่น รหัส 69/1-01-007-50 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ ขาตั้งพาทิชั่น รหัส 69/1-01-007-50 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -8295,7 +8295,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 250,
@@ -8303,7 +8303,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 250,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -8313,7 +8313,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ ขาตั้งพาทิชั่น รหัส 69/1-01-007-51 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ ขาตั้งพาทิชั่น รหัส 69/1-01-007-51 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -8331,7 +8331,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 250,
@@ -8339,7 +8339,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 250,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -8349,7 +8349,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ ขาตั้งพาทิชั่น รหัส 69/1-01-007-52 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ ขาตั้งพาทิชั่น รหัส 69/1-01-007-52 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -8367,7 +8367,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 250,
@@ -8375,7 +8375,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 250,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -8385,7 +8385,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ ขาตั้งพาทิชั่น รหัส 69/1-01-007-53 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ ขาตั้งพาทิชั่น รหัส 69/1-01-007-53 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -8403,7 +8403,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 250,
@@ -8411,7 +8411,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 250,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -8421,7 +8421,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ ขาตั้งพาทิชั่น รหัส 69/1-01-007-54 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ ขาตั้งพาทิชั่น รหัส 69/1-01-007-54 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -8439,7 +8439,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 250,
@@ -8447,7 +8447,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 250,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -8457,7 +8457,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ ขาตั้งพาทิชั่น รหัส 69/1-01-007-55 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ ขาตั้งพาทิชั่น รหัส 69/1-01-007-55 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -8475,7 +8475,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 250,
@@ -8483,7 +8483,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 250,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -8493,7 +8493,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ ขาตั้งพาทิชั่น รหัส 69/1-01-007-56 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ ขาตั้งพาทิชั่น รหัส 69/1-01-007-56 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -8511,7 +8511,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 250,
@@ -8519,7 +8519,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 250,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -8529,7 +8529,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ ขาตั้งพาทิชั่น รหัส 69/1-01-007-57 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ ขาตั้งพาทิชั่น รหัส 69/1-01-007-57 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -8547,7 +8547,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 250,
@@ -8555,7 +8555,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 250,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -8565,7 +8565,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ ขาตั้งพาทิชั่น รหัส 69/1-01-007-58 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ ขาตั้งพาทิชั่น รหัส 69/1-01-007-58 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -8583,7 +8583,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 250,
@@ -8591,7 +8591,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 250,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -8601,7 +8601,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ ขาตั้งพาทิชั่น รหัส 69/1-01-007-59 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ ขาตั้งพาทิชั่น รหัส 69/1-01-007-59 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -8619,7 +8619,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 250,
@@ -8627,7 +8627,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 250,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -8637,7 +8637,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ ขาตั้งพาทิชั่น รหัส 69/1-01-007-60 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ ขาตั้งพาทิชั่น รหัส 69/1-01-007-60 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -8655,7 +8655,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 250,
@@ -8663,7 +8663,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 250,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -8673,7 +8673,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ ขาตั้งพาทิชั่น รหัส 69/1-01-007-61 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ ขาตั้งพาทิชั่น รหัส 69/1-01-007-61 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -8691,7 +8691,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 250,
@@ -8699,7 +8699,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 250,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -8709,7 +8709,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ ขาตั้งพาทิชั่น รหัส 69/1-01-007-62 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ ขาตั้งพาทิชั่น รหัส 69/1-01-007-62 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -8727,7 +8727,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 250,
@@ -8735,7 +8735,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 250,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -8745,7 +8745,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ ขาตั้งพาทิชั่น รหัส 69/1-01-007-63 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ ขาตั้งพาทิชั่น รหัส 69/1-01-007-63 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -8763,7 +8763,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 250,
@@ -8771,7 +8771,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 250,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -8781,7 +8781,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ ขาตั้งพาทิชั่น รหัส 69/1-01-007-64 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ ขาตั้งพาทิชั่น รหัส 69/1-01-007-64 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -8799,7 +8799,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 250,
@@ -8807,7 +8807,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 250,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -8817,7 +8817,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ ขาตั้งพาทิชั่น รหัส 69/1-01-007-65 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ ขาตั้งพาทิชั่น รหัส 69/1-01-007-65 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -8835,7 +8835,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 250,
@@ -8843,7 +8843,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 250,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -8853,7 +8853,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ ขาตั้งพาทิชั่น รหัส 69/1-01-007-66 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ ขาตั้งพาทิชั่น รหัส 69/1-01-007-66 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -8871,7 +8871,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 250,
@@ -8879,7 +8879,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 250,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -8889,7 +8889,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ ขาตั้งพาทิชั่น รหัส 69/1-01-007-67 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ ขาตั้งพาทิชั่น รหัส 69/1-01-007-67 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -8907,7 +8907,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 250,
@@ -8915,7 +8915,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 250,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -8925,7 +8925,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ ขาตั้งพาทิชั่น รหัส 69/1-01-007-68 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ ขาตั้งพาทิชั่น รหัส 69/1-01-007-68 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -8943,7 +8943,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 250,
@@ -8951,7 +8951,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 250,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -8961,7 +8961,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ ขาตั้งพาทิชั่น รหัส 69/1-01-007-69 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ ขาตั้งพาทิชั่น รหัส 69/1-01-007-69 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },
@@ -8979,7 +8979,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "custodian": "ผู้ใช้งานส่วนกลาง",
     "location": "ส่วนกลาง",
     "budgetYear": "2569",
-    "acquisitionDate": "10 พ.ศ. 68",
+    "acquisitionDate": "10 พ.ค. 2568",
     "poNumber": "สัญญา อสป.",
     "vendor": "ห้างหุ่นส่วนจำกัด ทรัพย์อนันต์ เทรดดิ้ง ใบสั่งซื้อ เลขที่ 43/2569",
     "purchasePrice": 250,
@@ -8987,7 +8987,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
     "depreciationMethod": "20% ต่อปี (เส้นตรง)",
     "currentBookValue": 250,
     "status": "active",
-    "warrantyStart": "10 พ.ศ. 68",
+    "warrantyStart": "10 พ.ค. 2568",
     "warrantyEnd": "2029-01-14",
     "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&auto=format&fit=crop&q=60",
     "history": [
@@ -8997,7 +8997,7 @@ export const REAL_EXCEL_ASSETS: Asset[] = [
         "type": "registration",
         "title": "นำเข้าจากทะเบียนพัสดุ อสป.ปัจจุบัน.xlsx",
         "by": "ระบบคุมพัสดุ อสป.",
-        "detail": "ลงทะเบียนรายการ ขาตั้งพาทิชั่น รหัส 69/1-01-007-70 (วันที่ได้มา: 10 พ.ศ. 68)"
+        "detail": "ลงทะเบียนรายการ ขาตั้งพาทิชั่น รหัส 69/1-01-007-70 (วันที่ได้มา: 10 พ.ค. 2568)"
       }
     ]
   },

@@ -1,8 +1,10 @@
 'use client';
 
 import React, { useState, useMemo } from 'react';
+import { formatThaiDate } from '../../lib/dateUtils';
 import { DEPARTMENT_LIST } from '../../data/departments';
 import { Asset, AssetStatus } from '../../types/asset';
+
 import { 
   Search, 
   Filter, 
@@ -350,7 +352,7 @@ export const AssetTable: React.FC<AssetTableProps> = ({
                       <td className="p-3 whitespace-nowrap">
                         <div className="font-semibold text-slate-800 flex items-center space-x-1.5">
                           <Calendar className="w-3.5 h-3.5 text-blue-600 flex-shrink-0" />
-                          <span>{asset.acquisitionDate || '-'}</span>
+                          <span>{formatThaiDate(asset.acquisitionDate)}</span>
                         </div>
                       </td>
 

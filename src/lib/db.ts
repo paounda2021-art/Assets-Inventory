@@ -4,6 +4,7 @@ import fs from 'fs';
 import { REAL_EXCEL_ASSETS } from '../data/excelAssets';
 import { DEPARTMENT_LIST } from '../data/departments';
 import { CATEGORY_CODES, TYPE_CODES } from './codeGenerator';
+import { formatThaiDate } from './dateUtils';
 import { Asset } from '../types/asset';
 
 const dbDir = path.join(process.cwd(), 'data');
@@ -117,7 +118,7 @@ function seedDatabase() {
           custodian: item.custodian || '',
           location: item.location || '',
           budgetYear: item.budgetYear || '',
-          acquisitionDate: item.acquisitionDate || '',
+          acquisitionDate: formatThaiDate(item.acquisitionDate || ''),
           poNumber: item.poNumber || '',
           vendor: item.vendor || '',
           purchasePrice: item.purchasePrice || 0,
@@ -125,7 +126,7 @@ function seedDatabase() {
           depreciationMethod: item.depreciationMethod || '20% ต่อปี (เส้นตรง)',
           currentBookValue: item.currentBookValue || 0,
           status: item.status || 'active',
-          warrantyStart: item.warrantyStart || '',
+          warrantyStart: formatThaiDate(item.warrantyStart || ''),
           warrantyEnd: item.warrantyEnd || '',
           imageUrl: item.imageUrl || '',
           history: JSON.stringify(item.history || [])
