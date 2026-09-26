@@ -5,17 +5,49 @@
 @layer base {
   html {
     font-family: 'Angsana New', 'TH Sarabun New', 'AngsanaUPC', sans-serif;
+    font-size: 20px;
   }
 
   body {
     font-family: 'Angsana New', 'TH Sarabun New', 'AngsanaUPC', sans-serif;
-    font-size: 18px;
-    line-height: 1.35;
+    font-size: 20px;
+    line-height: 1.45;
+    font-weight: 500;
     @apply bg-slate-100 text-slate-900 antialiased selection:bg-blue-500 selection:text-white;
   }
 
   input, select, textarea, button {
     font-family: 'Angsana New', 'TH Sarabun New', 'AngsanaUPC', sans-serif;
+    font-size: 18px;
+  }
+
+  /* Specific overrides for arbitrary tiny font utilities */
+  .text-\[10px\] {
+    font-size: 14px !important;
+    line-height: 1.25 !important;
+  }
+
+  .text-\[11px\] {
+    font-size: 15px !important;
+    line-height: 1.3 !important;
+  }
+
+  .text-\[13px\] {
+    font-size: 17px !important;
+    line-height: 1.35 !important;
+  }
+
+  th {
+    font-size: 17px;
+    font-weight: 700;
+  }
+
+  td {
+    font-size: 18px;
+  }
+
+  option {
+    font-size: 18px;
   }
 }
 
