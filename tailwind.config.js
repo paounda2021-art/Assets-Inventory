@@ -11,14 +11,15 @@ module.exports = {
         sans: ['"TH Sarabun New"', '"Angsana New"', 'Sarabun', 'sans-serif'],
       },
       fontSize: {
-        '2xs': ['14px', '18px'],
-        'xs':  ['16px', '22px'],
-        'sm':  ['18px', '24px'],
-        'base':['20px', '26px'],
-        'lg':  ['22px', '28px'],
-        'xl':  ['25px', '32px'],
-        '2xl': ['28px', '36px'],
-        '3xl': ['32px', '40px'],
+        '3xs': ['12px', '16px'],
+        '2xs': ['13px', '17px'],
+        'xs':  ['14px', '19px'],
+        'sm':  ['15px', '21px'],
+        'base':['17px', '23px'],
+        'lg':  ['19px', '25px'],
+        'xl':  ['22px', '28px'],
+        '2xl': ['25px', '32px'],
+        '3xl': ['28px', '36px'],
       },
       colors: {
         brand: {
