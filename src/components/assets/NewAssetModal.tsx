@@ -227,7 +227,7 @@ export const NewAssetModal: React.FC<NewAssetModalProps> = ({
                       <select
                         value={year2}
                         onChange={(e) => setYear2(e.target.value)}
-                        className="w-full bg-white border border-blue-300 rounded px-2 py-1.5 font-mono font-bold text-blue-900"
+                        className="w-full bg-white border border-blue-300 rounded px-2 py-1.5 font-bold text-blue-900"
                       >
                         <option value="69">69 (พ.ศ. 2569)</option>
                         <option value="68">68 (พ.ศ. 2568)</option>
@@ -240,7 +240,7 @@ export const NewAssetModal: React.FC<NewAssetModalProps> = ({
                       <select
                         value={resp2}
                         onChange={(e) => setResp2(e.target.value)}
-                        className="w-full bg-white border border-blue-300 rounded px-2 py-1.5 font-mono font-bold text-blue-900"
+                        className="w-full bg-white border border-blue-300 rounded px-2 py-1.5 font-bold text-blue-900"
                       >
                         {RESPONSIBLE_CODES.map(r => (
                           <option key={r.code} value={r.code}>{r.name}</option>
@@ -260,7 +260,7 @@ export const NewAssetModal: React.FC<NewAssetModalProps> = ({
                             setType3(defaultTypes[0].code);
                           }
                         }}
-                        className="w-full bg-white border border-blue-300 rounded px-2 py-1.5 font-mono font-bold text-blue-900"
+                        className="w-full bg-white border border-blue-300 rounded px-2 py-1.5 font-bold text-blue-900"
                       >
                         {categories.map(c => (
                           <option key={c.code} value={c.code}>{c.name}</option>
@@ -273,7 +273,7 @@ export const NewAssetModal: React.FC<NewAssetModalProps> = ({
                       <select
                         value={type3}
                         onChange={(e) => setType3(e.target.value)}
-                        className="w-full bg-white border border-blue-300 rounded px-2 py-1.5 font-mono font-bold text-blue-900"
+                        className="w-full bg-white border border-blue-300 rounded px-2 py-1.5 font-bold text-blue-900"
                       >
                         {(typeCodesMap[cat2] || TYPE_CODES[cat2] || []).map(t => (
                           <option key={t.code} value={t.code}>{t.name}</option>
@@ -290,7 +290,7 @@ export const NewAssetModal: React.FC<NewAssetModalProps> = ({
                           const parsed = parseInt(e.target.value.replace(/[^0-9]/g, ''), 10);
                           setRunningSeq(isNaN(parsed) ? 1 : parsed);
                         }}
-                        className="w-full bg-emerald-50 border-2 border-emerald-400 rounded px-2 py-1.5 font-mono font-extrabold text-emerald-800 text-center shadow-inner"
+                        className="w-full bg-emerald-50 border-2 border-emerald-400 rounded px-2 py-1.5 font-extrabold text-emerald-800 text-center shadow-inner"
                       />
                     </div>
                   </div>
@@ -321,7 +321,7 @@ export const NewAssetModal: React.FC<NewAssetModalProps> = ({
                       </label>
                     </div>
 
-                    <div className="font-mono text-[16px] font-extrabold text-blue-700 bg-white px-3 py-1 rounded border border-blue-300 shadow-sm">
+                    <div className="text-[18px] font-extrabold text-blue-700 bg-white px-3.5 py-1 rounded-lg border border-blue-300 shadow-sm">
                       รหัสทรัพย์สิน: {assetCode}
                     </div>
                   </div>
@@ -341,7 +341,7 @@ export const NewAssetModal: React.FC<NewAssetModalProps> = ({
                           setAssetCode(e.target.value);
                           setAutoGenerateCode(false);
                         }}
-                        className="w-full bg-white border border-slate-300 rounded-lg px-2.5 py-1.5 font-mono text-xs font-bold text-blue-700 focus:ring-2 focus:ring-blue-500"
+                        className="w-full bg-white border border-slate-300 rounded-lg px-2.5 py-1.5 text-xs font-bold text-blue-700 focus:ring-2 focus:ring-blue-500"
                       />
                       <button
                         type="button"
@@ -437,7 +437,7 @@ export const NewAssetModal: React.FC<NewAssetModalProps> = ({
                       required
                       value={serialNumber}
                       onChange={(e) => setSerialNumber(e.target.value)}
-                      className="w-full bg-white border border-slate-300 rounded-lg px-2.5 py-1.5 font-mono text-xs focus:ring-2 focus:ring-blue-500"
+                      className="w-full bg-white border border-slate-300 rounded-lg px-2.5 py-1.5 text-xs focus:ring-2 focus:ring-blue-500"
                     />
                   </div>
                 </div>
