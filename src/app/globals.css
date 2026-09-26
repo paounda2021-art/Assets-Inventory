@@ -4,12 +4,12 @@
 
 @layer base {
   html {
-    font-family: 'Angsana New', 'TH Sarabun New', 'AngsanaUPC', sans-serif;
+    font-family: 'TH Sarabun New', 'Angsana New', 'Sarabun', sans-serif;
     font-size: 20px;
   }
 
   body {
-    font-family: 'Angsana New', 'TH Sarabun New', 'AngsanaUPC', sans-serif;
+    font-family: 'TH Sarabun New', 'Angsana New', 'Sarabun', sans-serif;
     font-size: 20px;
     line-height: 1.45;
     font-weight: 500;
@@ -17,7 +17,7 @@
   }
 
   input, select, textarea, button {
-    font-family: 'Angsana New', 'TH Sarabun New', 'AngsanaUPC', sans-serif;
+    font-family: 'TH Sarabun New', 'Angsana New', 'Sarabun', sans-serif;
     font-size: 18px;
   }
 
@@ -65,7 +65,7 @@
     width: 100% !important;
     height: auto !important;
     overflow: visible !important;
-    font-family: 'Angsana New', 'TH Sarabun New', 'AngsanaUPC', sans-serif !important;
+    font-family: 'TH Sarabun New', 'Angsana New', 'Sarabun', sans-serif !important;
   }
 
   /* Hide background elements, navigation, header, main, and footers */

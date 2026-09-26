@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['"Angsana New"', '"TH Sarabun New"', 'AngsanaUPC', 'sans-serif'],
+        sans: ['"TH Sarabun New"', '"Angsana New"', 'Sarabun', 'sans-serif'],
       },
       fontSize: {
         '2xs': ['14px', '18px'],
