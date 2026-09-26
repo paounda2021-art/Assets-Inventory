@@ -287,7 +287,7 @@ export const AssetTable: React.FC<AssetTableProps> = ({
       <div className="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden">
         <div className="overflow-x-auto">
           <table className="w-full text-left text-xs text-slate-700">
-            <thead className="bg-slate-100 text-slate-800 uppercase text-[11px] font-bold border-b border-slate-200">
+            <thead className="bg-slate-100 text-slate-800 uppercase text-[15px] font-bold border-b border-slate-200">
               <tr>
                 <th className="p-3 w-10 text-center">
                   <button onClick={handleSelectAll} className="text-slate-600 hover:text-blue-600">

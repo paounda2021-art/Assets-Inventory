@@ -23,7 +23,7 @@
     font-size: 15px;
   }
 
-  /* Set exact 15px font size on all select dropdown elements and options */
+  /* Force 15px font size on all select dropdown elements and options */
   select, select option, option {
     font-family: 'TH Sarabun New', 'Angsana New', 'Sarabun', sans-serif !important;
     font-size: 15px !important;
@@ -34,29 +34,30 @@
     line-height: 1.35;
   }
 
+  /* Force exact 15px font size on all table headers and cell text */
+  th {
+    font-size: 15px !important;
+    font-weight: 700 !important;
+  }
+
+  td {
+    font-size: 15px !important;
+  }
+
   /* Specific overrides for arbitrary tiny font utilities */
   .text-\[10px\] {
-    font-size: 12px !important;
+    font-size: 13px !important;
     line-height: 1.25 !important;
   }
 
   .text-\[11px\] {
-    font-size: 13px !important;
-    line-height: 1.3 !important;
-  }
-
-  .text-\[13px\] {
-    font-size: 14px !important;
+    font-size: 15px !important;
     line-height: 1.35 !important;
   }
 
-  th {
-    font-size: 14px;
-    font-weight: 700;
-  }
-
-  td {
-    font-size: 15px;
+  .text-\[13px\] {
+    font-size: 15px !important;
+    line-height: 1.35 !important;
   }
 }
 
