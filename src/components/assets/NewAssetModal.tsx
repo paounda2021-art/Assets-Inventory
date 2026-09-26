@@ -151,8 +151,6 @@ export const NewAssetModal: React.FC<NewAssetModalProps> = ({
     { code: '002', name: '002 อุปกรณ์ต่อพ่วง' }
   ];
 
-  // Get current last count for badge display
-  const lastCount = (INITIAL_TYPE_COUNTS[`${cat2}-${type3}`] || 0);
   const formattedSeq = String(runningSeq).padStart(4, '0');
 
   return (
@@ -208,7 +206,7 @@ export const NewAssetModal: React.FC<NewAssetModalProps> = ({
 
         {/* Form Body */}
         <form onSubmit={handleSubmit}>
-          <div className="p-6 space-y-4 max-h-[65vh] overflow-y-auto">
+          <div className="p-6 space-y-4 max-h-[65vh] overflow-y-auto text-xs">
 
             {/* TAB 1: ข้อมูลสินทรัพย์ + รหัสตามสูตร อสป. */}
             {activeTab === 1 && (
@@ -221,14 +219,11 @@ export const NewAssetModal: React.FC<NewAssetModalProps> = ({
                       <Sparkles className="w-4 h-4 text-blue-600" />
                       <span>⚙️ ระบบสร้างรหัสทรัพย์สินออโต้ (รันต่อจากเดิมอัตโนมัติ)</span>
                     </h4>
-                    <span className="text-[11px] text-blue-700 font-mono">
-                      สูตร: [ปี 2] + [ผู้รับผิดชอบ 2] + [ประเภท 2] + [ชนิด 3] + [รันออโต้ 4]
-                    </span>
                   </div>
 
                   <div className="grid grid-cols-2 sm:grid-cols-5 gap-2 text-xs">
                     <div>
-                      <label className="block text-[11px] font-semibold text-slate-700 mb-1">ปี พ.ศ. (2หลัก):</label>
+                      <label className="block text-xs font-semibold text-slate-700 mb-1">ปี พ.ศ.:</label>
                       <select
                         value={year2}
                         onChange={(e) => setYear2(e.target.value)}
@@ -241,7 +236,7 @@ export const NewAssetModal: React.FC<NewAssetModalProps> = ({
                     </div>
 
                     <div>
-                      <label className="block text-[11px] font-semibold text-slate-700 mb-1">ผู้รับผิดชอบ (2หลัก):</label>
+                      <label className="block text-xs font-semibold text-slate-700 mb-1">ผู้รับผิดชอบ:</label>
                       <select
                         value={resp2}
                         onChange={(e) => setResp2(e.target.value)}
@@ -254,7 +249,7 @@ export const NewAssetModal: React.FC<NewAssetModalProps> = ({
                     </div>
 
                     <div>
-                      <label className="block text-[11px] font-semibold text-slate-700 mb-1">ประเภท (2หลัก):</label>
+                      <label className="block text-xs font-semibold text-slate-700 mb-1">ประเภท:</label>
                       <select
                         value={cat2}
                         onChange={(e) => {
@@ -274,7 +269,7 @@ export const NewAssetModal: React.FC<NewAssetModalProps> = ({
                     </div>
 
                     <div>
-                      <label className="block text-[11px] font-semibold text-slate-700 mb-1">ชนิด (3หลัก):</label>
+                      <label className="block text-xs font-semibold text-slate-700 mb-1">ชนิด:</label>
                       <select
                         value={type3}
                         onChange={(e) => setType3(e.target.value)}
@@ -287,7 +282,7 @@ export const NewAssetModal: React.FC<NewAssetModalProps> = ({
                     </div>
 
                     <div>
-                      <label className="block text-[11px] font-semibold text-slate-700 mb-1">เลขรันถัดไป (4หลัก):</label>
+                      <label className="block text-xs font-semibold text-slate-700 mb-1">เลขรับถัดไป:</label>
                       <input
                         type="text"
                         value={formattedSeq}
@@ -297,23 +292,6 @@ export const NewAssetModal: React.FC<NewAssetModalProps> = ({
                         }}
                         className="w-full bg-emerald-50 border-2 border-emerald-400 rounded px-2 py-1.5 font-mono font-extrabold text-emerald-800 text-center shadow-inner"
                       />
-                    </div>
-                  </div>
-
-                  {/* Highlight Banner showing auto calculation */}
-                  <div className="p-2.5 bg-emerald-100/80 border border-emerald-300 rounded-lg flex flex-wrap items-center justify-between text-xs text-emerald-900">
-                    <div className="flex items-center space-x-1.5">
-                      <Info className="w-4 h-4 text-emerald-700 flex-shrink-0" />
-                      <span>
-                        ชนิดนี้ในระบบรับล่าสุด: <strong className="font-mono text-slate-900 text-sm font-bold">{String(lastCount).padStart(4, '0')}</strong> ({lastCount} รายการ)
-                      </span>
-                    </div>
-
-                    <div className="font-bold text-emerald-900 flex items-center space-x-1">
-                      <span>➡ เลขรันถัดไปที่จะได้อัตโนมัติ:</span>
-                      <span className="font-mono font-extrabold text-blue-700 bg-white px-2.5 py-0.5 rounded border border-blue-400 text-sm shadow-sm">
-                        {formattedSeq}
-                      </span>
                     </div>
                   </div>
 
@@ -349,33 +327,30 @@ export const NewAssetModal: React.FC<NewAssetModalProps> = ({
                   </div>
                 </div>
 
-                {/* Main Fields Grid */}
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                {/* Primary Asset Details Form */}
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
                   <div>
-                    <label className="block font-semibold text-slate-700 mb-1">
-                      <span className="text-rose-500">*</span> หมายเลขรหัสทรัพย์สิน (Asset Code):
+                    <label className="block text-xs font-semibold text-slate-700 mb-1">
+                      <span className="text-red-500">*</span> หมายเลขรหัสทรัพย์สิน (Asset Code):
                     </label>
-                    <div className="flex space-x-2">
+                    <div className="flex space-x-1.5">
                       <input
                         type="text"
                         value={assetCode}
-                        onChange={(e) => setAssetCode(e.target.value)}
-                        disabled={autoGenerateCode}
-                        className={`w-full border rounded-lg px-3 py-2 font-mono font-bold text-sm ${
-                          autoGenerateCode ? 'bg-slate-100 text-blue-800 border-slate-300' : 'bg-white border-blue-500'
-                        }`}
+                        onChange={(e) => {
+                          setAssetCode(e.target.value);
+                          setAutoGenerateCode(false);
+                        }}
+                        className="w-full bg-white border border-slate-300 rounded-lg px-2.5 py-1.5 font-mono text-xs font-bold text-blue-700 focus:ring-2 focus:ring-blue-500"
                       />
                       <button
                         type="button"
-                        onClick={() => setAutoGenerateCode(!autoGenerateCode)}
-                        className={`flex items-center space-x-1 px-3 py-2 rounded-lg text-xs font-semibold whitespace-nowrap transition-colors ${
-                          autoGenerateCode 
-                            ? 'bg-emerald-100 text-emerald-800 border border-emerald-300' 
-                            : 'bg-slate-200 text-slate-700'
-                        }`}
+                        onClick={() => setAutoGenerateCode(true)}
+                        className="px-2.5 py-1.5 bg-emerald-100 text-emerald-800 border border-emerald-300 rounded-lg hover:bg-emerald-200 font-semibold text-xs whitespace-nowrap flex items-center space-x-1"
+                        title="รีเซ็ตรหัสตามสูตร อสป."
                       >
-                        <Sparkles className="w-3.5 h-3.5 text-emerald-600" />
-                        <span>{autoGenerateCode ? '✔ สร้างตามสูตร' : 'กรอกเอง'}</span>
+                        <Check className="w-3.5 h-3.5" />
+                        <span>สร้างตามสูตร</span>
                       </button>
                     </div>
                   </div>
@@ -390,13 +365,13 @@ export const NewAssetModal: React.FC<NewAssetModalProps> = ({
                   </div>
 
                   <div>
-                    <label className="block font-semibold text-slate-700 mb-1">
-                      <span className="text-rose-500">*</span> หมวดหมู่:
+                    <label className="block text-xs font-semibold text-slate-700 mb-1">
+                      <span className="text-red-500">*</span> หมวดหมู่:
                     </label>
                     <select
                       value={categoryName}
                       onChange={(e) => setCategoryName(e.target.value)}
-                      className="w-full bg-white border border-slate-300 rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-500 font-medium"
+                      className="w-full bg-white border border-slate-300 rounded-lg px-2.5 py-1.5 text-xs focus:ring-2 focus:ring-blue-500"
                     >
                       <option value="สำนักงานและครุภัณฑ์">สำนักงานและครุภัณฑ์</option>
                       <option value="คอมพิวเตอร์และอุปกรณ์ไอที">คอมพิวเตอร์และอุปกรณ์ไอที</option>
@@ -405,169 +380,145 @@ export const NewAssetModal: React.FC<NewAssetModalProps> = ({
                   </div>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                   <div>
-                    <label className="block font-semibold text-slate-700 mb-1">
-                      <span className="text-rose-500">*</span> ชื่อรายการทรัพย์สิน:
+                    <label className="block text-xs font-semibold text-slate-700 mb-1">
+                      <span className="text-red-500">*</span> ชื่อรายการทรัพย์สิน:
                     </label>
                     <input
                       type="text"
+                      required
                       value={name}
                       onChange={(e) => setName(e.target.value)}
-                      className="w-full bg-white border border-slate-300 rounded-lg px-3 py-2 font-medium"
-                      placeholder="เช่น โต๊ะทำงานผู้บริหาร"
-                      required
+                      placeholder="เช่น โต๊ะทำงานไม้, เครื่องคอมพิวเตอร์..."
+                      className="w-full bg-white border border-slate-300 rounded-lg px-2.5 py-1.5 text-xs focus:ring-2 focus:ring-blue-500"
                     />
                   </div>
 
                   <div>
-                    <label className="block font-semibold text-slate-700 mb-1">ประเภท:</label>
+                    <label className="block text-xs font-semibold text-slate-700 mb-1">ประเภท:</label>
                     <input
                       type="text"
                       value={subCategory}
                       onChange={(e) => setSubCategory(e.target.value)}
-                      className="w-full bg-white border border-slate-300 rounded-lg px-3 py-2 font-medium"
-                      placeholder="เช่น โต๊ะทำงาน / เก้าอี้"
+                      placeholder="เช่น โต๊ะทำงาน, เครื่องพิมพ์..."
+                      className="w-full bg-white border border-slate-300 rounded-lg px-2.5 py-1.5 text-xs focus:ring-2 focus:ring-blue-500"
                     />
                   </div>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
                   <div>
-                    <label className="block font-semibold text-slate-700 mb-1">ยี่ห้อ / แบรนด์:</label>
+                    <label className="block text-xs font-semibold text-slate-700 mb-1">ยี่ห้อ / แบรนด์:</label>
                     <input
                       type="text"
                       value={brand}
                       onChange={(e) => setBrand(e.target.value)}
-                      className="w-full border border-slate-300 rounded-lg px-3 py-2"
+                      className="w-full bg-white border border-slate-300 rounded-lg px-2.5 py-1.5 text-xs focus:ring-2 focus:ring-blue-500"
                     />
                   </div>
 
                   <div>
-                    <label className="block font-semibold text-slate-700 mb-1">รุ่น / Model:</label>
+                    <label className="block text-xs font-semibold text-slate-700 mb-1">รุ่น / Model:</label>
                     <input
                       type="text"
                       value={model}
                       onChange={(e) => setModel(e.target.value)}
-                      className="w-full border border-slate-300 rounded-lg px-3 py-2"
+                      className="w-full bg-white border border-slate-300 rounded-lg px-2.5 py-1.5 text-xs focus:ring-2 focus:ring-blue-500"
                     />
                   </div>
 
                   <div>
-                    <label className="block font-semibold text-slate-700 mb-1">
-                      <span className="text-rose-500">*</span> Serial Number:
+                    <label className="block text-xs font-semibold text-slate-700 mb-1">
+                      <span className="text-red-500">*</span> Serial Number:
                     </label>
                     <input
                       type="text"
+                      required
                       value={serialNumber}
                       onChange={(e) => setSerialNumber(e.target.value)}
-                      className="w-full border border-slate-300 rounded-lg px-3 py-2 font-mono"
-                      required
+                      className="w-full bg-white border border-slate-300 rounded-lg px-2.5 py-1.5 font-mono text-xs focus:ring-2 focus:ring-blue-500"
                     />
                   </div>
                 </div>
 
                 <div>
-                  <label className="block font-semibold text-slate-700 mb-1">สเปกและรายละเอียดเพิ่มเติม:</label>
+                  <label className="block text-xs font-semibold text-slate-700 mb-1">คุณลักษณะ / รายละเอียดสเปก:</label>
                   <textarea
+                    rows={2}
                     value={spec}
                     onChange={(e) => setSpec(e.target.value)}
-                    rows={2}
-                    className="w-full border border-slate-300 rounded-lg p-2.5"
+                    className="w-full bg-white border border-slate-300 rounded-lg p-2 text-xs focus:ring-2 focus:ring-blue-500"
                   />
                 </div>
+
               </div>
             )}
 
-            {/* TAB 2: จัดซื้อ/สัญญา */}
+            {/* TAB 2: จัดซื้อ / สัญญา */}
             {activeTab === 2 && (
               <div className="space-y-4 text-xs">
-                <div className="p-3 bg-blue-50 border border-blue-200 rounded-lg font-semibold text-blue-900">
-                  [ข้อมูลการเงินและสัญญาจัดซื้อจัดจ้าง]
-                </div>
-
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
                   <div>
-                    <label className="block font-semibold text-slate-700 mb-1">
-                      <span className="text-rose-500">*</span> ปีงบประมาณ:
-                    </label>
-                    <select
+                    <label className="block text-xs font-semibold text-slate-700 mb-1">ปีงบประมาณ:</label>
+                    <input
+                      type="text"
                       value={budgetYear}
                       onChange={(e) => setBudgetYear(e.target.value)}
-                      className="w-full bg-white border border-slate-300 rounded-lg px-3 py-2 font-bold"
-                    >
-                      <option value="2569">2569</option>
-                      <option value="2568">2568</option>
-                      <option value="2567">2567</option>
-                    </select>
-                  </div>
-
-                  <div>
-                    <ThaiDatePicker
-                      label="วันที่ตรวจรับ / ได้มา"
-                      value={acquisitionDate}
-                      onChange={(val) => setAcquisitionDate(val)}
-                      required
+                      className="w-full bg-white border border-slate-300 rounded-lg px-2.5 py-1.5 text-xs focus:ring-2 focus:ring-blue-500"
                     />
                   </div>
 
                   <div>
-                    <label className="block font-semibold text-slate-700 mb-1">เลขที่สัญญา/PO:</label>
+                    <label className="block text-xs font-semibold text-slate-700 mb-1">เลขที่ PO / สัญญา:</label>
                     <input
                       type="text"
                       value={poNumber}
                       onChange={(e) => setPoNumber(e.target.value)}
-                      className="w-full border border-slate-300 rounded-lg px-3 py-2 font-medium"
+                      className="w-full bg-white border border-slate-300 rounded-lg px-2.5 py-1.5 text-xs focus:ring-2 focus:ring-blue-500"
                     />
                   </div>
-                </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
-                    <label className="block font-semibold text-slate-700 mb-1">ผู้จัดจำหน่าย / ร้านค้า:</label>
+                    <label className="block text-xs font-semibold text-slate-700 mb-1">ผู้ขาย / ผู้รับจ้าง:</label>
                     <input
                       type="text"
                       value={vendor}
                       onChange={(e) => setVendor(e.target.value)}
-                      className="w-full border border-slate-300 rounded-lg px-3 py-2"
-                    />
-                  </div>
-
-                  <div>
-                    <label className="block font-semibold text-slate-700 mb-1">
-                      <span className="text-rose-500">*</span> ราคาจัดซื้อ (บาท):
-                    </label>
-                    <input
-                      type="number"
-                      value={purchasePrice}
-                      onChange={(e) => setPurchasePrice(parseFloat(e.target.value) || 0)}
-                      className="w-full border border-slate-300 rounded-lg px-3 py-2 font-bold text-blue-700"
+                      className="w-full bg-white border border-slate-300 rounded-lg px-2.5 py-1.5 text-xs focus:ring-2 focus:ring-blue-500"
                     />
                   </div>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
                   <div>
-                    <label className="block font-semibold text-slate-700 mb-1">อายุการใช้งาน (ปี):</label>
+                    <label className="block text-xs font-semibold text-slate-700 mb-1">ราคาทุนรวม (บาท):</label>
                     <input
                       type="number"
-                      value={usefulLifeYears}
-                      onChange={(e) => setUsefulLifeYears(parseInt(e.target.value) || 5)}
-                      className="w-full border border-slate-300 rounded-lg px-3 py-2"
+                      value={purchasePrice}
+                      onChange={(e) => setPurchasePrice(parseFloat(e.target.value) || 0)}
+                      className="w-full bg-white border border-slate-300 rounded-lg px-2.5 py-1.5 text-xs font-bold text-blue-700 focus:ring-2 focus:ring-blue-500"
                     />
                   </div>
 
                   <div>
-                    <label className="block font-semibold text-slate-700 mb-1">อัตราค่าเสื่อมราคา:</label>
-                    <select
+                    <label className="block text-xs font-semibold text-slate-700 mb-1">อายุการใช้งาน (ปี):</label>
+                    <input
+                      type="number"
+                      value={usefulLifeYears}
+                      onChange={(e) => setUsefulLifeYears(parseInt(e.target.value, 10) || 1)}
+                      className="w-full bg-white border border-slate-300 rounded-lg px-2.5 py-1.5 text-xs focus:ring-2 focus:ring-blue-500"
+                    />
+                  </div>
+
+                  <div>
+                    <label className="block text-xs font-semibold text-slate-700 mb-1">วิธีคิดค่าเสื่อมราคา:</label>
+                    <input
+                      type="text"
                       value={depreciationMethod}
                       onChange={(e) => setDepreciationMethod(e.target.value)}
-                      className="w-full bg-white border border-slate-300 rounded-lg px-3 py-2"
-                    >
-                      <option value="20% ต่อปี (เส้นตรง)">20% ต่อปี (เส้นตรง)</option>
-                      <option value="10% ต่อปี (เส้นตรง)">10% ต่อปี (เส้นตรง)</option>
-                      <option value="ไม่คิดค่าเสื่อมราคา">ไม่คิดค่าเสื่อมราคา</option>
-                    </select>
+                      className="w-full bg-white border border-slate-300 rounded-lg px-2.5 py-1.5 text-xs focus:ring-2 focus:ring-blue-500"
+                    />
                   </div>
                 </div>
               </div>
@@ -576,95 +527,91 @@ export const NewAssetModal: React.FC<NewAssetModalProps> = ({
             {/* TAB 3: สถานที่และการถือครอง */}
             {activeTab === 3 && (
               <div className="space-y-4 text-xs">
-                <div className="p-3 bg-emerald-50 border border-emerald-200 rounded-lg font-semibold text-emerald-900">
-                  [สถานที่ติดตั้งและการมอบหมายผู้ดูแล]
-                </div>
-
                 <div>
-                  <label className="block font-semibold text-slate-700 mb-1">
-                    <span className="text-rose-500">*</span> หน่วยงานผู้รับผิดชอบ (ดรอปดาวน์ตัวย่อจาก .txt):
-                  </label>
+                  <label className="block text-xs font-semibold text-slate-700 mb-1">สำนัก / ฝ่ายที่รับผิดชอบ:</label>
                   <select
                     value={department}
                     onChange={(e) => setDepartment(e.target.value)}
-                    className="w-full bg-white border border-slate-300 rounded-lg px-3 py-2 font-medium"
+                    className="w-full bg-white border border-slate-300 rounded-lg px-2.5 py-1.5 text-xs focus:ring-2 focus:ring-blue-500"
                   >
-                    {departments.map((d, idx) => (
-                      <option key={`${d.code}-${idx}`} value={d.code}>
-                        {d.code}
+                    {departments.map((dept, idx) => (
+                      <option key={`${dept.code}-${idx}`} value={dept.fullTitle}>
+                        {dept.fullTitle}
                       </option>
                     ))}
                   </select>
                 </div>
 
                 <div>
-                  <label className="block font-semibold text-slate-700 mb-1">
-                    <span className="text-rose-500">*</span> อาคาร / ชั้น / ห้องสถานที่ตั้ง:
-                  </label>
+                  <label className="block text-xs font-semibold text-slate-700 mb-1">สถานที่ตั้ง / ห้อง:</label>
                   <input
                     type="text"
                     value={location}
                     onChange={(e) => setLocation(e.target.value)}
-                    className="w-full border border-slate-300 rounded-lg px-3 py-2"
+                    className="w-full bg-white border border-slate-300 rounded-lg px-2.5 py-1.5 text-xs focus:ring-2 focus:ring-blue-500"
                   />
                 </div>
 
                 <div>
-                  <label className="block font-semibold text-slate-700 mb-1">
-                    ผู้ถือครอง / ผู้ดูแลรักษา:
-                  </label>
+                  <label className="block text-xs font-semibold text-slate-700 mb-1">ผู้ถือครอง / ผู้รับผิดชอบ:</label>
                   <input
                     type="text"
                     value={custodian}
                     onChange={(e) => setCustodian(e.target.value)}
-                    className="w-full border border-slate-300 rounded-lg px-3 py-2 font-medium"
+                    className="w-full bg-white border border-slate-300 rounded-lg px-2.5 py-1.5 text-xs focus:ring-2 focus:ring-blue-500"
                   />
                 </div>
               </div>
             )}
 
-            {/* TAB 4: ภาพถ่ายและเอกสาร */}
+            {/* TAB 4: เอกสารแนบ */}
             {activeTab === 4 && (
               <div className="space-y-4 text-xs">
-                <div className="border-2 border-dashed border-slate-300 rounded-xl p-8 text-center bg-slate-50 hover:bg-slate-100 transition-colors cursor-pointer">
-                  <Upload className="w-8 h-8 text-blue-500 mx-auto mb-2" />
-                  <p className="font-semibold text-slate-700">📸 อัปโหลดรูปภาพตัวเครื่อง / หรือแนบไฟล์เอกสาร PDF ใบตรวจรับ</p>
-                  <p className="text-slate-400 text-[11px] mt-1">ลากไฟล์มาวางที่นี่ หรือคลิกเพื่อเลือกไฟล์ (รองรับ JPG, PNG, PDF ขนาดไม่เกิน 10MB)</p>
+                <div className="border-2 border-dashed border-slate-300 rounded-xl p-6 text-center bg-slate-50">
+                  <Upload className="w-8 h-8 text-slate-400 mx-auto mb-2" />
+                  <p className="font-semibold text-slate-700">แนบไฟล์ใบตรวจรับ / รูปถ่ายครุภัณฑ์ (PDF, JPG, PNG)</p>
+                  <p className="text-[11px] text-slate-400 mt-1">ลากไฟล์มาวางที่นี่ หรือคลิกเพื่อเลือกไฟล์</p>
+                  <button
+                    type="button"
+                    className="mt-3 px-3.5 py-1.5 bg-white border border-slate-300 rounded-lg text-xs font-semibold text-slate-700 hover:bg-slate-100 shadow-sm"
+                  >
+                    เลือกไฟล์เอกสาร
+                  </button>
                 </div>
               </div>
             )}
 
           </div>
 
-          {/* Footer Action Bar */}
-          <div className="bg-slate-100 p-4 border-t border-slate-200 flex items-center justify-between">
-            <div className="flex space-x-2">
-              <button
-                type="button"
-                className="flex items-center space-x-1 px-3 py-2 rounded-lg bg-white border border-slate-300 text-slate-700 text-xs hover:bg-slate-50 font-medium"
-              >
-                <FileText className="w-3.5 h-3.5 text-red-600" />
-                <span>แนบไฟล์ใบตรวจรับ PDF</span>
-              </button>
-            </div>
+          {/* Modal Footer Controls */}
+          <div className="bg-slate-50 p-4 border-t border-slate-200 flex items-center justify-between">
+            <button
+              type="button"
+              className="px-3.5 py-2 bg-white border border-slate-300 rounded-xl text-xs font-semibold text-slate-700 hover:bg-slate-100 shadow-sm flex items-center space-x-1.5"
+            >
+              <FileText className="w-4 h-4 text-red-500" />
+              <span>แนบไฟล์ใบตรวจรับ PDF</span>
+            </button>
 
-            <div className="flex space-x-2">
+            <div className="flex items-center space-x-2">
               <button
                 type="button"
                 onClick={onClose}
-                className="px-4 py-2 rounded-lg bg-white border border-slate-300 text-slate-700 text-xs font-semibold hover:bg-slate-50"
+                className="px-4 py-2 bg-white border border-slate-300 rounded-xl text-xs font-semibold text-slate-700 hover:bg-slate-100 shadow-sm"
               >
                 ยกเลิก
               </button>
+              
               <button
                 type="submit"
-                className="flex items-center space-x-1.5 px-5 py-2 rounded-lg bg-blue-600 hover:bg-blue-500 text-white text-xs font-bold shadow-md shadow-blue-500/30 transition-all"
+                className="px-5 py-2 bg-blue-600 hover:bg-blue-500 text-white text-xs font-bold rounded-xl shadow-lg shadow-blue-500/30 flex items-center space-x-1.5 transition-all"
               >
                 <Check className="w-4 h-4" />
                 <span>บันทึกรหัส {assetCode} และพิมพ์ QR Code</span>
               </button>
             </div>
           </div>
+
         </form>
 
       </div>
