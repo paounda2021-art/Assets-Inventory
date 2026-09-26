@@ -226,12 +226,24 @@ export const NewAssetModal: React.FC<NewAssetModalProps> = ({
                       <label className="block text-xs font-semibold text-slate-700 mb-1">ปี พ.ศ.:</label>
                       <select
                         value={year2}
-                        onChange={(e) => setYear2(e.target.value)}
+                        onChange={(e) => {
+                          const y = e.target.value;
+                          setYear2(y);
+                          setBudgetYear(`25${y}`);
+                        }}
                         className="w-full bg-white border border-blue-300 rounded px-2 py-1.5 font-bold text-blue-900"
                       >
+                        <option value="75">75 (พ.ศ. 2575)</option>
+                        <option value="74">74 (พ.ศ. 2574)</option>
+                        <option value="73">73 (พ.ศ. 2573)</option>
+                        <option value="72">72 (พ.ศ. 2572)</option>
+                        <option value="71">71 (พ.ศ. 2571)</option>
+                        <option value="70">70 (พ.ศ. 2570)</option>
                         <option value="69">69 (พ.ศ. 2569)</option>
                         <option value="68">68 (พ.ศ. 2568)</option>
                         <option value="67">67 (พ.ศ. 2567)</option>
+                        <option value="66">66 (พ.ศ. 2566)</option>
+                        <option value="65">65 (พ.ศ. 2565)</option>
                       </select>
                     </div>
 

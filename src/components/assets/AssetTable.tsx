@@ -199,9 +199,16 @@ export const AssetTable: React.FC<AssetTableProps> = ({
               className="w-full bg-white border border-slate-300 rounded-lg px-2.5 py-1.5 focus:ring-2 focus:ring-blue-500 focus:outline-none"
             >
               <option value="all">-- ทุกปีงบประมาณ --</option>
+              <option value="2575">2575</option>
+              <option value="2574">2574</option>
+              <option value="2573">2573</option>
+              <option value="2572">2572</option>
+              <option value="2571">2571</option>
+              <option value="2570">2570</option>
               <option value="2569">2569</option>
               <option value="2568">2568</option>
               <option value="2567">2567</option>
+              <option value="2566">2566</option>
               <option value="2565">2565</option>
             </select>
           </div>
