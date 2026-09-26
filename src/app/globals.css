@@ -23,14 +23,14 @@
     font-size: 15px;
   }
 
-  /* Force 15pt font size on all dropdown select boxes and options across the entire application */
+  /* Set exact 15px font size on all select dropdown elements and options */
   select, select option, option {
     font-family: 'TH Sarabun New', 'Angsana New', 'Sarabun', sans-serif !important;
-    font-size: 15pt !important;
+    font-size: 15px !important;
   }
 
   select {
-    min-height: 38px;
+    min-height: 36px;
     line-height: 1.35;
   }
 

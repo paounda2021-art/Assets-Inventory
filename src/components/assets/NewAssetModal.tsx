@@ -321,7 +321,7 @@ export const NewAssetModal: React.FC<NewAssetModalProps> = ({
                       </label>
                     </div>
 
-                    <div className="font-mono text-sm font-extrabold text-blue-700 bg-white px-3 py-1 rounded border border-blue-300 shadow-sm">
+                    <div className="font-mono text-[15px] font-extrabold text-blue-700 bg-white px-3 py-1 rounded border border-blue-300 shadow-sm">
                       รหัสทรัพย์สิน: {assetCode}
                     </div>
                   </div>
