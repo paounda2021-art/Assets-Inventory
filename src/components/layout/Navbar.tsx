@@ -32,7 +32,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
   return (
     <nav className="bg-slate-800 text-slate-300 border-b border-slate-700 shadow-sm sticky top-16 z-30">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex space-x-1 overflow-x-auto py-2 scrollbar-none">
+        <div className="flex space-x-1.5 overflow-x-auto py-2.5 scrollbar-none">
           {navItems.map((item) => {
             const Icon = item.icon;
             const isActive = activeTab === item.id;
@@ -40,20 +40,20 @@ export const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
               <button
                 key={item.id}
                 onClick={() => setActiveTab(item.id)}
-                className={`flex items-center space-x-2 px-3.5 py-2 rounded-lg text-xs font-medium whitespace-nowrap transition-all ${
+                className={`flex items-center space-x-2 px-4 py-2 rounded-lg text-[20px] font-bold whitespace-nowrap transition-all ${
                   isActive
-                    ? 'bg-blue-600 text-white shadow-md shadow-blue-900/30 font-semibold'
-                    : 'hover:bg-slate-700 hover:text-white text-slate-300'
+                    ? 'bg-blue-600 text-white shadow-md shadow-blue-900/40'
+                    : 'hover:bg-slate-700 hover:text-white text-slate-200'
                 }`}
               >
-                <Icon className={`w-4 h-4 ${isActive ? 'text-white' : 'text-slate-400'}`} />
+                <Icon className={`w-5 h-5 ${isActive ? 'text-white' : 'text-slate-400'}`} />
                 <span>{item.label}</span>
                 {item.badge && (
                   <span
-                    className={`text-[10px] px-1.5 py-0.2 rounded font-bold ${
+                    className={`text-[13px] px-2 py-0.5 rounded-md font-bold ${
                       isActive
                         ? 'bg-blue-800 text-blue-100'
-                        : 'bg-slate-700 text-slate-300'
+                        : 'bg-slate-700 text-slate-200'
                     }`}
                   >
                     {item.badge}
