@@ -345,7 +345,7 @@ export const AssetTable: React.FC<AssetTableProps> = ({
                         <div className="text-sm text-slate-500">{asset.spec}</div>
                       </td>
 
-                      <td className="p-3 font-mono text-sm text-slate-600 whitespace-nowrap">
+                      <td className="p-3 text-sm text-slate-600 whitespace-nowrap">
                         {asset.serialNumber}
                       </td>
 
