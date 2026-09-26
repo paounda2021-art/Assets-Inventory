@@ -342,10 +342,10 @@ export const AssetTable: React.FC<AssetTableProps> = ({
 
                       <td className="p-3">
                         <div className="font-semibold text-slate-800">{asset.name}</div>
-                        <div className="text-[11px] text-slate-500">{asset.spec}</div>
+                        <div className="text-sm text-slate-500">{asset.spec}</div>
                       </td>
 
-                      <td className="p-3 font-mono text-[11px] text-slate-600 whitespace-nowrap">
+                      <td className="p-3 font-mono text-sm text-slate-600 whitespace-nowrap">
                         {asset.serialNumber}
                       </td>
 
@@ -358,7 +358,7 @@ export const AssetTable: React.FC<AssetTableProps> = ({
 
                       <td className="p-3">
                         <div className="font-medium text-slate-800">{asset.department}</div>
-                        <div className="text-[11px] text-slate-500">
+                        <div className="text-sm text-slate-500">
                           {asset.custodian}
                         </div>
                       </td>
