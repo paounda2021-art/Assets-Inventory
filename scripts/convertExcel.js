@@ -40,8 +40,17 @@ const parsedAssets = rawData.map((r, idx) => {
   else if (statusStr.includes('ชำรุด')) status = 'damaged';
   else if (statusStr.includes('จำหน่าย')) status = 'disposed';
 
+  function padAssetCode(code) {
+    if (!code || typeof code !== 'string') return code;
+    const match = code.match(/^(.*-)(\d+)$/);
+    if (match) {
+      return match[1] + match[2].padStart(4, '0');
+    }
+    return code;
+  }
+
   // Format code standard according to rule if raw code exists
-  const formattedCode = rawCode || `690101001${String(idx + 1).padStart(4, '0')}`;
+  const formattedCode = padAssetCode(rawCode) || `690101001${String(idx + 1).padStart(4, '0')}`;
 
   return {
     id: `ast-excel-${idx + 1}`,

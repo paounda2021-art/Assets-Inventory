@@ -219,7 +219,7 @@ function seedDatabase() {
       'บันทึก อสป. 88/2569',
       '2026-09-20',
       JSON.stringify(['ast-excel-1']),
-      JSON.stringify(['55/1-01-005-1']),
+      JSON.stringify(['55/1-01-005-0001']),
       JSON.stringify(['ชุดรับแขกบุนวมห้อง ผออ.']),
       'สลข.',
       'สทส.',
