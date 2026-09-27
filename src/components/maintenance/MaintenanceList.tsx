@@ -39,35 +39,35 @@ export const MaintenanceList: React.FC<MaintenanceListProps> = ({
     switch (status) {
       case 'in_progress':
         return (
-          <span className="px-2.5 py-1 bg-amber-100 text-amber-800 border border-amber-300 rounded-full font-bold text-[11px] inline-flex items-center space-x-1">
-            <Clock className="w-3 h-3 text-amber-600" />
+          <span className="px-3 py-1 bg-amber-100 text-amber-800 border border-amber-300 rounded-full font-bold text-[15px] inline-flex items-center space-x-1.5">
+            <Clock className="w-4 h-4 text-amber-600" />
             <span>🟡 กำลังส่งซ่อม</span>
           </span>
         );
       case 'pending':
         return (
-          <span className="px-2.5 py-1 bg-orange-100 text-orange-800 border border-orange-300 rounded-full font-bold text-[11px] inline-flex items-center space-x-1">
-            <AlertCircle className="w-3 h-3 text-orange-600" />
+          <span className="px-3 py-1 bg-orange-100 text-orange-800 border border-orange-300 rounded-full font-bold text-[15px] inline-flex items-center space-x-1.5">
+            <AlertCircle className="w-4 h-4 text-orange-600" />
             <span>🟠 รอดำเนินการ</span>
           </span>
         );
       case 'completed':
         return (
-          <span className="px-2.5 py-1 bg-emerald-100 text-emerald-800 border border-emerald-300 rounded-full font-bold text-[11px] inline-flex items-center space-x-1">
-            <CheckCircle2 className="w-3 h-3 text-emerald-600" />
+          <span className="px-3 py-1 bg-emerald-100 text-emerald-800 border border-emerald-300 rounded-full font-bold text-[15px] inline-flex items-center space-x-1.5">
+            <CheckCircle2 className="w-4 h-4 text-emerald-600" />
             <span>🟢 ซ่อมเสร็จสิ้น</span>
           </span>
         );
       case 'cancelled':
         return (
-          <span className="px-2.5 py-1 bg-slate-100 text-slate-700 border border-slate-300 rounded-full font-bold text-[11px] inline-flex items-center space-x-1">
-            <XCircle className="w-3 h-3 text-slate-500" />
+          <span className="px-3 py-1 bg-slate-100 text-slate-700 border border-slate-300 rounded-full font-bold text-[15px] inline-flex items-center space-x-1.5">
+            <XCircle className="w-4 h-4 text-slate-500" />
             <span>⚪ ยกเลิกการซ่อม</span>
           </span>
         );
       default:
         return (
-          <span className="px-2.5 py-1 bg-slate-100 text-slate-700 border border-slate-300 rounded-full font-bold text-[11px]">
+          <span className="px-3 py-1 bg-slate-100 text-slate-700 border border-slate-300 rounded-full font-bold text-[15px]">
             {status}
           </span>
         );
@@ -75,11 +75,11 @@ export const MaintenanceList: React.FC<MaintenanceListProps> = ({
   };
 
   return (
-    <div className="space-y-5">
+    <div className="space-y-5 text-[15px]">
       {/* Header & Action Button */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>
-          <div className="text-xs text-slate-500 font-medium flex items-center space-x-1 mb-1">
+          <div className="text-[15px] text-slate-500 font-medium flex items-center space-x-1 mb-1">
             <span>หน้าหลัก</span>
             <span>&gt;</span>
             <span className="text-slate-800 font-semibold">ซ่อมบำรุงรักษา</span>
@@ -88,14 +88,14 @@ export const MaintenanceList: React.FC<MaintenanceListProps> = ({
             <Wrench className="w-5 h-5 text-amber-600" />
             <span>4. ซ่อมบำรุงและประวัติการดูแล (Maintenance & Service)</span>
           </h2>
-          <p className="text-xs text-slate-500 mt-0.5">
+          <p className="text-[15px] text-slate-500 mt-0.5">
             ติดตามรายการแจ้งซ่อม ครุภัณฑ์ประกัน และประวัติการซ่อมบำรุงรักษา อสป.
           </p>
         </div>
 
         <button 
           onClick={() => setIsNewModalOpen(true)}
-          className="flex items-center space-x-1.5 px-4 py-2.5 bg-amber-600 hover:bg-amber-500 text-white rounded-xl text-xs font-bold shadow-md transition-colors"
+          className="flex items-center space-x-1.5 px-4 py-2.5 bg-amber-600 hover:bg-amber-500 text-white rounded-xl text-[15px] font-bold shadow-md transition-colors"
         >
           <Plus className="w-4 h-4 stroke-[3]" />
           <span>+ แจ้งซ่อมใหม่</span>
@@ -103,12 +103,12 @@ export const MaintenanceList: React.FC<MaintenanceListProps> = ({
       </div>
 
       {/* Summary Stat Cards */}
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-xs">
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-[15px]">
         <div className="bg-white p-4 rounded-xl border border-slate-200 shadow-sm flex items-center justify-between">
           <div>
-            <p className="text-slate-500 font-semibold mb-1">รายการแจ้งซ่อมทั้งหมด</p>
+            <p className="text-slate-500 font-semibold mb-1 text-[15px]">รายการแจ้งซ่อมทั้งหมด</p>
             <h3 className="text-2xl font-extrabold text-slate-900">
-              {records.length} <span className="text-xs font-normal text-slate-500">รายการ</span>
+              {records.length} <span className="text-[15px] font-normal text-slate-500">รายการ</span>
             </h3>
           </div>
           <div className="p-3 bg-amber-50 text-amber-600 rounded-xl">
@@ -118,9 +118,9 @@ export const MaintenanceList: React.FC<MaintenanceListProps> = ({
 
         <div className="bg-white p-4 rounded-xl border border-slate-200 shadow-sm flex items-center justify-between">
           <div>
-            <p className="text-slate-500 font-semibold mb-1">กำลังส่งซ่อม / รอดำเนินการ</p>
+            <p className="text-slate-500 font-semibold mb-1 text-[15px]">กำลังส่งซ่อม / รอดำเนินการ</p>
             <h3 className="text-2xl font-extrabold text-amber-600">
-              {records.filter(r => r.status === 'in_progress' || r.status === 'pending').length} <span className="text-xs font-normal text-slate-500">รายการ</span>
+              {records.filter(r => r.status === 'in_progress' || r.status === 'pending').length} <span className="text-[15px] font-normal text-slate-500">รายการ</span>
             </h3>
           </div>
           <div className="p-3 bg-amber-50 text-amber-600 rounded-xl">
@@ -130,9 +130,9 @@ export const MaintenanceList: React.FC<MaintenanceListProps> = ({
 
         <div className="bg-white p-4 rounded-xl border border-slate-200 shadow-sm flex items-center justify-between">
           <div>
-            <p className="text-slate-500 font-semibold mb-1">ซ่อมเสร็จสิ้นแล้ว</p>
+            <p className="text-slate-500 font-semibold mb-1 text-[15px]">ซ่อมเสร็จสิ้นแล้ว</p>
             <h3 className="text-2xl font-extrabold text-emerald-600">
-              {records.filter(r => r.status === 'completed').length} <span className="text-xs font-normal text-slate-500">รายการ</span>
+              {records.filter(r => r.status === 'completed').length} <span className="text-[15px] font-normal text-slate-500">รายการ</span>
             </h3>
           </div>
           <div className="p-3 bg-emerald-50 text-emerald-600 rounded-xl">
@@ -142,7 +142,7 @@ export const MaintenanceList: React.FC<MaintenanceListProps> = ({
       </div>
 
       {/* Search & Filter Bar */}
-      <div className="bg-white p-4 rounded-xl border border-slate-200 shadow-sm flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
+      <div className="bg-white p-4 rounded-xl border border-slate-200 shadow-sm flex flex-col sm:flex-row items-center justify-between gap-3 text-[15px]">
         <div className="relative w-full sm:w-80">
           <Search className="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" />
           <input
@@ -150,17 +150,17 @@ export const MaintenanceList: React.FC<MaintenanceListProps> = ({
             value={searchQuery}
             onChange={e => setSearchQuery(e.target.value)}
             placeholder="ค้นหารหัสครุภัณฑ์, รายการ หรือผู้แจ้งซ่อม..."
-            className="w-full pl-9 pr-3 py-2 bg-slate-50 border border-slate-200 rounded-lg outline-none focus:ring-1 focus:ring-amber-500"
+            className="w-full pl-9 pr-3 py-2 bg-slate-50 border border-slate-200 rounded-lg outline-none focus:ring-1 focus:ring-amber-500 text-[15px]"
           />
         </div>
 
         <div className="flex items-center space-x-2 w-full sm:w-auto justify-end">
           <Filter className="w-4 h-4 text-slate-400" />
-          <span className="text-slate-600 font-semibold">สถานะ:</span>
+          <span className="text-slate-600 font-semibold text-[15px]">สถานะ:</span>
           <select
             value={statusFilter}
             onChange={e => setStatusFilter(e.target.value)}
-            className="px-3 py-1.5 bg-slate-50 border border-slate-200 rounded-lg text-slate-800 font-medium outline-none focus:ring-1 focus:ring-amber-500"
+            className="px-3 py-1.5 bg-slate-50 border border-slate-200 rounded-lg text-slate-800 font-medium outline-none focus:ring-1 focus:ring-amber-500 text-[15px]"
           >
             <option value="all">ทั้งหมด ({records.length})</option>
             <option value="in_progress">กำลังส่งซ่อม</option>
@@ -171,9 +171,9 @@ export const MaintenanceList: React.FC<MaintenanceListProps> = ({
       </div>
 
       {/* Maintenance Records Table */}
-      <div className="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden text-xs">
+      <div className="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden text-[15px]">
         <table className="w-full text-left border-collapse">
-          <thead className="bg-slate-100 text-slate-800 uppercase text-[11px] font-bold border-b border-slate-200">
+          <thead className="bg-slate-100 text-slate-800 uppercase text-[15px] font-bold border-b border-slate-200">
             <tr>
               <th className="p-3">รหัสครุภัณฑ์</th>
               <th className="p-3">ชื่อรายการครุภัณฑ์</th>
@@ -185,30 +185,30 @@ export const MaintenanceList: React.FC<MaintenanceListProps> = ({
               {onUpdateStatus && <th className="p-3 text-center">จัดการ</th>}
             </tr>
           </thead>
-          <tbody className="divide-y divide-slate-200">
+          <tbody className="divide-y divide-slate-200 text-[15px]">
             {filteredRecords.length === 0 ? (
               <tr>
-                <td colSpan={onUpdateStatus ? 8 : 7} className="p-8 text-center text-slate-400">
+                <td colSpan={onUpdateStatus ? 8 : 7} className="p-8 text-center text-slate-400 text-[15px]">
                   ไม่พบรายการแจ้งซ่อมครุภัณฑ์
                 </td>
               </tr>
             ) : (
               filteredRecords.map((rec) => (
-                <tr key={rec.id} className="hover:bg-slate-50/80 transition-colors">
-                  <td className="p-3 font-mono font-bold text-blue-700 bg-slate-50/50">{rec.assetCode}</td>
-                  <td className="p-3 font-semibold text-slate-900">{rec.assetName}</td>
-                  <td className="p-3 text-slate-500 font-mono">{rec.requestDate}</td>
-                  <td className="p-3 text-slate-600 max-w-xs">{rec.issue}</td>
-                  <td className="p-3 text-slate-700">
-                    <div className="font-medium text-slate-900">{rec.reporter}</div>
+                <tr key={rec.id} className="hover:bg-slate-50/80 transition-colors text-[15px]">
+                  <td className="p-3 font-mono font-bold text-blue-700 bg-slate-50/50 text-[15px]">{rec.assetCode}</td>
+                  <td className="p-3 font-semibold text-slate-900 text-[15px]">{rec.assetName}</td>
+                  <td className="p-3 text-slate-500 font-mono text-[15px]">{rec.requestDate}</td>
+                  <td className="p-3 text-slate-600 max-w-xs text-[15px]">{rec.issue}</td>
+                  <td className="p-3 text-slate-700 text-[15px]">
+                    <div className="font-medium text-slate-900 text-[15px]">{rec.reporter}</div>
                     {rec.technician && (
-                      <div className="text-[11px] text-slate-400 flex items-center gap-1 mt-0.5">
-                        <UserCheck className="w-3 h-3 text-amber-600" />
+                      <div className="text-[15px] text-slate-400 flex items-center gap-1 mt-0.5">
+                        <UserCheck className="w-4 h-4 text-amber-600" />
                         <span>{rec.technician}</span>
                       </div>
                     )}
                   </td>
-                  <td className="p-3 text-right font-mono font-bold text-slate-700">
+                  <td className="p-3 text-right font-mono font-bold text-slate-700 text-[15px]">
                     {rec.cost && rec.cost > 0 ? `฿${rec.cost.toLocaleString('th-TH')}` : '-'}
                   </td>
                   <td className="p-3 text-center">
@@ -219,7 +219,7 @@ export const MaintenanceList: React.FC<MaintenanceListProps> = ({
                       <select
                         value={rec.status}
                         onChange={e => onUpdateStatus(rec.id, e.target.value as any)}
-                        className="px-2 py-1 bg-white border border-slate-300 rounded text-[11px] font-semibold text-slate-700 outline-none focus:ring-1 focus:ring-amber-500"
+                        className="px-2.5 py-1.5 bg-white border border-slate-300 rounded-lg text-[15px] font-semibold text-slate-700 outline-none focus:ring-1 focus:ring-amber-500"
                       >
                         <option value="in_progress">🟡 กำลังส่งซ่อม</option>
                         <option value="completed">🟢 ซ่อมเสร็จสิ้น</option>

@@ -124,24 +124,24 @@ export const NewMaintenanceModal: React.FC<NewMaintenanceModalProps> = ({
         {/* Modal Form */}
         <form onSubmit={handleSubmit} className="flex-1 flex flex-col min-h-0 overflow-hidden">
           {/* Scrollable Form Body */}
-          <div className="flex-1 overflow-y-auto p-6 space-y-5 text-xs">
+          <div className="flex-1 overflow-y-auto p-6 space-y-5 text-[15px]">
             {/* Asset Selection */}
             <div>
-              <label className="block text-slate-700 font-semibold mb-1 flex items-center gap-1.5">
-                <Building2 className="w-3.5 h-3.5 text-amber-600" />
+              <label className="block text-slate-700 font-semibold mb-1 flex items-center gap-1.5 text-[15px]">
+                <Building2 className="w-4 h-4 text-amber-600" />
                 เลือกครุภัณฑ์ที่ต้องการแจ้งซ่อม <span className="text-rose-500">*</span>
               </label>
 
               {/* Quick Search & Select Box */}
               <div className="space-y-2">
                 <div className="relative">
-                  <Search className="w-3.5 h-3.5 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" />
+                  <Search className="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" />
                   <input
                     type="text"
                     value={assetSearch}
                     onChange={e => setAssetSearch(e.target.value)}
                     placeholder="พิมพ์เพื่อค้นหารหัส หรือชื่อครุภัณฑ์ในระบบ..."
-                    className="w-full pl-9 pr-3 py-2 bg-slate-50 border border-slate-300 rounded-lg text-xs outline-none focus:ring-2 focus:ring-amber-500"
+                    className="w-full pl-9 pr-3 py-2 bg-slate-50 border border-slate-300 rounded-lg text-[15px] outline-none focus:ring-2 focus:ring-amber-500"
                   />
                 </div>
 
