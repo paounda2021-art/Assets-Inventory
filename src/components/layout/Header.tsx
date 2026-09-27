@@ -1,13 +1,22 @@
 'use client';
 
-import React from 'react';
-import { Bell, User, Box, ShieldCheck } from 'lucide-react';
+import React, { useState } from 'react';
+import { UserAccount } from '../../types/user';
+import { Bell, User, Box, ShieldCheck, LogIn, ChevronDown, RefreshCw, UserCheck } from 'lucide-react';
 
 interface HeaderProps {
   onOpenAuditScanner: () => void;
+  currentUser?: UserAccount | null;
+  onOpenLoginModal: () => void;
 }
 
-export const Header: React.FC<HeaderProps> = ({ onOpenAuditScanner }) => {
+export const Header: React.FC<HeaderProps> = ({
+  onOpenAuditScanner,
+  currentUser,
+  onOpenLoginModal,
+}) => {
+  const [isDropdownOpen, setIsDropdownOpen] = useState<boolean>(false);
+
   return (
     <header className="bg-slate-900 text-white border-b border-slate-800 sticky top-0 z-40 shadow-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
@@ -48,15 +57,60 @@ export const Header: React.FC<HeaderProps> = ({ onOpenAuditScanner }) => {
             </button>
           </div>
 
-          {/* User Profile */}
-          <div className="flex items-center space-x-2 pl-3 border-l border-slate-800">
-            <div className="w-8 h-8 rounded-full bg-blue-700 flex items-center justify-center text-white text-xs font-bold border border-blue-400">
-              รณ
-            </div>
-            <div className="hidden md:block text-left text-xs">
-              <p className="font-medium text-slate-200">น.ส.รณิดา โชติธนาอุดม</p>
-              <p className="text-slate-400 text-[11px]">นักพัฒนาระบบ (สำนักไอที)</p>
-            </div>
+          {/* User Profile Menu */}
+          <div className="relative pl-3 border-l border-slate-800">
+            {currentUser ? (
+              <div className="relative">
+                <button
+                  onClick={() => setIsDropdownOpen(!isDropdownOpen)}
+                  className="flex items-center space-x-2 p-1.5 hover:bg-slate-800 rounded-xl transition-colors text-left"
+                >
+                  <div className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center text-white text-xs font-bold border border-blue-400 shadow-sm">
+                    {currentUser.avatarText}
+                  </div>
+                  <div className="hidden md:block text-left text-xs">
+                    <p className="font-bold text-slate-200 flex items-center gap-1">
+                      <span>{currentUser.name}</span>
+                      <ChevronDown className="w-3.5 h-3.5 text-slate-400" />
+                    </p>
+                    <p className="text-blue-300 text-[11px] font-semibold">{currentUser.roleName}</p>
+                  </div>
+                </button>
+
+                {/* Dropdown Menu */}
+                {isDropdownOpen && (
+                  <div
+                    className="absolute right-0 mt-2 w-64 bg-white rounded-2xl shadow-2xl border border-slate-200 py-2 text-slate-900 text-xs z-50 animate-in fade-in duration-150"
+                    onMouseLeave={() => setIsDropdownOpen(false)}
+                  >
+                    <div className="px-4 py-2 border-b border-slate-100 bg-slate-50/50">
+                      <p className="font-bold text-slate-900">{currentUser.name}</p>
+                      <p className="text-slate-500 text-[11px]">Username: <span className="font-mono text-blue-700 font-bold">{currentUser.username}</span></p>
+                      <p className="text-slate-500 text-[11px] mt-0.5">{currentUser.position}</p>
+                    </div>
+
+                    <button
+                      onClick={() => {
+                        setIsDropdownOpen(false);
+                        onOpenLoginModal();
+                      }}
+                      className="w-full text-left px-4 py-2.5 hover:bg-blue-50 text-blue-700 font-semibold flex items-center gap-2 transition-colors"
+                    >
+                      <RefreshCw className="w-4 h-4 text-blue-600" />
+                      <span>🔄 สลับบัญชีผู้ใช้งาน</span>
+                    </button>
+                  </div>
+                )}
+              </div>
+            ) : (
+              <button
+                onClick={onOpenLoginModal}
+                className="flex items-center space-x-1.5 bg-blue-600 hover:bg-blue-500 text-white text-xs font-bold px-3.5 py-2 rounded-xl shadow-md transition-colors"
+              >
+                <LogIn className="w-4 h-4" />
+                <span>เข้าสู่ระบบ</span>
+              </button>
+            )}
           </div>
         </div>
 

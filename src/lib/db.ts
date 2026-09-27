@@ -4,6 +4,7 @@ import fs from 'fs';
 import { REAL_EXCEL_ASSETS } from '../data/excelAssets';
 import { INITIAL_SUPPLIES } from '../data/mockAssets';
 import { DEPARTMENT_LIST } from '../data/departments';
+import { OFFICIAL_USERS } from '../data/users';
 import { CATEGORY_CODES, TYPE_CODES, RESPONSIBLE_CODES } from './codeGenerator';
 import { formatThaiDate } from './dateUtils';
 import { Asset, SupplyItem } from '../types/asset';
@@ -113,6 +114,18 @@ db.exec(`
   CREATE TABLE IF NOT EXISTS system_config (
     key TEXT PRIMARY KEY,
     value TEXT NOT NULL
+  );
+
+  CREATE TABLE IF NOT EXISTS users (
+    id TEXT PRIMARY KEY,
+    username TEXT UNIQUE NOT NULL,
+    password TEXT NOT NULL,
+    name TEXT NOT NULL,
+    role TEXT NOT NULL,
+    roleName TEXT NOT NULL,
+    department TEXT NOT NULL,
+    position TEXT NOT NULL,
+    avatarText TEXT NOT NULL
   );
 `);
 
@@ -304,6 +317,21 @@ function seedDatabase() {
       }
     });
     insertManyCfgs();
+  }
+
+  // 11. Seed Users
+  const userCount = (db.prepare('SELECT COUNT(*) as count FROM users').get() as { count: number }).count;
+  if (userCount === 0) {
+    const insertUser = db.prepare(`
+      INSERT OR REPLACE INTO users (id, username, password, name, role, roleName, department, position, avatarText)
+      VALUES (@id, @username, @password, @name, @role, @roleName, @department, @position, @avatarText)
+    `);
+    const insertManyUsers = db.transaction(() => {
+      for (const u of OFFICIAL_USERS) {
+        insertUser.run(u);
+      }
+    });
+    insertManyUsers();
   }
 }
 

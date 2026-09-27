@@ -18,11 +18,14 @@ import { SettingsView, CategoryOption, TypeOption, ResponsibleOption } from '../
 import { TransactionsList } from '../components/transactions/TransactionsList';
 import { TransferAssetModal } from '../components/transactions/TransferAssetModal';
 import { DisbursePersonalModal } from '../components/transactions/DisbursePersonalModal';
+import { LoginModal } from '../components/auth/LoginModal';
 import { ToastContainer, ToastMessage, ToastType } from '../components/ui/Toast';
 
 import { INITIAL_SUPPLIES, INITIAL_MAINTENANCE } from '../data/mockAssets';
 import { REAL_EXCEL_ASSETS } from '../data/excelAssets';
 import { DEPARTMENT_LIST, DepartmentItem } from '../data/departments';
+import { OFFICIAL_USERS } from '../data/users';
+import { UserAccount } from '../types/user';
 import { CATEGORY_CODES, TYPE_CODES, RESPONSIBLE_CODES } from '../lib/codeGenerator';
 import { Asset, SupplyItem, MaintenanceRecord, AssetTransferRecord } from '../types/asset';
 
@@ -50,8 +53,21 @@ export default function Home() {
   const [maintenanceRecords, setMaintenanceRecords] = useState<MaintenanceRecord[]>(INITIAL_MAINTENANCE);
   const [transferRecords, setTransferRecords] = useState<AssetTransferRecord[]>([]);
 
+  // User Auth & Session State
+  const [currentUser, setCurrentUser] = useState<UserAccount | null>(OFFICIAL_USERS[2]); // Default to ranida.c
+  const [isLoginModalOpen, setIsLoginModalOpen] = useState<boolean>(false);
+
   // Load initial data from SQLite via API endpoints
   useEffect(() => {
+    // Restore user session from localStorage if available
+    const savedUserStr = localStorage.getItem('fmo_asset_user');
+    if (savedUserStr) {
+      try {
+        const parsed = JSON.parse(savedUserStr);
+        if (parsed && parsed.username) setCurrentUser(parsed);
+      } catch (e) {}
+    }
+
     async function loadData() {
       try {
         // 1. Fetch Assets
@@ -595,6 +611,13 @@ export default function Home() {
     }
   };
 
+  const handleLoginSuccess = (user: UserAccount) => {
+    setCurrentUser(user);
+    try {
+      localStorage.setItem('fmo_asset_user', JSON.stringify(user));
+    } catch (e) {}
+  };
+
   return (
     <div className="min-h-screen flex flex-col bg-slate-100 text-slate-900 font-sans">
       
@@ -602,7 +625,11 @@ export default function Home() {
       <ToastContainer toasts={toasts} onRemove={removeToast} />
 
       {/* System Header Bar */}
-      <Header onOpenAuditScanner={() => setIsAuditScannerOpen(true)} />
+      <Header
+        onOpenAuditScanner={() => setIsAuditScannerOpen(true)}
+        currentUser={currentUser}
+        onOpenLoginModal={() => setIsLoginModalOpen(true)}
+      />
 
       {/* Navigation Modules Navbar */}
       <Navbar activeTab={activeTab} setActiveTab={setActiveTab} />
@@ -786,6 +813,14 @@ export default function Home() {
         allAssets={assets}
         departments={departments}
         onConfirmDisburse={handleConfirmTransfer}
+      />
+
+      <LoginModal
+        isOpen={isLoginModalOpen}
+        onClose={() => setIsLoginModalOpen(false)}
+        currentUser={currentUser}
+        onLoginSuccess={handleLoginSuccess}
+        onTriggerToast={addToast}
       />
 
       {/* Footer */}
