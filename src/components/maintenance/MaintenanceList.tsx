@@ -195,20 +195,20 @@ export const MaintenanceList: React.FC<MaintenanceListProps> = ({
             ) : (
               filteredRecords.map((rec) => (
                 <tr key={rec.id} className="hover:bg-slate-50/80 transition-colors text-[15px]">
-                  <td className="p-3 font-mono font-bold text-blue-700 bg-slate-50/50 text-[15px]">{rec.assetCode}</td>
-                  <td className="p-3 font-semibold text-slate-900 text-[15px]">{rec.assetName}</td>
-                  <td className="p-3 text-slate-500 font-mono text-[15px]">{rec.requestDate}</td>
+                  <td className="p-3 font-bold text-blue-700 bg-slate-50/50 text-[15px]">{rec.assetCode}</td>
+                  <td className="p-3 font-medium text-slate-900 text-[15px]">{rec.assetName}</td>
+                  <td className="p-3 text-slate-600 text-[15px]">{rec.requestDate}</td>
                   <td className="p-3 text-slate-600 max-w-xs text-[15px]">{rec.issue}</td>
                   <td className="p-3 text-slate-700 text-[15px]">
                     <div className="font-medium text-slate-900 text-[15px]">{rec.reporter}</div>
                     {rec.technician && (
-                      <div className="text-[15px] text-slate-400 flex items-center gap-1 mt-0.5">
+                      <div className="text-[15px] text-slate-500 flex items-center gap-1 mt-0.5">
                         <UserCheck className="w-4 h-4 text-amber-600" />
                         <span>{rec.technician}</span>
                       </div>
                     )}
                   </td>
-                  <td className="p-3 text-right font-mono font-bold text-slate-700 text-[15px]">
+                  <td className="p-3 text-right font-bold text-slate-800 text-[15px]">
                     {rec.cost && rec.cost > 0 ? `฿${rec.cost.toLocaleString('th-TH')}` : '-'}
                   </td>
                   <td className="p-3 text-center">
@@ -219,7 +219,8 @@ export const MaintenanceList: React.FC<MaintenanceListProps> = ({
                       <select
                         value={rec.status}
                         onChange={e => onUpdateStatus(rec.id, e.target.value as any)}
-                        className="px-2.5 py-1.5 bg-white border border-slate-300 rounded-lg text-[15px] font-semibold text-slate-700 outline-none focus:ring-1 focus:ring-amber-500"
+                        className="px-2.5 py-1.5 bg-white border border-slate-300 rounded-lg text-[15px] font-medium text-slate-800 outline-none focus:ring-1 focus:ring-amber-500"
+                        style={{ fontSize: '15px' }}
                       >
                         <option value="in_progress">🟡 กำลังส่งซ่อม</option>
                         <option value="completed">🟢 ซ่อมเสร็จสิ้น</option>
