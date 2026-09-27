@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import { UserAccount } from '../../types/user';
 import { OFFICIAL_USERS } from '../../data/users';
-import { X, Lock, User, ArrowRight, ShieldCheck } from 'lucide-react';
+import { X, Lock, User, ShieldCheck } from 'lucide-react';
 
 interface LoginModalProps {
   isOpen: boolean;
@@ -71,18 +71,18 @@ export const LoginModal: React.FC<LoginModalProps> = ({
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/70 backdrop-blur-sm">
-      <div className="bg-white rounded-2xl shadow-2xl border border-slate-200 w-full max-w-md flex flex-col overflow-hidden transform transition-all animate-in zoom-in-95 duration-200">
+      <div className="bg-white rounded-2xl shadow-2xl border border-slate-200 w-full max-w-lg flex flex-col overflow-hidden transform transition-all animate-in zoom-in-95 duration-200">
         {/* Header */}
         <div className="flex-shrink-0 bg-slate-900 text-white px-6 py-5 flex items-center justify-between border-b border-slate-800">
           <div className="flex items-center space-x-3">
-            <div className="w-10 h-10 rounded-xl bg-blue-600 flex items-center justify-center text-white font-bold shadow-lg shadow-blue-500/30">
-              <Lock className="w-5 h-5" />
+            <div className="w-11 h-11 rounded-xl bg-blue-600 flex items-center justify-center text-white font-bold shadow-lg shadow-blue-500/30">
+              <Lock className="w-6 h-6" />
             </div>
             <div>
-              <h2 className="text-base font-bold text-white flex items-center gap-2">
+              <h2 className="text-[20px] font-bold text-white flex items-center gap-2 leading-tight">
                 🔐 เข้าสู่ระบบ (Authentication)
               </h2>
-              <p className="text-xs text-slate-400">
+              <p className="text-[15px] text-slate-400 mt-0.5">
                 ระบบบริหารจัดการและทะเบียนคุมพัสดุ-ครุภัณฑ์ อสป.
               </p>
             </div>
@@ -92,27 +92,27 @@ export const LoginModal: React.FC<LoginModalProps> = ({
               onClick={onClose}
               className="p-1.5 text-slate-400 hover:text-white hover:bg-slate-800 rounded-xl transition-colors"
             >
-              <X className="w-5 h-5" />
+              <X className="w-6 h-6" />
             </button>
           )}
         </div>
 
         {/* Modal Body / Login Form */}
-        <div className="p-6 space-y-5 text-xs">
+        <div className="p-6 space-y-6 text-[20px]">
           {errorMsg && (
-            <div className="p-3 bg-rose-50 border border-rose-200 text-rose-700 rounded-xl text-xs font-semibold flex items-start gap-2">
-              <span className="text-sm">⚠️</span>
+            <div className="p-3.5 bg-rose-50 border border-rose-200 text-rose-700 rounded-xl text-[16px] font-semibold flex items-start gap-2">
+              <span className="text-lg">⚠️</span>
               <span>{errorMsg}</span>
             </div>
           )}
 
-          <form onSubmit={handleLoginSubmit} className="space-y-4">
+          <form onSubmit={handleLoginSubmit} className="space-y-5">
             <div>
-              <label className="block text-slate-700 font-bold mb-1.5 text-xs">
+              <label className="block text-slate-800 font-bold mb-2 text-[20px]">
                 ชื่อผู้ใช้งาน (Username) <span className="text-rose-500">*</span>
               </label>
               <div className="relative">
-                <User className="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
+                <User className="w-6 h-6 text-slate-400 absolute left-4 top-1/2 -translate-y-1/2" />
                 <input
                   type="text"
                   required
@@ -120,39 +120,42 @@ export const LoginModal: React.FC<LoginModalProps> = ({
                   value={username}
                   onChange={e => setUsername(e.target.value)}
                   placeholder="ระบุชื่อผู้ใช้งาน เช่น ranida.c"
-                  className="w-full pl-10 pr-3 py-2.5 bg-slate-50 border border-slate-300 rounded-xl text-slate-900 font-mono font-medium outline-none focus:bg-white focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all text-xs"
+                  style={{ fontSize: '20px' }}
+                  className="w-full pl-12 pr-4 py-3 bg-slate-50 border border-slate-300 rounded-xl text-slate-900 font-mono font-medium outline-none focus:bg-white focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all text-[20px]"
                 />
               </div>
             </div>
 
             <div>
-              <label className="block text-slate-700 font-bold mb-1.5 text-xs">
+              <label className="block text-slate-800 font-bold mb-2 text-[20px]">
                 รหัสผ่าน (Password) <span className="text-rose-500">*</span>
               </label>
               <div className="relative">
-                <Lock className="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
+                <Lock className="w-6 h-6 text-slate-400 absolute left-4 top-1/2 -translate-y-1/2" />
                 <input
                   type="password"
                   required
                   value={password}
                   onChange={e => setPassword(e.target.value)}
-                  placeholder="ระบุรหัสผ่านเข้าใช้งาน"
-                  className="w-full pl-10 pr-3 py-2.5 bg-slate-50 border border-slate-300 rounded-xl text-slate-900 font-mono font-medium outline-none focus:bg-white focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all text-xs"
+                  placeholder="รหัสพนักงาน 0717xxxx"
+                  style={{ fontSize: '20px' }}
+                  className="w-full pl-12 pr-4 py-3 bg-slate-50 border border-slate-300 rounded-xl text-slate-900 font-mono font-medium outline-none focus:bg-white focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all text-[20px]"
                 />
               </div>
             </div>
 
-            <div className="pt-2">
+            <div className="pt-3">
               <button
                 type="submit"
                 disabled={isLoading}
-                className="w-full py-2.5 bg-blue-600 hover:bg-blue-500 text-white font-bold rounded-xl shadow-lg shadow-blue-600/30 hover:shadow-blue-600/40 transition-all text-xs flex items-center justify-center gap-2"
+                style={{ fontSize: '20px' }}
+                className="w-full py-3.5 bg-blue-600 hover:bg-blue-500 text-white font-bold rounded-xl shadow-lg shadow-blue-600/30 hover:shadow-blue-600/40 transition-all text-[20px] flex items-center justify-center gap-2"
               >
                 {isLoading ? (
                   <span>กำลังตรวจสอบ...</span>
                 ) : (
                   <>
-                    <ShieldCheck className="w-4 h-4" />
+                    <ShieldCheck className="w-6 h-6" />
                     <span>เข้าสู่ระบบ</span>
                   </>
                 )}
