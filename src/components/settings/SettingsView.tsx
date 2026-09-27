@@ -279,11 +279,11 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
       {/* Top Main Title Bar */}
       <div className="flex items-center justify-between bg-white p-4 rounded-2xl border border-slate-200 shadow-xs">
         <div>
-          <h2 className="text-lg font-extrabold text-slate-900 flex items-center space-x-2">
+          <h2 className="text-[20px] font-extrabold text-slate-900 flex items-center space-x-2">
             <SettingsIcon className="w-6 h-6 text-blue-600 animate-spin-slow" />
             <span>6. ตั้งค่าระบบ (System Configuration & Master Data)</span>
           </h2>
-          <p className="text-xs text-slate-500 mt-0.5">
+          <p className="text-[14px] text-slate-500 mt-0.5">
             บริหารจัดการข้อมูลหลัก (Master Data) โครงสร้างองค์กร รหัสรันระบบ และการตั้งค่าพื้นฐานสำหรับทั้งองค์กร
           </p>
         </div>
@@ -294,13 +294,13 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
         
         {/* LEFT SUB-MENU SIDEBAR */}
         <div className="w-full md:w-64 bg-white rounded-2xl border border-slate-200 p-3 shadow-xs space-y-1 shrink-0">
-          <div className="px-3 py-2 text-[11px] font-bold text-slate-400 uppercase tracking-wider">
+          <div className="px-3 py-2 text-[13px] font-bold text-slate-400 uppercase tracking-wider">
             เมนูตั้งค่าระบบ (Settings Menu)
           </div>
 
           <button
             onClick={() => setActiveSubMenu('categories')}
-            className={`w-full flex items-center justify-between p-3 rounded-xl text-xs font-bold transition-all ${
+            className={`w-full flex items-center justify-between p-3 rounded-xl text-[14px] font-bold transition-all ${
               activeSubMenu === 'categories'
                 ? 'bg-blue-600 text-white shadow-md shadow-blue-600/20'
                 : 'text-slate-700 hover:bg-slate-100'
@@ -315,7 +315,7 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
 
           <button
             onClick={() => setActiveSubMenu('departments')}
-            className={`w-full flex items-center justify-between p-3 rounded-xl text-xs font-bold transition-all ${
+            className={`w-full flex items-center justify-between p-3 rounded-xl text-[14px] font-bold transition-all ${
               activeSubMenu === 'departments'
                 ? 'bg-blue-600 text-white shadow-md shadow-blue-600/20'
                 : 'text-slate-700 hover:bg-slate-100'
@@ -330,7 +330,7 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
 
           <button
             onClick={() => setActiveSubMenu('supplies')}
-            className={`w-full flex items-center justify-between p-3 rounded-xl text-xs font-bold transition-all ${
+            className={`w-full flex items-center justify-between p-3 rounded-xl text-[14px] font-bold transition-all ${
               activeSubMenu === 'supplies'
                 ? 'bg-blue-600 text-white shadow-md shadow-blue-600/20'
                 : 'text-slate-700 hover:bg-slate-100'
@@ -345,7 +345,7 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
 
           <button
             onClick={() => setActiveSubMenu('depreciation')}
-            className={`w-full flex items-center justify-between p-3 rounded-xl text-xs font-bold transition-all ${
+            className={`w-full flex items-center justify-between p-3 rounded-xl text-[14px] font-bold transition-all ${
               activeSubMenu === 'depreciation'
                 ? 'bg-blue-600 text-white shadow-md shadow-blue-600/20'
                 : 'text-slate-700 hover:bg-slate-100'
@@ -360,7 +360,7 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
 
           <button
             onClick={() => setActiveSubMenu('organization')}
-            className={`w-full flex items-center justify-between p-3 rounded-xl text-xs font-bold transition-all ${
+            className={`w-full flex items-center justify-between p-3 rounded-xl text-[14px] font-bold transition-all ${
               activeSubMenu === 'organization'
                 ? 'bg-blue-600 text-white shadow-md shadow-blue-600/20'
                 : 'text-slate-700 hover:bg-slate-100'
@@ -374,7 +374,7 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
           </button>
 
           <div className="pt-3 border-t border-slate-100 p-2">
-            <div className="p-3 bg-slate-50 border border-slate-200 rounded-xl text-[11px] text-slate-500 space-y-1">
+            <div className="p-3 bg-slate-50 border border-slate-200 rounded-xl text-[13px] text-slate-500 space-y-1">
               <div className="font-bold text-slate-700 flex items-center gap-1">
                 <Info className="w-3.5 h-3.5 text-blue-600" />
                 <span>คำแนะนำการใช้งาน:</span>
@@ -393,16 +393,16 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
               {/* Category Section */}
               <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs space-y-4">
                 <div className="flex items-center justify-between border-b border-slate-100 pb-3">
-                  <h3 className="font-bold text-sm text-slate-900 flex items-center space-x-2">
+                  <h3 className="font-bold text-[16px] text-slate-900 flex items-center space-x-2">
                     <FolderPlus className="w-4 h-4 text-blue-600" />
                     <span>จัดการหมวดหมู่ครุภัณฑ์หลัก (Asset Categories - 2 หลัก)</span>
                   </h3>
-                  <span className="text-xs bg-blue-50 text-blue-700 px-2.5 py-1 rounded-full font-bold border border-blue-200">
+                  <span className="text-[14px] bg-blue-50 text-blue-700 px-2.5 py-1 rounded-full font-bold border border-blue-200">
                     ทั้งหมด {categories.length} หมวดหมู่
                   </span>
                 </div>
 
-                <form onSubmit={handleCreateCategory} className="grid grid-cols-1 sm:grid-cols-3 gap-3 bg-slate-50 p-4 rounded-xl border border-slate-200 text-xs">
+                <form onSubmit={handleCreateCategory} className="grid grid-cols-1 sm:grid-cols-3 gap-3 bg-slate-50 p-4 rounded-xl border border-slate-200 text-[14px]">
                   <div>
                     <label className="block font-semibold text-slate-700 mb-1">รหัสหมวดหมู่ (2 หลัก):</label>
                     <input
@@ -411,7 +411,7 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
                       value={newCatCode}
                       onChange={(e) => setNewCatCode(e.target.value)}
                       placeholder="เช่น 13"
-                      className="w-full bg-white border border-slate-300 rounded-lg px-3 py-2 text-xs font-bold text-blue-900 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                      className="w-full bg-white border border-slate-300 rounded-lg px-3 py-2 text-[14px] font-bold text-blue-900 focus:ring-2 focus:ring-blue-500 focus:outline-none"
                     />
                   </div>
 
@@ -422,14 +422,14 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
                       value={newCatName}
                       onChange={(e) => setNewCatName(e.target.value)}
                       placeholder="เช่น ครุภัณฑ์การศึกษา..."
-                      className="w-full bg-white border border-slate-300 rounded-lg px-3 py-2 text-xs font-bold focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                      className="w-full bg-white border border-slate-300 rounded-lg px-3 py-2 text-[14px] font-bold focus:ring-2 focus:ring-blue-500 focus:outline-none"
                     />
                   </div>
 
                   <div className="flex items-end">
                     <button
                       type="submit"
-                      className="w-full py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-lg text-xs font-bold shadow-md shadow-blue-600/20 flex items-center justify-center space-x-1.5 transition-all"
+                      className="w-full py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-lg text-[14px] font-bold shadow-md shadow-blue-600/20 flex items-center justify-center space-x-1.5 transition-all"
                     >
                       <Plus className="w-4 h-4" />
                       <span>+ เพิ่มหมวดหมู่หลัก</span>
@@ -438,7 +438,7 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
                 </form>
 
                 {/* List Table of Categories */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 text-xs">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 text-[14px]">
                   {categories.map((cat) => (
                     <div key={cat.code} className="p-3 bg-white border border-slate-200 rounded-xl flex items-center justify-between hover:border-blue-300 transition-all">
                       <div className="flex items-center space-x-2">
@@ -473,18 +473,18 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
               {/* Subtype Section */}
               <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs space-y-4">
                 <div className="flex items-center justify-between border-b border-slate-100 pb-3">
-                  <h3 className="font-bold text-sm text-slate-900 flex items-center space-x-2">
+                  <h3 className="font-bold text-[16px] text-slate-900 flex items-center space-x-2">
                     <Layers className="w-4 h-4 text-emerald-600" />
                     <span>จัดการชนิดครุภัณฑ์ย่อย (Subtypes / Kinds - 3 หลัก)</span>
                   </h3>
                 </div>
 
-                <div className="flex items-center space-x-3 text-xs">
+                <div className="flex items-center space-x-3 text-[14px]">
                   <span className="font-bold text-slate-700">เลือกหมวดหมู่หลัก:</span>
                   <select
                     value={selectedCatCodeForType}
                     onChange={(e) => setSelectedCatCodeForType(e.target.value)}
-                    className="bg-white border border-slate-300 rounded-lg px-3 py-1.5 text-xs font-bold text-blue-900 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                    className="bg-white border border-slate-300 rounded-lg px-3 py-1.5 text-[14px] font-bold text-blue-900 focus:ring-2 focus:ring-blue-500 focus:outline-none"
                   >
                     {categories.map((c) => (
                       <option key={c.code} value={c.code}>{c.name}</option>
@@ -492,7 +492,7 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
                   </select>
                 </div>
 
-                <form onSubmit={handleCreateType} className="grid grid-cols-1 sm:grid-cols-3 gap-3 bg-slate-50 p-4 rounded-xl border border-slate-200 text-xs">
+                <form onSubmit={handleCreateType} className="grid grid-cols-1 sm:grid-cols-3 gap-3 bg-slate-50 p-4 rounded-xl border border-slate-200 text-[14px]">
                   <div>
                     <label className="block font-semibold text-slate-700 mb-1">รหัสชนิด (3 หลัก):</label>
                     <input
@@ -501,7 +501,7 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
                       value={newTypeCode}
                       onChange={(e) => setNewTypeCode(e.target.value)}
                       placeholder="เช่น 009"
-                      className="w-full bg-white border border-slate-300 rounded-lg px-3 py-2 text-xs font-bold text-emerald-800 focus:ring-2 focus:ring-emerald-500 focus:outline-none"
+                      className="w-full bg-white border border-slate-300 rounded-lg px-3 py-2 text-[14px] font-bold text-emerald-800 focus:ring-2 focus:ring-emerald-500 focus:outline-none"
                     />
                   </div>
 
@@ -512,14 +512,14 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
                       value={newTypeName}
                       onChange={(e) => setNewTypeName(e.target.value)}
                       placeholder="เช่น โต๊ะประชุมไม้..."
-                      className="w-full bg-white border border-slate-300 rounded-lg px-3 py-2 text-xs font-bold focus:ring-2 focus:ring-emerald-500 focus:outline-none"
+                      className="w-full bg-white border border-slate-300 rounded-lg px-3 py-2 text-[14px] font-bold focus:ring-2 focus:ring-emerald-500 focus:outline-none"
                     />
                   </div>
 
                   <div className="flex items-end">
                     <button
                       type="submit"
-                      className="w-full py-2 bg-emerald-600 hover:bg-emerald-500 text-white rounded-lg text-xs font-bold shadow-md shadow-emerald-600/20 flex items-center justify-center space-x-1.5 transition-all"
+                      className="w-full py-2 bg-emerald-600 hover:bg-emerald-500 text-white rounded-lg text-[14px] font-bold shadow-md shadow-emerald-600/20 flex items-center justify-center space-x-1.5 transition-all"
                     >
                       <Plus className="w-4 h-4" />
                       <span>+ เพิ่มชนิดย่อย</span>
@@ -527,7 +527,7 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
                   </div>
                 </form>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-[14px]">
                   {currentSubtypes.map((sub) => (
                     <div key={sub.code} className="p-2.5 bg-slate-50 border border-slate-200 rounded-lg flex items-center justify-between hover:bg-white transition-all">
                       <div className="flex items-center space-x-2">
@@ -567,16 +567,16 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
               {/* Department Section */}
               <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs space-y-4">
                 <div className="flex items-center justify-between border-b border-slate-100 pb-3">
-                  <h3 className="font-bold text-sm text-slate-900 flex items-center space-x-2">
+                  <h3 className="font-bold text-[16px] text-slate-900 flex items-center space-x-2">
                     <Building2 className="w-4 h-4 text-blue-600" />
                     <span>จัดการรายชื่อหน่วยงาน / ฝ่าย (Department List)</span>
                   </h3>
-                  <span className="text-xs bg-blue-50 text-blue-700 px-2.5 py-1 rounded-full font-bold border border-blue-200">
+                  <span className="text-[14px] bg-blue-50 text-blue-700 px-2.5 py-1 rounded-full font-bold border border-blue-200">
                     ทั้งหมด {departments.length} หน่วยงาน
                   </span>
                 </div>
 
-                <form onSubmit={handleCreateDepartment} className="grid grid-cols-1 sm:grid-cols-3 gap-3 bg-slate-50 p-4 rounded-xl border border-slate-200 text-xs">
+                <form onSubmit={handleCreateDepartment} className="grid grid-cols-1 sm:grid-cols-3 gap-3 bg-slate-50 p-4 rounded-xl border border-slate-200 text-[14px]">
                   <div>
                     <label className="block font-semibold text-slate-700 mb-1">รหัสย่อหน่วยงาน:</label>
                     <input
@@ -584,7 +584,7 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
                       value={newDeptCode}
                       onChange={(e) => setNewDeptCode(e.target.value)}
                       placeholder="เช่น สทส., สลข., สนอ."
-                      className="w-full bg-white border border-slate-300 rounded-lg px-3 py-2 text-xs font-bold text-blue-900 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                      className="w-full bg-white border border-slate-300 rounded-lg px-3 py-2 text-[14px] font-bold text-blue-900 focus:ring-2 focus:ring-blue-500 focus:outline-none"
                     />
                   </div>
 
@@ -595,14 +595,14 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
                       value={newDeptTitle}
                       onChange={(e) => setNewDeptTitle(e.target.value)}
                       placeholder="เช่น สำนักเทคโนโลยีสารสนเทศ..."
-                      className="w-full bg-white border border-slate-300 rounded-lg px-3 py-2 text-xs font-bold focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                      className="w-full bg-white border border-slate-300 rounded-lg px-3 py-2 text-[14px] font-bold focus:ring-2 focus:ring-blue-500 focus:outline-none"
                     />
                   </div>
 
                   <div className="flex items-end">
                     <button
                       type="submit"
-                      className="w-full py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-lg text-xs font-bold shadow-md shadow-blue-600/20 flex items-center justify-center space-x-1.5 transition-all"
+                      className="w-full py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-lg text-[14px] font-bold shadow-md shadow-blue-600/20 flex items-center justify-center space-x-1.5 transition-all"
                     >
                       <Plus className="w-4 h-4" />
                       <span>+ เพิ่มหน่วยงาน</span>
@@ -617,11 +617,11 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
                     value={deptSearch}
                     onChange={(e) => setDeptSearch(e.target.value)}
                     placeholder="ค้นหารหัสหรือชื่อหน่วยงาน..."
-                    className="w-full bg-slate-50 border border-slate-300 rounded-lg pl-9 pr-3 py-1.5 text-xs focus:ring-2 focus:ring-blue-500 focus:bg-white focus:outline-none"
+                    className="w-full bg-slate-50 border border-slate-300 rounded-lg pl-9 pr-3 py-1.5 text-[14px] focus:ring-2 focus:ring-blue-500 focus:bg-white focus:outline-none"
                   />
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs max-h-72 overflow-y-auto pr-1">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-[14px] max-h-72 overflow-y-auto pr-1">
                   {filteredDepts.map((d) => (
                     <div key={d.code} className="p-3 bg-white border border-slate-200 rounded-xl flex items-center justify-between hover:border-blue-300 transition-all">
                       <div className="flex items-center space-x-2">
@@ -656,13 +656,13 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
               {/* Responsible Codes Section */}
               <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs space-y-4">
                 <div className="flex items-center justify-between border-b border-slate-100 pb-3">
-                  <h3 className="font-bold text-sm text-slate-900 flex items-center space-x-2">
+                  <h3 className="font-bold text-[16px] text-slate-900 flex items-center space-x-2">
                     <Tag className="w-4 h-4 text-indigo-600" />
                     <span>จัดการรหัสผู้รับผิดชอบ (Responsible Codes - สูตรสร้างรหัสครุภัณฑ์)</span>
                   </h3>
                 </div>
 
-                <form onSubmit={handleCreateRespCode} className="grid grid-cols-1 sm:grid-cols-3 gap-3 bg-slate-50 p-4 rounded-xl border border-slate-200 text-xs">
+                <form onSubmit={handleCreateRespCode} className="grid grid-cols-1 sm:grid-cols-3 gap-3 bg-slate-50 p-4 rounded-xl border border-slate-200 text-[14px]">
                   <div>
                     <label className="block font-semibold text-slate-700 mb-1">รหัสผู้รับผิดชอบ (2 หลัก):</label>
                     <input
@@ -671,7 +671,7 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
                       value={newRespCode}
                       onChange={(e) => setNewRespCode(e.target.value)}
                       placeholder="เช่น 24"
-                      className="w-full bg-white border border-slate-300 rounded-lg px-3 py-2 text-xs font-bold text-indigo-900 focus:ring-2 focus:ring-indigo-500 focus:outline-none"
+                      className="w-full bg-white border border-slate-300 rounded-lg px-3 py-2 text-[14px] font-bold text-indigo-900 focus:ring-2 focus:ring-indigo-500 focus:outline-none"
                     />
                   </div>
 
@@ -682,14 +682,14 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
                       value={newRespName}
                       onChange={(e) => setNewRespName(e.target.value)}
                       placeholder="เช่น ท่าเทียบเรือประมงใหม่..."
-                      className="w-full bg-white border border-slate-300 rounded-lg px-3 py-2 text-xs font-bold focus:ring-2 focus:ring-indigo-500 focus:outline-none"
+                      className="w-full bg-white border border-slate-300 rounded-lg px-3 py-2 text-[14px] font-bold focus:ring-2 focus:ring-indigo-500 focus:outline-none"
                     />
                   </div>
 
                   <div className="flex items-end">
                     <button
                       type="submit"
-                      className="w-full py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg text-xs font-bold shadow-md shadow-indigo-600/20 flex items-center justify-center space-x-1.5 transition-all"
+                      className="w-full py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg text-[14px] font-bold shadow-md shadow-indigo-600/20 flex items-center justify-center space-x-1.5 transition-all"
                     >
                       <Plus className="w-4 h-4" />
                       <span>+ เพิ่มรหัสผู้รับผิดชอบ</span>
@@ -697,7 +697,7 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
                   </div>
                 </form>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 text-xs max-h-60 overflow-y-auto pr-1">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 text-[14px] max-h-60 overflow-y-auto pr-1">
                   {responsibleCodes.map((r) => (
                     <div key={r.code} className="p-2.5 bg-slate-50 border border-slate-200 rounded-lg flex items-center justify-between">
                       <div className="font-bold text-slate-800">{r.name}</div>
@@ -731,30 +731,30 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
               {/* Supply Categories Section */}
               <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs space-y-4">
                 <div className="flex items-center justify-between border-b border-slate-100 pb-3">
-                  <h3 className="font-bold text-sm text-slate-900 flex items-center space-x-2">
+                  <h3 className="font-bold text-[16px] text-slate-900 flex items-center space-x-2">
                     <Boxes className="w-4 h-4 text-blue-600" />
                     <span>จัดการหมวดหมู่วัสดุสิ้นเปลือง (Supply Categories)</span>
                   </h3>
                 </div>
 
-                <form onSubmit={handleCreateSupplyCat} className="flex gap-3 text-xs">
+                <form onSubmit={handleCreateSupplyCat} className="flex gap-3 text-[14px]">
                   <input
                     type="text"
                     value={newSupCatName}
                     onChange={(e) => setNewSupCatName(e.target.value)}
                     placeholder="พิมพ์ชื่อหมวดหมู่วัสดุสิ้นเปลือง เช่น วัสดุทำความสะอาด..."
-                    className="flex-1 bg-white border border-slate-300 rounded-lg px-3 py-2 text-xs font-bold focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                    className="flex-1 bg-white border border-slate-300 rounded-lg px-3 py-2 text-[14px] font-bold focus:ring-2 focus:ring-blue-500 focus:outline-none"
                   />
                   <button
                     type="submit"
-                    className="px-4 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-lg text-xs font-bold shadow-md shadow-blue-600/20 flex items-center space-x-1"
+                    className="px-4 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-lg text-[14px] font-bold shadow-md shadow-blue-600/20 flex items-center space-x-1"
                   >
                     <Plus className="w-4 h-4" />
                     <span>+ เพิ่มหมวดหมู่</span>
                   </button>
                 </form>
 
-                <div className="flex flex-wrap gap-2 text-xs">
+                <div className="flex flex-wrap gap-2 text-[14px]">
                   {supplyCategories.map((cat) => (
                     <div key={cat} className="px-3 py-1.5 bg-blue-50 border border-blue-200 text-blue-900 font-bold rounded-xl flex items-center space-x-2">
                       <span>{cat}</span>
@@ -774,30 +774,30 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
               {/* Supply Units Section */}
               <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs space-y-4">
                 <div className="flex items-center justify-between border-b border-slate-100 pb-3">
-                  <h3 className="font-bold text-sm text-slate-900 flex items-center space-x-2">
+                  <h3 className="font-bold text-[16px] text-slate-900 flex items-center space-x-2">
                     <Tag className="w-4 h-4 text-emerald-600" />
                     <span>จัดการหน่วยนับพัสดุ (Units of Measurement)</span>
                   </h3>
                 </div>
 
-                <form onSubmit={handleCreateSupplyUnit} className="flex gap-3 text-xs">
+                <form onSubmit={handleCreateSupplyUnit} className="flex gap-3 text-[14px]">
                   <input
                     type="text"
                     value={newSupUnitName}
                     onChange={(e) => setNewSupUnitName(e.target.value)}
                     placeholder="พิมพ์หน่วยนับใหม่ เช่น แฟ้ม, ม้วน, แท่ง..."
-                    className="flex-1 bg-white border border-slate-300 rounded-lg px-3 py-2 text-xs font-bold focus:ring-2 focus:ring-emerald-500 focus:outline-none"
+                    className="flex-1 bg-white border border-slate-300 rounded-lg px-3 py-2 text-[14px] font-bold focus:ring-2 focus:ring-emerald-500 focus:outline-none"
                   />
                   <button
                     type="submit"
-                    className="px-4 py-2 bg-emerald-600 hover:bg-emerald-500 text-white rounded-lg text-xs font-bold shadow-md shadow-emerald-600/20 flex items-center space-x-1"
+                    className="px-4 py-2 bg-emerald-600 hover:bg-emerald-500 text-white rounded-lg text-[14px] font-bold shadow-md shadow-emerald-600/20 flex items-center space-x-1"
                   >
                     <Plus className="w-4 h-4" />
                     <span>+ เพิ่มหน่วยนับ</span>
                   </button>
                 </form>
 
-                <div className="flex flex-wrap gap-2 text-xs">
+                <div className="flex flex-wrap gap-2 text-[14px]">
                   {supplyUnits.map((unit) => (
                     <div key={unit} className="px-3 py-1.5 bg-emerald-50 border border-emerald-200 text-emerald-900 font-bold rounded-xl flex items-center space-x-2">
                       <span>{unit}</span>
@@ -821,13 +821,13 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
             <div className="space-y-5">
               <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs space-y-4">
                 <div className="border-b border-slate-100 pb-3">
-                  <h3 className="font-bold text-sm text-slate-900 flex items-center space-x-2">
+                  <h3 className="font-bold text-[16px] text-slate-900 flex items-center space-x-2">
                     <TrendingDown className="w-4 h-4 text-blue-600" />
                     <span>การตั้งค่าอัตราค่าเสื่อมราคาและอายุการใช้งานมาตรฐาน</span>
                   </h3>
                 </div>
 
-                <form onSubmit={handleSaveConfigForm} className="space-y-4 text-xs">
+                <form onSubmit={handleSaveConfigForm} className="space-y-4 text-[14px]">
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div>
                       <label className="block font-semibold text-slate-700 mb-1">อายุการใช้งานมาตรฐาน (ปี):</label>
@@ -835,7 +835,7 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
                         type="number"
                         value={usefulLife}
                         onChange={(e) => setUsefulLife(e.target.value)}
-                        className="w-full border border-slate-300 rounded-lg px-3 py-2 text-xs font-bold text-blue-900 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                        className="w-full border border-slate-300 rounded-lg px-3 py-2 text-[14px] font-bold text-blue-900 focus:ring-2 focus:ring-blue-500 focus:outline-none"
                       />
                     </div>
 
@@ -845,7 +845,7 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
                         type="text"
                         value={depreciationRate}
                         onChange={(e) => setDepreciationRate(e.target.value)}
-                        className="w-full border border-slate-300 rounded-lg px-3 py-2 text-xs font-bold focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                        className="w-full border border-slate-300 rounded-lg px-3 py-2 text-[14px] font-bold focus:ring-2 focus:ring-blue-500 focus:outline-none"
                       />
                     </div>
                   </div>
@@ -853,7 +853,7 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
                   <div className="flex justify-end">
                     <button
                       type="submit"
-                      className="px-5 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-xl text-xs font-bold shadow-md shadow-blue-600/20 flex items-center space-x-1.5"
+                      className="px-5 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-xl text-[14px] font-bold shadow-md shadow-blue-600/20 flex items-center space-x-1.5"
                     >
                       <Check className="w-4 h-4" />
                       <span>บันทึกการตั้งค่าค่าเสื่อม</span>
@@ -864,12 +864,12 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
 
               {/* Status Definitions Card */}
               <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs space-y-3">
-                <h3 className="font-bold text-sm text-slate-900 flex items-center space-x-2 border-b border-slate-100 pb-3">
+                <h3 className="font-bold text-[16px] text-slate-900 flex items-center space-x-2 border-b border-slate-100 pb-3">
                   <Tag className="w-4 h-4 text-amber-500" />
                   <span>คำนิยามสถานะครุภัณฑ์ในระบบ (Asset Status Definitions)</span>
                 </h3>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-[14px]">
                   <div className="p-3 bg-emerald-50 border border-emerald-200 rounded-xl space-y-1">
                     <div className="font-bold text-emerald-900">🟢 ใช้งานปกติ (Active)</div>
                     <div className="text-slate-600">ครุภัณฑ์สภาพดี พร้อมใช้งานประจำวัน</div>
@@ -899,20 +899,20 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
             <div className="space-y-5">
               <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs space-y-4">
                 <div className="border-b border-slate-100 pb-3">
-                  <h3 className="font-bold text-sm text-slate-900 flex items-center space-x-2">
+                  <h3 className="font-bold text-[16px] text-slate-900 flex items-center space-x-2">
                     <ShieldCheck className="w-4 h-4 text-blue-600" />
                     <span>ข้อมูลองค์กรและผู้อนุมัติเอกสารพัสดุ</span>
                   </h3>
                 </div>
 
-                <form onSubmit={handleSaveConfigForm} className="space-y-4 text-xs">
+                <form onSubmit={handleSaveConfigForm} className="space-y-4 text-[14px]">
                   <div>
                     <label className="block font-semibold text-slate-700 mb-1">ชื่อหน่วยงาน / องค์กรหลัก:</label>
                     <input
                       type="text"
                       value={orgName}
                       onChange={(e) => setOrgName(e.target.value)}
-                      className="w-full border border-slate-300 rounded-lg px-3 py-2 text-xs font-bold text-slate-900 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                      className="w-full border border-slate-300 rounded-lg px-3 py-2 text-[14px] font-bold text-slate-900 focus:ring-2 focus:ring-blue-500 focus:outline-none"
                     />
                   </div>
 
@@ -923,7 +923,7 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
                         type="text"
                         value={fiscalYear}
                         onChange={(e) => setFiscalYear(e.target.value)}
-                        className="w-full border border-slate-300 rounded-lg px-3 py-2 text-xs font-bold text-blue-900 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                        className="w-full border border-slate-300 rounded-lg px-3 py-2 text-[14px] font-bold text-blue-900 focus:ring-2 focus:ring-blue-500 focus:outline-none"
                       />
                     </div>
 
@@ -933,7 +933,7 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
                         type="text"
                         value={defaultApprover}
                         onChange={(e) => setDefaultApprover(e.target.value)}
-                        className="w-full border border-slate-300 rounded-lg px-3 py-2 text-xs font-bold text-slate-800 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                        className="w-full border border-slate-300 rounded-lg px-3 py-2 text-[14px] font-bold text-slate-800 focus:ring-2 focus:ring-blue-500 focus:outline-none"
                       />
                     </div>
                   </div>
@@ -941,7 +941,7 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
                   <div className="flex justify-end pt-2">
                     <button
                       type="submit"
-                      className="px-5 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-xl text-xs font-bold shadow-md shadow-blue-600/20 flex items-center space-x-1.5"
+                      className="px-5 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-xl text-[14px] font-bold shadow-md shadow-blue-600/20 flex items-center space-x-1.5"
                     >
                       <Check className="w-4 h-4" />
                       <span>บันทึกข้อมูลองค์กร</span>
@@ -962,7 +962,7 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
         <div className="fixed inset-0 z-50 bg-slate-900/40 backdrop-blur-xs flex items-center justify-center p-4">
           <div className="bg-white rounded-2xl shadow-xl border border-slate-200 w-full max-w-md p-6 space-y-4 animate-in fade-in zoom-in duration-150">
             <div className="flex items-center justify-between border-b border-slate-100 pb-3">
-              <h3 className="font-bold text-slate-900 text-sm flex items-center gap-2">
+              <h3 className="font-bold text-slate-900 text-[16px] flex items-center gap-2">
                 <Pencil className="w-4 h-4 text-blue-600" />
                 <span>แก้ไขหมวดหมู่ครุภัณฑ์ ({editingCategory.code})</span>
               </h3>
@@ -970,7 +970,7 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
                 <X className="w-4 h-4" />
               </button>
             </div>
-            <div className="space-y-3 text-xs">
+            <div className="space-y-3 text-[14px]">
               <div>
                 <label className="block font-semibold text-slate-700 mb-1">รหัสหมวดหมู่ (2 หลัก):</label>
                 <input type="text" value={editingCategory.code} disabled className="w-full bg-slate-100 border border-slate-200 rounded-lg px-3 py-2 font-bold text-slate-500" />
@@ -988,7 +988,7 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
             <div className="flex justify-end space-x-2 pt-2">
               <button
                 onClick={() => setEditingCategory(null)}
-                className="px-4 py-2 border border-slate-300 hover:bg-slate-50 text-slate-700 rounded-xl text-xs font-bold"
+                className="px-4 py-2 border border-slate-300 hover:bg-slate-50 text-slate-700 rounded-xl text-[14px] font-bold"
               >
                 ยกเลิก
               </button>
@@ -1000,7 +1000,7 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
                   }
                   setEditingCategory(null);
                 }}
-                className="px-4 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-xl text-xs font-bold shadow-md"
+                className="px-4 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-xl text-[14px] font-bold shadow-md"
               >
                 บันทึกการแก้ไข
               </button>
@@ -1014,7 +1014,7 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
         <div className="fixed inset-0 z-50 bg-slate-900/40 backdrop-blur-xs flex items-center justify-center p-4">
           <div className="bg-white rounded-2xl shadow-xl border border-slate-200 w-full max-w-md p-6 space-y-4 animate-in fade-in zoom-in duration-150">
             <div className="flex items-center justify-between border-b border-slate-100 pb-3">
-              <h3 className="font-bold text-slate-900 text-sm flex items-center gap-2">
+              <h3 className="font-bold text-slate-900 text-[16px] flex items-center gap-2">
                 <Pencil className="w-4 h-4 text-emerald-600" />
                 <span>แก้ไขชนิดครุภัณฑ์ย่อย ({editingType.code})</span>
               </h3>
@@ -1022,7 +1022,7 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
                 <X className="w-4 h-4" />
               </button>
             </div>
-            <div className="space-y-3 text-xs">
+            <div className="space-y-3 text-[14px]">
               <div>
                 <label className="block font-semibold text-slate-700 mb-1">รหัสชนิด (3 หลัก):</label>
                 <input type="text" value={editingType.code} disabled className="w-full bg-slate-100 border border-slate-200 rounded-lg px-3 py-2 font-bold text-slate-500" />
@@ -1040,7 +1040,7 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
             <div className="flex justify-end space-x-2 pt-2">
               <button
                 onClick={() => setEditingType(null)}
-                className="px-4 py-2 border border-slate-300 hover:bg-slate-50 text-slate-700 rounded-xl text-xs font-bold"
+                className="px-4 py-2 border border-slate-300 hover:bg-slate-50 text-slate-700 rounded-xl text-[14px] font-bold"
               >
                 ยกเลิก
               </button>
@@ -1052,7 +1052,7 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
                   }
                   setEditingType(null);
                 }}
-                className="px-4 py-2 bg-emerald-600 hover:bg-emerald-500 text-white rounded-xl text-xs font-bold shadow-md"
+                className="px-4 py-2 bg-emerald-600 hover:bg-emerald-500 text-white rounded-xl text-[14px] font-bold shadow-md"
               >
                 บันทึกการแก้ไข
               </button>
@@ -1066,7 +1066,7 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
         <div className="fixed inset-0 z-50 bg-slate-900/40 backdrop-blur-xs flex items-center justify-center p-4">
           <div className="bg-white rounded-2xl shadow-xl border border-slate-200 w-full max-w-md p-6 space-y-4 animate-in fade-in zoom-in duration-150">
             <div className="flex items-center justify-between border-b border-slate-100 pb-3">
-              <h3 className="font-bold text-slate-900 text-sm flex items-center gap-2">
+              <h3 className="font-bold text-slate-900 text-[16px] flex items-center gap-2">
                 <Pencil className="w-4 h-4 text-blue-600" />
                 <span>แก้ไขหน่วยงาน ({editingDepartment.code})</span>
               </h3>
@@ -1074,7 +1074,7 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
                 <X className="w-4 h-4" />
               </button>
             </div>
-            <div className="space-y-3 text-xs">
+            <div className="space-y-3 text-[14px]">
               <div>
                 <label className="block font-semibold text-slate-700 mb-1">รหัสย่อหน่วยงาน:</label>
                 <input type="text" value={editingDepartment.code} disabled className="w-full bg-slate-100 border border-slate-200 rounded-lg px-3 py-2 font-bold text-slate-500" />
@@ -1092,7 +1092,7 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
             <div className="flex justify-end space-x-2 pt-2">
               <button
                 onClick={() => setEditingDepartment(null)}
-                className="px-4 py-2 border border-slate-300 hover:bg-slate-50 text-slate-700 rounded-xl text-xs font-bold"
+                className="px-4 py-2 border border-slate-300 hover:bg-slate-50 text-slate-700 rounded-xl text-[14px] font-bold"
               >
                 ยกเลิก
               </button>
@@ -1104,7 +1104,7 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
                   }
                   setEditingDepartment(null);
                 }}
-                className="px-4 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-xl text-xs font-bold shadow-md"
+                className="px-4 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-xl text-[14px] font-bold shadow-md"
               >
                 บันทึกการแก้ไข
               </button>
@@ -1118,7 +1118,7 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
         <div className="fixed inset-0 z-50 bg-slate-900/40 backdrop-blur-xs flex items-center justify-center p-4">
           <div className="bg-white rounded-2xl shadow-xl border border-slate-200 w-full max-w-md p-6 space-y-4 animate-in fade-in zoom-in duration-150">
             <div className="flex items-center justify-between border-b border-slate-100 pb-3">
-              <h3 className="font-bold text-slate-900 text-sm flex items-center gap-2">
+              <h3 className="font-bold text-slate-900 text-[16px] flex items-center gap-2">
                 <Pencil className="w-4 h-4 text-indigo-600" />
                 <span>แก้ไขรหัสผู้รับผิดชอบ ({editingRespCode.code})</span>
               </h3>
@@ -1126,7 +1126,7 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
                 <X className="w-4 h-4" />
               </button>
             </div>
-            <div className="space-y-3 text-xs">
+            <div className="space-y-3 text-[14px]">
               <div>
                 <label className="block font-semibold text-slate-700 mb-1">รหัสผู้รับผิดชอบ (2 หลัก):</label>
                 <input type="text" value={editingRespCode.code} disabled className="w-full bg-slate-100 border border-slate-200 rounded-lg px-3 py-2 font-bold text-slate-500" />
@@ -1144,7 +1144,7 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
             <div className="flex justify-end space-x-2 pt-2">
               <button
                 onClick={() => setEditingRespCode(null)}
-                className="px-4 py-2 border border-slate-300 hover:bg-slate-50 text-slate-700 rounded-xl text-xs font-bold"
+                className="px-4 py-2 border border-slate-300 hover:bg-slate-50 text-slate-700 rounded-xl text-[14px] font-bold"
               >
                 ยกเลิก
               </button>
@@ -1156,7 +1156,7 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
                   }
                   setEditingRespCode(null);
                 }}
-                className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-md"
+                className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-[14px] font-bold shadow-md"
               >
                 บันทึกการแก้ไข
               </button>
@@ -1170,7 +1170,7 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
         <div className="fixed inset-0 z-50 bg-slate-900/40 backdrop-blur-xs flex items-center justify-center p-4">
           <div className="bg-white rounded-2xl shadow-xl border border-slate-200 w-full max-w-md p-6 space-y-4 animate-in fade-in zoom-in duration-150">
             <div className="flex items-center justify-between border-b border-slate-100 pb-3">
-              <h3 className="font-bold text-slate-900 text-sm flex items-center gap-2">
+              <h3 className="font-bold text-slate-900 text-[16px] flex items-center gap-2">
                 <Pencil className="w-4 h-4 text-blue-600" />
                 <span>แก้ไขหมวดหมู่วัสดุสิ้นเปลือง</span>
               </h3>
@@ -1178,7 +1178,7 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
                 <X className="w-4 h-4" />
               </button>
             </div>
-            <div className="space-y-3 text-xs">
+            <div className="space-y-3 text-[14px]">
               <div>
                 <label className="block font-semibold text-slate-700 mb-1">ชื่อหมวดหมู่เดิม:</label>
                 <input type="text" value={editingSupplyCat.oldName} disabled className="w-full bg-slate-100 border border-slate-200 rounded-lg px-3 py-2 font-bold text-slate-500" />
@@ -1196,7 +1196,7 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
             <div className="flex justify-end space-x-2 pt-2">
               <button
                 onClick={() => setEditingSupplyCat(null)}
-                className="px-4 py-2 border border-slate-300 hover:bg-slate-50 text-slate-700 rounded-xl text-xs font-bold"
+                className="px-4 py-2 border border-slate-300 hover:bg-slate-50 text-slate-700 rounded-xl text-[14px] font-bold"
               >
                 ยกเลิก
               </button>
@@ -1208,7 +1208,7 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
                   }
                   setEditingSupplyCat(null);
                 }}
-                className="px-4 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-xl text-xs font-bold shadow-md"
+                className="px-4 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-xl text-[14px] font-bold shadow-md"
               >
                 บันทึกการแก้ไข
               </button>
@@ -1222,7 +1222,7 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
         <div className="fixed inset-0 z-50 bg-slate-900/40 backdrop-blur-xs flex items-center justify-center p-4">
           <div className="bg-white rounded-2xl shadow-xl border border-slate-200 w-full max-w-md p-6 space-y-4 animate-in fade-in zoom-in duration-150">
             <div className="flex items-center justify-between border-b border-slate-100 pb-3">
-              <h3 className="font-bold text-slate-900 text-sm flex items-center gap-2">
+              <h3 className="font-bold text-slate-900 text-[16px] flex items-center gap-2">
                 <Pencil className="w-4 h-4 text-emerald-600" />
                 <span>แก้ไขหน่วยนับพัสดุ</span>
               </h3>
@@ -1230,7 +1230,7 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
                 <X className="w-4 h-4" />
               </button>
             </div>
-            <div className="space-y-3 text-xs">
+            <div className="space-y-3 text-[14px]">
               <div>
                 <label className="block font-semibold text-slate-700 mb-1">ชื่อหน่วยนับเดิม:</label>
                 <input type="text" value={editingSupplyUnit.oldName} disabled className="w-full bg-slate-100 border border-slate-200 rounded-lg px-3 py-2 font-bold text-slate-500" />
@@ -1248,7 +1248,7 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
             <div className="flex justify-end space-x-2 pt-2">
               <button
                 onClick={() => setEditingSupplyUnit(null)}
-                className="px-4 py-2 border border-slate-300 hover:bg-slate-50 text-slate-700 rounded-xl text-xs font-bold"
+                className="px-4 py-2 border border-slate-300 hover:bg-slate-50 text-slate-700 rounded-xl text-[14px] font-bold"
               >
                 ยกเลิก
               </button>
@@ -1260,7 +1260,7 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
                   }
                   setEditingSupplyUnit(null);
                 }}
-                className="px-4 py-2 bg-emerald-600 hover:bg-emerald-500 text-white rounded-xl text-xs font-bold shadow-md"
+                className="px-4 py-2 bg-emerald-600 hover:bg-emerald-500 text-white rounded-xl text-[14px] font-bold shadow-md"
               >
                 บันทึกการแก้ไข
               </button>
