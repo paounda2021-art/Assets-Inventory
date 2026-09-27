@@ -195,7 +195,7 @@ export const DashboardOverview: React.FC<DashboardOverviewProps> = ({
             <div className="flex items-center justify-between text-[15px]">
               <span className="font-bold text-emerald-900">ความคืบหน้าการตรวจนับปี 2569:</span>
               <span className="font-bold text-emerald-700 text-[32px]">
-                {auditPercent}% ({auditedCount.toLocaleString()} / {totalAssetsCount.toLocaleString()} ชิ้น)
+                {auditPercent}% ({auditedCount.toLocaleString()} / {totalAssetsCount.toLocaleString()} รายการ)
               </span>
             </div>
             
