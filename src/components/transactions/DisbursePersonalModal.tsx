@@ -146,10 +146,10 @@ export const DisbursePersonalModal: React.FC<DisbursePersonalModalProps> = ({
   });
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-sm overflow-y-auto">
-      <div className="bg-white rounded-2xl shadow-2xl border border-slate-200 w-full max-w-4xl overflow-hidden my-8 transform transition-all">
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-sm">
+      <div className="bg-white rounded-2xl shadow-2xl border border-slate-200 w-full max-w-4xl max-h-[90vh] flex flex-col overflow-hidden transform transition-all">
         {/* Modal Header */}
-        <div className="bg-gradient-to-r from-blue-700 via-blue-600 to-indigo-700 px-6 py-4 text-white flex items-center justify-between shadow-md">
+        <div className="flex-shrink-0 bg-gradient-to-r from-blue-700 via-blue-600 to-indigo-700 px-6 py-4 text-white flex items-center justify-between shadow-md">
           <div className="flex items-center space-x-3">
             <div className="p-2.5 bg-white/10 rounded-xl backdrop-blur-md border border-white/20">
               <PackageCheck className="w-6 h-6 text-blue-100" />
@@ -164,6 +164,7 @@ export const DisbursePersonalModal: React.FC<DisbursePersonalModalProps> = ({
             </div>
           </div>
           <button
+            type="button"
             onClick={onClose}
             className="p-1.5 text-blue-100 hover:text-white hover:bg-white/10 rounded-xl transition-colors"
           >
@@ -172,7 +173,9 @@ export const DisbursePersonalModal: React.FC<DisbursePersonalModalProps> = ({
         </div>
 
         {/* Modal Form */}
-        <form onSubmit={handleSubmit} className="p-6 space-y-6">
+        <form onSubmit={handleSubmit} className="flex-1 flex flex-col min-h-0 overflow-hidden">
+          {/* Scrollable Content Body */}
+          <div className="flex-1 overflow-y-auto p-6 space-y-6">
           {/* Top Section: Form Fields */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 bg-slate-50/80 p-4 rounded-xl border border-slate-200/80 text-xs">
             {/* Document No */}
@@ -391,9 +394,10 @@ export const DisbursePersonalModal: React.FC<DisbursePersonalModalProps> = ({
               )}
             </div>
           </div>
+        </div>
 
-          {/* Modal Actions */}
-          <div className="flex items-center justify-end space-x-3 pt-4 border-t border-slate-200">
+        {/* Modal Actions Footer */}
+          <div className="flex-shrink-0 px-6 py-3.5 bg-slate-50 border-t border-slate-200 flex items-center justify-end space-x-3">
             <button
               type="button"
               onClick={onClose}
