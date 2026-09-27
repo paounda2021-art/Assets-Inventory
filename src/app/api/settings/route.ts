@@ -1,5 +1,19 @@
 import { NextResponse } from 'next/server';
-import db, { getSettingsData, deleteCategory, deleteSubtype, deleteDepartment, deleteResponsibleCode, deleteSupplyCategory, deleteSupplyUnit } from '@/lib/db';
+import db, { 
+  getSettingsData, 
+  deleteCategory, 
+  deleteSubtype, 
+  deleteDepartment, 
+  deleteResponsibleCode, 
+  deleteSupplyCategory, 
+  deleteSupplyUnit,
+  updateCategory,
+  updateSubtype,
+  updateDepartment,
+  updateResponsibleCode,
+  updateSupplyCategory,
+  updateSupplyUnit
+} from '@/lib/db';
 
 export const dynamic = 'force-dynamic';
 
@@ -27,6 +41,10 @@ export async function POST(req: Request) {
       stmt.run(data.code, data.name);
       return NextResponse.json({ success: true, message: 'Category saved' });
     }
+    if (action === 'updateCategory') {
+      updateCategory(data.code, data.name);
+      return NextResponse.json({ success: true, message: 'Category updated' });
+    }
     if (action === 'deleteCategory') {
       deleteCategory(data.code);
       return NextResponse.json({ success: true, message: 'Category deleted' });
@@ -37,6 +55,10 @@ export async function POST(req: Request) {
       const stmt = db.prepare('INSERT OR REPLACE INTO subtypes (categoryCode, code, name) VALUES (?, ?, ?)');
       stmt.run(data.categoryCode, data.type.code, data.type.name);
       return NextResponse.json({ success: true, message: 'Subtype saved' });
+    }
+    if (action === 'updateType') {
+      updateSubtype(data.categoryCode, data.code, data.name);
+      return NextResponse.json({ success: true, message: 'Subtype updated' });
     }
     if (action === 'deleteType') {
       deleteSubtype(data.categoryCode, data.code);
@@ -49,6 +71,10 @@ export async function POST(req: Request) {
       stmt.run(data.code, data.fullTitle);
       return NextResponse.json({ success: true, message: 'Department saved' });
     }
+    if (action === 'updateDepartment') {
+      updateDepartment(data.code, data.fullTitle);
+      return NextResponse.json({ success: true, message: 'Department updated' });
+    }
     if (action === 'deleteDepartment') {
       deleteDepartment(data.code);
       return NextResponse.json({ success: true, message: 'Department deleted' });
@@ -59,6 +85,10 @@ export async function POST(req: Request) {
       const stmt = db.prepare('INSERT OR REPLACE INTO responsible_codes (code, name) VALUES (?, ?)');
       stmt.run(data.code, data.name);
       return NextResponse.json({ success: true, message: 'Responsible code saved' });
+    }
+    if (action === 'updateResponsibleCode') {
+      updateResponsibleCode(data.code, data.name);
+      return NextResponse.json({ success: true, message: 'Responsible code updated' });
     }
     if (action === 'deleteResponsibleCode') {
       deleteResponsibleCode(data.code);
@@ -71,6 +101,10 @@ export async function POST(req: Request) {
       stmt.run(data.name);
       return NextResponse.json({ success: true, message: 'Supply category saved' });
     }
+    if (action === 'updateSupplyCategory') {
+      updateSupplyCategory(data.oldName, data.newName);
+      return NextResponse.json({ success: true, message: 'Supply category updated' });
+    }
     if (action === 'deleteSupplyCategory') {
       deleteSupplyCategory(data.name);
       return NextResponse.json({ success: true, message: 'Supply category deleted' });
@@ -81,6 +115,10 @@ export async function POST(req: Request) {
       const stmt = db.prepare('INSERT OR REPLACE INTO supply_units (name) VALUES (?)');
       stmt.run(data.name);
       return NextResponse.json({ success: true, message: 'Supply unit saved' });
+    }
+    if (action === 'updateSupplyUnit') {
+      updateSupplyUnit(data.oldName, data.newName);
+      return NextResponse.json({ success: true, message: 'Supply unit updated' });
     }
     if (action === 'deleteSupplyUnit') {
       deleteSupplyUnit(data.name);

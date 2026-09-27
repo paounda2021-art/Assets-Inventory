@@ -180,6 +180,17 @@ export default function Home() {
     }
   };
 
+  const handleUpdateCategory = async (code: string, name: string) => {
+    setCategories(prev => prev.map(c => c.code === code ? { ...c, name } : c));
+    try {
+      await fetch('/api/settings', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ action: 'updateCategory', data: { code, name } })
+      });
+    } catch (err) { console.error('Failed to update category:', err); }
+  };
+
   const handleDeleteCategory = async (code: string) => {
     setCategories(prev => prev.filter(c => c.code !== code));
     try {
@@ -189,6 +200,20 @@ export default function Home() {
         body: JSON.stringify({ action: 'deleteCategory', data: { code } })
       });
     } catch (err) { console.error('Failed to delete category:', err); }
+  };
+
+  const handleUpdateType = async (categoryCode: string, code: string, name: string) => {
+    setTypeCodesMap(prev => ({
+      ...prev,
+      [categoryCode]: (prev[categoryCode] || []).map(t => t.code === code ? { ...t, name } : t)
+    }));
+    try {
+      await fetch('/api/settings', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ action: 'updateType', data: { categoryCode, code, name } })
+      });
+    } catch (err) { console.error('Failed to update type:', err); }
   };
 
   const handleDeleteType = async (categoryCode: string, code: string) => {
@@ -203,6 +228,17 @@ export default function Home() {
         body: JSON.stringify({ action: 'deleteType', data: { categoryCode, code } })
       });
     } catch (err) { console.error('Failed to delete type:', err); }
+  };
+
+  const handleUpdateDepartment = async (code: string, fullTitle: string) => {
+    setDepartments(prev => prev.map(d => d.code === code ? { ...d, fullTitle } : d));
+    try {
+      await fetch('/api/settings', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ action: 'updateDepartment', data: { code, fullTitle } })
+      });
+    } catch (err) { console.error('Failed to update department:', err); }
   };
 
   const handleDeleteDepartment = async (code: string) => {
@@ -227,6 +263,17 @@ export default function Home() {
     } catch (err) { console.error('Failed to add responsible code:', err); }
   };
 
+  const handleUpdateResponsibleCode = async (code: string, name: string) => {
+    setResponsibleCodes(prev => prev.map(r => r.code === code ? { ...r, name } : r));
+    try {
+      await fetch('/api/settings', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ action: 'updateResponsibleCode', data: { code, name } })
+      });
+    } catch (err) { console.error('Failed to update responsible code:', err); }
+  };
+
   const handleDeleteResponsibleCode = async (code: string) => {
     setResponsibleCodes(prev => prev.filter(r => r.code !== code));
     try {
@@ -249,6 +296,17 @@ export default function Home() {
     } catch (err) { console.error('Failed to add supply category:', err); }
   };
 
+  const handleUpdateSupplyCategory = async (oldName: string, newName: string) => {
+    setSupplyCategories(prev => prev.map(c => c === oldName ? newName : c));
+    try {
+      await fetch('/api/settings', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ action: 'updateSupplyCategory', data: { oldName, newName } })
+      });
+    } catch (err) { console.error('Failed to update supply category:', err); }
+  };
+
   const handleDeleteSupplyCategory = async (name: string) => {
     setSupplyCategories(prev => prev.filter(c => c !== name));
     try {
@@ -269,6 +327,17 @@ export default function Home() {
         body: JSON.stringify({ action: 'addSupplyUnit', data: { name } })
       });
     } catch (err) { console.error('Failed to add supply unit:', err); }
+  };
+
+  const handleUpdateSupplyUnit = async (oldName: string, newName: string) => {
+    setSupplyUnits(prev => prev.map(u => u === oldName ? newName : u));
+    try {
+      await fetch('/api/settings', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ action: 'updateSupplyUnit', data: { oldName, newName } })
+      });
+    } catch (err) { console.error('Failed to update supply unit:', err); }
   };
 
   const handleDeleteSupplyUnit = async (name: string) => {
@@ -603,16 +672,22 @@ export default function Home() {
             supplyUnits={supplyUnits}
             systemConfig={systemConfig}
             onAddCategory={handleAddCategory}
+            onUpdateCategory={handleUpdateCategory}
             onDeleteCategory={handleDeleteCategory}
             onAddType={handleAddType}
+            onUpdateType={handleUpdateType}
             onDeleteType={handleDeleteType}
             onAddDepartment={handleAddDepartment}
+            onUpdateDepartment={handleUpdateDepartment}
             onDeleteDepartment={handleDeleteDepartment}
             onAddResponsibleCode={handleAddResponsibleCode}
+            onUpdateResponsibleCode={handleUpdateResponsibleCode}
             onDeleteResponsibleCode={handleDeleteResponsibleCode}
             onAddSupplyCategory={handleAddSupplyCategory}
+            onUpdateSupplyCategory={handleUpdateSupplyCategory}
             onDeleteSupplyCategory={handleDeleteSupplyCategory}
             onAddSupplyUnit={handleAddSupplyUnit}
+            onUpdateSupplyUnit={handleUpdateSupplyUnit}
             onDeleteSupplyUnit={handleDeleteSupplyUnit}
             onSaveConfig={handleSaveConfig}
             onTriggerToast={addToast}

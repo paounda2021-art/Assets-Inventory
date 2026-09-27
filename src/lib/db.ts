@@ -395,4 +395,28 @@ export function deleteSupplyUnit(name: string) {
   db.prepare('DELETE FROM supply_units WHERE name = ?').run(name);
 }
 
+export function updateCategory(code: string, name: string) {
+  db.prepare('UPDATE categories SET name = ? WHERE code = ?').run(name, code);
+}
+
+export function updateSubtype(categoryCode: string, code: string, name: string) {
+  db.prepare('UPDATE subtypes SET name = ? WHERE categoryCode = ? AND code = ?').run(name, categoryCode, code);
+}
+
+export function updateDepartment(code: string, fullTitle: string) {
+  db.prepare('UPDATE departments SET fullTitle = ? WHERE code = ?').run(fullTitle, code);
+}
+
+export function updateResponsibleCode(code: string, name: string) {
+  db.prepare('UPDATE responsible_codes SET name = ? WHERE code = ?').run(name, code);
+}
+
+export function updateSupplyCategory(oldName: string, newName: string) {
+  db.prepare('UPDATE supply_categories SET name = ? WHERE name = ?').run(newName, oldName);
+}
+
+export function updateSupplyUnit(oldName: string, newName: string) {
+  db.prepare('UPDATE supply_units SET name = ? WHERE name = ?').run(newName, oldName);
+}
+
 export default db;

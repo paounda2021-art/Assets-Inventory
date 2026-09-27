@@ -18,7 +18,9 @@ import {
   FileText,
   UserCheck,
   ChevronRight,
-  Info
+  Info,
+  Pencil,
+  X
 } from 'lucide-react';
 import { ToastType } from '../ui/Toast';
 import { DepartmentItem } from '../../data/departments';
@@ -47,16 +49,22 @@ interface SettingsViewProps {
   supplyUnits?: string[];
   systemConfig?: Record<string, string>;
   onAddCategory: (category: CategoryOption) => void;
+  onUpdateCategory?: (code: string, name: string) => void;
   onDeleteCategory?: (code: string) => void;
   onAddType: (categoryCode: string, typeItem: TypeOption) => void;
+  onUpdateType?: (categoryCode: string, code: string, name: string) => void;
   onDeleteType?: (categoryCode: string, code: string) => void;
   onAddDepartment: (dept: DepartmentItem) => void;
+  onUpdateDepartment?: (code: string, fullTitle: string) => void;
   onDeleteDepartment?: (code: string) => void;
   onAddResponsibleCode?: (resp: ResponsibleOption) => void;
+  onUpdateResponsibleCode?: (code: string, name: string) => void;
   onDeleteResponsibleCode?: (code: string) => void;
   onAddSupplyCategory?: (name: string) => void;
+  onUpdateSupplyCategory?: (oldName: string, newName: string) => void;
   onDeleteSupplyCategory?: (name: string) => void;
   onAddSupplyUnit?: (name: string) => void;
+  onUpdateSupplyUnit?: (oldName: string, newName: string) => void;
   onDeleteSupplyUnit?: (name: string) => void;
   onSaveConfig?: (key: string, value: string) => void;
   onTriggerToast: (type: ToastType, title: string, message?: string) => void;
@@ -71,16 +79,22 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
   supplyUnits = ['รีม', 'ด้าม', 'ตลับ', 'กล่อง', 'แผ่น', 'ชุด', 'เครื่อง', 'พวง', 'ม้วน', 'เล่ม', 'อัน', 'ขวด', 'ถุง'],
   systemConfig = {},
   onAddCategory,
+  onUpdateCategory,
   onDeleteCategory,
   onAddType,
+  onUpdateType,
   onDeleteType,
   onAddDepartment,
+  onUpdateDepartment,
   onDeleteDepartment,
   onAddResponsibleCode,
+  onUpdateResponsibleCode,
   onDeleteResponsibleCode,
   onAddSupplyCategory,
+  onUpdateSupplyCategory,
   onDeleteSupplyCategory,
   onAddSupplyUnit,
+  onUpdateSupplyUnit,
   onDeleteSupplyUnit,
   onSaveConfig,
   onTriggerToast,
@@ -89,6 +103,14 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
   const [activeSubMenu, setActiveSubMenu] = useState<
     'categories' | 'departments' | 'supplies' | 'depreciation' | 'organization'
   >('categories');
+
+  // --- Edit Modal States ---
+  const [editingCategory, setEditingCategory] = useState<{ code: string; name: string } | null>(null);
+  const [editingType, setEditingType] = useState<{ categoryCode: string; code: string; name: string } | null>(null);
+  const [editingDepartment, setEditingDepartment] = useState<{ code: string; fullTitle: string } | null>(null);
+  const [editingRespCode, setEditingRespCode] = useState<{ code: string; name: string } | null>(null);
+  const [editingSupplyCat, setEditingSupplyCat] = useState<{ oldName: string; newName: string } | null>(null);
+  const [editingSupplyUnit, setEditingSupplyUnit] = useState<{ oldName: string; newName: string } | null>(null);
 
   // --- 1. Asset Categories & Subtypes State ---
   const [newCatCode, setNewCatCode] = useState<string>('');
@@ -425,15 +447,24 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
                         </span>
                         <span className="font-bold text-slate-800">{cat.name}</span>
                       </div>
-                      {onDeleteCategory && (
+                      <div className="flex items-center space-x-1">
                         <button
-                          onClick={() => onDeleteCategory(cat.code)}
-                          title="ลบหมวดหมู่"
-                          className="p-1 text-slate-400 hover:text-rose-600 rounded transition-colors"
+                          onClick={() => setEditingCategory({ code: cat.code, name: cat.name })}
+                          title="แก้ไขหมวดหมู่"
+                          className="p-1 text-slate-400 hover:text-blue-600 rounded transition-colors"
                         >
-                          <Trash2 className="w-3.5 h-3.5" />
+                          <Pencil className="w-3.5 h-3.5" />
                         </button>
-                      )}
+                        {onDeleteCategory && (
+                          <button
+                            onClick={() => onDeleteCategory(cat.code)}
+                            title="ลบหมวดหมู่"
+                            className="p-1 text-slate-400 hover:text-rose-600 rounded transition-colors"
+                          >
+                            <Trash2 className="w-3.5 h-3.5" />
+                          </button>
+                        )}
+                      </div>
                     </div>
                   ))}
                 </div>
@@ -505,15 +536,24 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
                         </span>
                         <span className="font-bold text-slate-800">{sub.name}</span>
                       </div>
-                      {onDeleteType && (
+                      <div className="flex items-center space-x-1">
                         <button
-                          onClick={() => onDeleteType(selectedCatCodeForType, sub.code)}
-                          title="ลบชนิดย่อย"
-                          className="p-1 text-slate-400 hover:text-rose-600 rounded"
+                          onClick={() => setEditingType({ categoryCode: selectedCatCodeForType, code: sub.code, name: sub.name })}
+                          title="แก้ไขชนิดย่อย"
+                          className="p-1 text-slate-400 hover:text-emerald-600 rounded"
                         >
-                          <Trash2 className="w-3.5 h-3.5" />
+                          <Pencil className="w-3.5 h-3.5" />
                         </button>
-                      )}
+                        {onDeleteType && (
+                          <button
+                            onClick={() => onDeleteType(selectedCatCodeForType, sub.code)}
+                            title="ลบชนิดย่อย"
+                            className="p-1 text-slate-400 hover:text-rose-600 rounded"
+                          >
+                            <Trash2 className="w-3.5 h-3.5" />
+                          </button>
+                        )}
+                      </div>
                     </div>
                   ))}
                 </div>
@@ -590,15 +630,24 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
                         </span>
                         <span className="font-bold text-slate-800">{d.fullTitle}</span>
                       </div>
-                      {onDeleteDepartment && (
+                      <div className="flex items-center space-x-1">
                         <button
-                          onClick={() => onDeleteDepartment(d.code)}
-                          title="ลบหน่วยงาน"
-                          className="p-1 text-slate-400 hover:text-rose-600 rounded"
+                          onClick={() => setEditingDepartment({ code: d.code, fullTitle: d.fullTitle })}
+                          title="แก้ไขหน่วยงาน"
+                          className="p-1 text-slate-400 hover:text-blue-600 rounded"
                         >
-                          <Trash2 className="w-3.5 h-3.5" />
+                          <Pencil className="w-3.5 h-3.5" />
                         </button>
-                      )}
+                        {onDeleteDepartment && (
+                          <button
+                            onClick={() => onDeleteDepartment(d.code)}
+                            title="ลบหน่วยงาน"
+                            className="p-1 text-slate-400 hover:text-rose-600 rounded"
+                          >
+                            <Trash2 className="w-3.5 h-3.5" />
+                          </button>
+                        )}
+                      </div>
                     </div>
                   ))}
                 </div>
@@ -652,14 +701,23 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
                   {responsibleCodes.map((r) => (
                     <div key={r.code} className="p-2.5 bg-slate-50 border border-slate-200 rounded-lg flex items-center justify-between">
                       <div className="font-bold text-slate-800">{r.name}</div>
-                      {onDeleteResponsibleCode && (
+                      <div className="flex items-center space-x-1">
                         <button
-                          onClick={() => onDeleteResponsibleCode(r.code)}
-                          className="p-1 text-slate-400 hover:text-rose-600 rounded"
+                          onClick={() => setEditingRespCode({ code: r.code, name: r.name })}
+                          title="แก้ไขรหัสผู้รับผิดชอบ"
+                          className="p-1 text-slate-400 hover:text-indigo-600 rounded"
                         >
-                          <Trash2 className="w-3.5 h-3.5" />
+                          <Pencil className="w-3.5 h-3.5" />
                         </button>
-                      )}
+                        {onDeleteResponsibleCode && (
+                          <button
+                            onClick={() => onDeleteResponsibleCode(r.code)}
+                            className="p-1 text-slate-400 hover:text-rose-600 rounded"
+                          >
+                            <Trash2 className="w-3.5 h-3.5" />
+                          </button>
+                        )}
+                      </div>
                     </div>
                   ))}
                 </div>
@@ -700,8 +758,11 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
                   {supplyCategories.map((cat) => (
                     <div key={cat} className="px-3 py-1.5 bg-blue-50 border border-blue-200 text-blue-900 font-bold rounded-xl flex items-center space-x-2">
                       <span>{cat}</span>
+                      <button onClick={() => setEditingSupplyCat({ oldName: cat, newName: cat })} title="แก้ไขหมวดหมู่" className="text-slate-400 hover:text-blue-600">
+                        <Pencil className="w-3.5 h-3.5" />
+                      </button>
                       {onDeleteSupplyCategory && (
-                        <button onClick={() => onDeleteSupplyCategory(cat)} className="text-slate-400 hover:text-rose-600">
+                        <button onClick={() => onDeleteSupplyCategory(cat)} title="ลบหมวดหมู่" className="text-slate-400 hover:text-rose-600">
                           <Trash2 className="w-3.5 h-3.5" />
                         </button>
                       )}
@@ -740,8 +801,11 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
                   {supplyUnits.map((unit) => (
                     <div key={unit} className="px-3 py-1.5 bg-emerald-50 border border-emerald-200 text-emerald-900 font-bold rounded-xl flex items-center space-x-2">
                       <span>{unit}</span>
+                      <button onClick={() => setEditingSupplyUnit({ oldName: unit, newName: unit })} title="แก้ไขหน่วยนับ" className="text-slate-400 hover:text-emerald-600">
+                        <Pencil className="w-3.5 h-3.5" />
+                      </button>
                       {onDeleteSupplyUnit && (
-                        <button onClick={() => onDeleteSupplyUnit(unit)} className="text-slate-400 hover:text-rose-600">
+                        <button onClick={() => onDeleteSupplyUnit(unit)} title="ลบหน่วยนับ" className="text-slate-400 hover:text-rose-600">
                           <Trash2 className="w-3.5 h-3.5" />
                         </button>
                       )}
@@ -891,6 +955,319 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
         </div>
 
       </div>
+
+      {/* --- EDIT MODALS --- */}
+      {/* 1. Edit Category Modal */}
+      {editingCategory && (
+        <div className="fixed inset-0 z-50 bg-slate-900/40 backdrop-blur-xs flex items-center justify-center p-4">
+          <div className="bg-white rounded-2xl shadow-xl border border-slate-200 w-full max-w-md p-6 space-y-4 animate-in fade-in zoom-in duration-150">
+            <div className="flex items-center justify-between border-b border-slate-100 pb-3">
+              <h3 className="font-bold text-slate-900 text-sm flex items-center gap-2">
+                <Pencil className="w-4 h-4 text-blue-600" />
+                <span>แก้ไขหมวดหมู่ครุภัณฑ์ ({editingCategory.code})</span>
+              </h3>
+              <button onClick={() => setEditingCategory(null)} className="text-slate-400 hover:text-slate-600">
+                <X className="w-4 h-4" />
+              </button>
+            </div>
+            <div className="space-y-3 text-xs">
+              <div>
+                <label className="block font-semibold text-slate-700 mb-1">รหัสหมวดหมู่ (2 หลัก):</label>
+                <input type="text" value={editingCategory.code} disabled className="w-full bg-slate-100 border border-slate-200 rounded-lg px-3 py-2 font-bold text-slate-500" />
+              </div>
+              <div>
+                <label className="block font-semibold text-slate-700 mb-1">ชื่อหมวดหมู่:</label>
+                <input
+                  type="text"
+                  value={editingCategory.name}
+                  onChange={(e) => setEditingCategory({ ...editingCategory, name: e.target.value })}
+                  className="w-full bg-white border border-slate-300 rounded-lg px-3 py-2 font-bold text-slate-900 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                />
+              </div>
+            </div>
+            <div className="flex justify-end space-x-2 pt-2">
+              <button
+                onClick={() => setEditingCategory(null)}
+                className="px-4 py-2 border border-slate-300 hover:bg-slate-50 text-slate-700 rounded-xl text-xs font-bold"
+              >
+                ยกเลิก
+              </button>
+              <button
+                onClick={() => {
+                  if (onUpdateCategory && editingCategory.name.trim()) {
+                    onUpdateCategory(editingCategory.code, editingCategory.name.trim());
+                    onTriggerToast('success', 'แก้ไขหมวดหมู่สำเร็จ!', `อัปเดต ${editingCategory.code} เรียบร้อยแล้ว`);
+                  }
+                  setEditingCategory(null);
+                }}
+                className="px-4 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-xl text-xs font-bold shadow-md"
+              >
+                บันทึกการแก้ไข
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* 2. Edit Subtype Modal */}
+      {editingType && (
+        <div className="fixed inset-0 z-50 bg-slate-900/40 backdrop-blur-xs flex items-center justify-center p-4">
+          <div className="bg-white rounded-2xl shadow-xl border border-slate-200 w-full max-w-md p-6 space-y-4 animate-in fade-in zoom-in duration-150">
+            <div className="flex items-center justify-between border-b border-slate-100 pb-3">
+              <h3 className="font-bold text-slate-900 text-sm flex items-center gap-2">
+                <Pencil className="w-4 h-4 text-emerald-600" />
+                <span>แก้ไขชนิดครุภัณฑ์ย่อย ({editingType.code})</span>
+              </h3>
+              <button onClick={() => setEditingType(null)} className="text-slate-400 hover:text-slate-600">
+                <X className="w-4 h-4" />
+              </button>
+            </div>
+            <div className="space-y-3 text-xs">
+              <div>
+                <label className="block font-semibold text-slate-700 mb-1">รหัสชนิด (3 หลัก):</label>
+                <input type="text" value={editingType.code} disabled className="w-full bg-slate-100 border border-slate-200 rounded-lg px-3 py-2 font-bold text-slate-500" />
+              </div>
+              <div>
+                <label className="block font-semibold text-slate-700 mb-1">ชื่อชนิดครุภัณฑ์ย่อย:</label>
+                <input
+                  type="text"
+                  value={editingType.name}
+                  onChange={(e) => setEditingType({ ...editingType, name: e.target.value })}
+                  className="w-full bg-white border border-slate-300 rounded-lg px-3 py-2 font-bold text-slate-900 focus:ring-2 focus:ring-emerald-500 focus:outline-none"
+                />
+              </div>
+            </div>
+            <div className="flex justify-end space-x-2 pt-2">
+              <button
+                onClick={() => setEditingType(null)}
+                className="px-4 py-2 border border-slate-300 hover:bg-slate-50 text-slate-700 rounded-xl text-xs font-bold"
+              >
+                ยกเลิก
+              </button>
+              <button
+                onClick={() => {
+                  if (onUpdateType && editingType.name.trim()) {
+                    onUpdateType(editingType.categoryCode, editingType.code, editingType.name.trim());
+                    onTriggerToast('success', 'แก้ไขชนิดย่อยสำเร็จ!', `อัปเดต ${editingType.code} เรียบร้อยแล้ว`);
+                  }
+                  setEditingType(null);
+                }}
+                className="px-4 py-2 bg-emerald-600 hover:bg-emerald-500 text-white rounded-xl text-xs font-bold shadow-md"
+              >
+                บันทึกการแก้ไข
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* 3. Edit Department Modal */}
+      {editingDepartment && (
+        <div className="fixed inset-0 z-50 bg-slate-900/40 backdrop-blur-xs flex items-center justify-center p-4">
+          <div className="bg-white rounded-2xl shadow-xl border border-slate-200 w-full max-w-md p-6 space-y-4 animate-in fade-in zoom-in duration-150">
+            <div className="flex items-center justify-between border-b border-slate-100 pb-3">
+              <h3 className="font-bold text-slate-900 text-sm flex items-center gap-2">
+                <Pencil className="w-4 h-4 text-blue-600" />
+                <span>แก้ไขหน่วยงาน ({editingDepartment.code})</span>
+              </h3>
+              <button onClick={() => setEditingDepartment(null)} className="text-slate-400 hover:text-slate-600">
+                <X className="w-4 h-4" />
+              </button>
+            </div>
+            <div className="space-y-3 text-xs">
+              <div>
+                <label className="block font-semibold text-slate-700 mb-1">รหัสย่อหน่วยงาน:</label>
+                <input type="text" value={editingDepartment.code} disabled className="w-full bg-slate-100 border border-slate-200 rounded-lg px-3 py-2 font-bold text-slate-500" />
+              </div>
+              <div>
+                <label className="block font-semibold text-slate-700 mb-1">ชื่อเต็มหน่วยงาน:</label>
+                <input
+                  type="text"
+                  value={editingDepartment.fullTitle}
+                  onChange={(e) => setEditingDepartment({ ...editingDepartment, fullTitle: e.target.value })}
+                  className="w-full bg-white border border-slate-300 rounded-lg px-3 py-2 font-bold text-slate-900 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                />
+              </div>
+            </div>
+            <div className="flex justify-end space-x-2 pt-2">
+              <button
+                onClick={() => setEditingDepartment(null)}
+                className="px-4 py-2 border border-slate-300 hover:bg-slate-50 text-slate-700 rounded-xl text-xs font-bold"
+              >
+                ยกเลิก
+              </button>
+              <button
+                onClick={() => {
+                  if (onUpdateDepartment && editingDepartment.fullTitle.trim()) {
+                    onUpdateDepartment(editingDepartment.code, editingDepartment.fullTitle.trim());
+                    onTriggerToast('success', 'แก้ไขหน่วยงานสำเร็จ!', `อัปเดตหน่วยงาน ${editingDepartment.code} เรียบร้อยแล้ว`);
+                  }
+                  setEditingDepartment(null);
+                }}
+                className="px-4 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-xl text-xs font-bold shadow-md"
+              >
+                บันทึกการแก้ไข
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* 4. Edit Responsible Code Modal */}
+      {editingRespCode && (
+        <div className="fixed inset-0 z-50 bg-slate-900/40 backdrop-blur-xs flex items-center justify-center p-4">
+          <div className="bg-white rounded-2xl shadow-xl border border-slate-200 w-full max-w-md p-6 space-y-4 animate-in fade-in zoom-in duration-150">
+            <div className="flex items-center justify-between border-b border-slate-100 pb-3">
+              <h3 className="font-bold text-slate-900 text-sm flex items-center gap-2">
+                <Pencil className="w-4 h-4 text-indigo-600" />
+                <span>แก้ไขรหัสผู้รับผิดชอบ ({editingRespCode.code})</span>
+              </h3>
+              <button onClick={() => setEditingRespCode(null)} className="text-slate-400 hover:text-slate-600">
+                <X className="w-4 h-4" />
+              </button>
+            </div>
+            <div className="space-y-3 text-xs">
+              <div>
+                <label className="block font-semibold text-slate-700 mb-1">รหัสผู้รับผิดชอบ (2 หลัก):</label>
+                <input type="text" value={editingRespCode.code} disabled className="w-full bg-slate-100 border border-slate-200 rounded-lg px-3 py-2 font-bold text-slate-500" />
+              </div>
+              <div>
+                <label className="block font-semibold text-slate-700 mb-1">ชื่อผู้รับผิดชอบ / สาขา:</label>
+                <input
+                  type="text"
+                  value={editingRespCode.name}
+                  onChange={(e) => setEditingRespCode({ ...editingRespCode, name: e.target.value })}
+                  className="w-full bg-white border border-slate-300 rounded-lg px-3 py-2 font-bold text-slate-900 focus:ring-2 focus:ring-indigo-500 focus:outline-none"
+                />
+              </div>
+            </div>
+            <div className="flex justify-end space-x-2 pt-2">
+              <button
+                onClick={() => setEditingRespCode(null)}
+                className="px-4 py-2 border border-slate-300 hover:bg-slate-50 text-slate-700 rounded-xl text-xs font-bold"
+              >
+                ยกเลิก
+              </button>
+              <button
+                onClick={() => {
+                  if (onUpdateResponsibleCode && editingRespCode.name.trim()) {
+                    onUpdateResponsibleCode(editingRespCode.code, editingRespCode.name.trim());
+                    onTriggerToast('success', 'แก้ไขรหัสผู้รับผิดชอบสำเร็จ!', `อัปเดต ${editingRespCode.code} เรียบร้อยแล้ว`);
+                  }
+                  setEditingRespCode(null);
+                }}
+                className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-md"
+              >
+                บันทึกการแก้ไข
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* 5. Edit Supply Category Modal */}
+      {editingSupplyCat && (
+        <div className="fixed inset-0 z-50 bg-slate-900/40 backdrop-blur-xs flex items-center justify-center p-4">
+          <div className="bg-white rounded-2xl shadow-xl border border-slate-200 w-full max-w-md p-6 space-y-4 animate-in fade-in zoom-in duration-150">
+            <div className="flex items-center justify-between border-b border-slate-100 pb-3">
+              <h3 className="font-bold text-slate-900 text-sm flex items-center gap-2">
+                <Pencil className="w-4 h-4 text-blue-600" />
+                <span>แก้ไขหมวดหมู่วัสดุสิ้นเปลือง</span>
+              </h3>
+              <button onClick={() => setEditingSupplyCat(null)} className="text-slate-400 hover:text-slate-600">
+                <X className="w-4 h-4" />
+              </button>
+            </div>
+            <div className="space-y-3 text-xs">
+              <div>
+                <label className="block font-semibold text-slate-700 mb-1">ชื่อหมวดหมู่เดิม:</label>
+                <input type="text" value={editingSupplyCat.oldName} disabled className="w-full bg-slate-100 border border-slate-200 rounded-lg px-3 py-2 font-bold text-slate-500" />
+              </div>
+              <div>
+                <label className="block font-semibold text-slate-700 mb-1">ชื่อหมวดหมู่ใหม่:</label>
+                <input
+                  type="text"
+                  value={editingSupplyCat.newName}
+                  onChange={(e) => setEditingSupplyCat({ ...editingSupplyCat, newName: e.target.value })}
+                  className="w-full bg-white border border-slate-300 rounded-lg px-3 py-2 font-bold text-slate-900 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                />
+              </div>
+            </div>
+            <div className="flex justify-end space-x-2 pt-2">
+              <button
+                onClick={() => setEditingSupplyCat(null)}
+                className="px-4 py-2 border border-slate-300 hover:bg-slate-50 text-slate-700 rounded-xl text-xs font-bold"
+              >
+                ยกเลิก
+              </button>
+              <button
+                onClick={() => {
+                  if (onUpdateSupplyCategory && editingSupplyCat.newName.trim()) {
+                    onUpdateSupplyCategory(editingSupplyCat.oldName, editingSupplyCat.newName.trim());
+                    onTriggerToast('success', 'แก้ไขหมวดหมู่วัสดุสำเร็จ!', `อัปเดตเป็น ${editingSupplyCat.newName.trim()} เรียบร้อยแล้ว`);
+                  }
+                  setEditingSupplyCat(null);
+                }}
+                className="px-4 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-xl text-xs font-bold shadow-md"
+              >
+                บันทึกการแก้ไข
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* 6. Edit Supply Unit Modal */}
+      {editingSupplyUnit && (
+        <div className="fixed inset-0 z-50 bg-slate-900/40 backdrop-blur-xs flex items-center justify-center p-4">
+          <div className="bg-white rounded-2xl shadow-xl border border-slate-200 w-full max-w-md p-6 space-y-4 animate-in fade-in zoom-in duration-150">
+            <div className="flex items-center justify-between border-b border-slate-100 pb-3">
+              <h3 className="font-bold text-slate-900 text-sm flex items-center gap-2">
+                <Pencil className="w-4 h-4 text-emerald-600" />
+                <span>แก้ไขหน่วยนับพัสดุ</span>
+              </h3>
+              <button onClick={() => setEditingSupplyUnit(null)} className="text-slate-400 hover:text-slate-600">
+                <X className="w-4 h-4" />
+              </button>
+            </div>
+            <div className="space-y-3 text-xs">
+              <div>
+                <label className="block font-semibold text-slate-700 mb-1">ชื่อหน่วยนับเดิม:</label>
+                <input type="text" value={editingSupplyUnit.oldName} disabled className="w-full bg-slate-100 border border-slate-200 rounded-lg px-3 py-2 font-bold text-slate-500" />
+              </div>
+              <div>
+                <label className="block font-semibold text-slate-700 mb-1">ชื่อหน่วยนับใหม่:</label>
+                <input
+                  type="text"
+                  value={editingSupplyUnit.newName}
+                  onChange={(e) => setEditingSupplyUnit({ ...editingSupplyUnit, newName: e.target.value })}
+                  className="w-full bg-white border border-slate-300 rounded-lg px-3 py-2 font-bold text-slate-900 focus:ring-2 focus:ring-emerald-500 focus:outline-none"
+                />
+              </div>
+            </div>
+            <div className="flex justify-end space-x-2 pt-2">
+              <button
+                onClick={() => setEditingSupplyUnit(null)}
+                className="px-4 py-2 border border-slate-300 hover:bg-slate-50 text-slate-700 rounded-xl text-xs font-bold"
+              >
+                ยกเลิก
+              </button>
+              <button
+                onClick={() => {
+                  if (onUpdateSupplyUnit && editingSupplyUnit.newName.trim()) {
+                    onUpdateSupplyUnit(editingSupplyUnit.oldName, editingSupplyUnit.newName.trim());
+                    onTriggerToast('success', 'แก้ไขหน่วยนับสำเร็จ!', `อัปเดตเป็น ${editingSupplyUnit.newName.trim()} เรียบร้อยแล้ว`);
+                  }
+                  setEditingSupplyUnit(null);
+                }}
+                className="px-4 py-2 bg-emerald-600 hover:bg-emerald-500 text-white rounded-xl text-xs font-bold shadow-md"
+              >
+                บันทึกการแก้ไข
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
 
     </div>
   );
