@@ -2,18 +2,20 @@
 
 import React, { useState } from 'react';
 import { UserAccount } from '../../types/user';
-import { Bell, User, Box, ShieldCheck, LogIn, ChevronDown, RefreshCw, UserCheck } from 'lucide-react';
+import { Bell, User, Box, ShieldCheck, LogIn, ChevronDown, LogOut, UserCheck } from 'lucide-react';
 
 interface HeaderProps {
   onOpenAuditScanner: () => void;
   currentUser?: UserAccount | null;
   onOpenLoginModal: () => void;
+  onLogout?: () => void;
 }
 
 export const Header: React.FC<HeaderProps> = ({
   onOpenAuditScanner,
   currentUser,
   onOpenLoginModal,
+  onLogout,
 }) => {
   const [isDropdownOpen, setIsDropdownOpen] = useState<boolean>(false);
 
@@ -92,12 +94,12 @@ export const Header: React.FC<HeaderProps> = ({
                     <button
                       onClick={() => {
                         setIsDropdownOpen(false);
-                        onOpenLoginModal();
+                        if (onLogout) onLogout();
                       }}
-                      className="w-full text-left px-4 py-2.5 hover:bg-blue-50 text-blue-700 font-semibold flex items-center gap-2 transition-colors"
+                      className="w-full text-left px-4 py-2.5 hover:bg-rose-50 text-rose-600 font-semibold flex items-center gap-2 transition-colors"
                     >
-                      <RefreshCw className="w-4 h-4 text-blue-600" />
-                      <span>🔄 สลับบัญชีผู้ใช้งาน</span>
+                      <LogOut className="w-4 h-4 text-rose-500" />
+                      <span>🚪 ออกจากระบบ</span>
                     </button>
                   </div>
                 )}

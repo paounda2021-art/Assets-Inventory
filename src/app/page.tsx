@@ -626,6 +626,15 @@ export default function Home() {
     } catch (e) {}
   };
 
+  const handleLogout = () => {
+    setCurrentUser(null);
+    try {
+      localStorage.removeItem('fmo_asset_user');
+    } catch (e) {}
+    addToast('info', 'ออกจากระบบเรียบร้อย', 'ท่านได้ออกจากระบบแล้ว');
+    setIsLoginModalOpen(true);
+  };
+
   return (
     <div className="min-h-screen flex flex-col bg-slate-100 text-slate-900 font-sans">
       
@@ -637,6 +646,7 @@ export default function Home() {
         onOpenAuditScanner={() => setIsAuditScannerOpen(true)}
         currentUser={currentUser}
         onOpenLoginModal={() => setIsLoginModalOpen(true)}
+        onLogout={handleLogout}
       />
 
       {/* Navigation Modules Navbar */}
