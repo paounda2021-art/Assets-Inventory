@@ -69,7 +69,7 @@ export const DashboardOverview: React.FC<DashboardOverviewProps> = ({
             </div>
           </div>
           <div>
-            <div className="text-[22px] font-extrabold text-slate-900">
+            <div className="text-[32px] font-extrabold text-slate-900 leading-tight">
               ฿{totalPurchaseVal.toLocaleString('th-TH', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
             </div>
             <p className="text-[15px] text-emerald-600 font-medium flex items-center mt-1">
@@ -87,7 +87,7 @@ export const DashboardOverview: React.FC<DashboardOverviewProps> = ({
             </div>
           </div>
           <div>
-            <div className="text-[22px] font-extrabold text-indigo-700">
+            <div className="text-[32px] font-extrabold text-indigo-700 leading-tight">
               ฿{totalBookVal.toLocaleString('th-TH', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
             </div>
             <p className="text-[15px] text-slate-400 mt-1">หักค่าเสื่อมราคาแล้ว</p>
@@ -103,7 +103,7 @@ export const DashboardOverview: React.FC<DashboardOverviewProps> = ({
             </div>
           </div>
           <div>
-            <div className="text-[22px] font-extrabold text-slate-900">
+            <div className="text-[32px] font-extrabold text-slate-900 leading-tight">
               {totalAssetsCount.toLocaleString()} <span className="text-[15px] font-normal text-slate-500">รายการ</span>
             </div>
             <p className="text-[15px] text-emerald-600 mt-1">
@@ -121,7 +121,7 @@ export const DashboardOverview: React.FC<DashboardOverviewProps> = ({
             </div>
           </div>
           <div>
-            <div className="text-[22px] font-extrabold text-rose-600">
+            <div className="text-[32px] font-extrabold text-rose-600 leading-tight">
               {(repairCount + damagedCount).toLocaleString()} <span className="text-[15px] font-normal text-slate-500">รายการ</span>
             </div>
             <p className="text-[15px] text-rose-500 mt-1">
@@ -194,7 +194,7 @@ export const DashboardOverview: React.FC<DashboardOverviewProps> = ({
           <div className="p-4 bg-emerald-50 border border-emerald-200 rounded-xl space-y-3">
             <div className="flex items-center justify-between text-[15px]">
               <span className="font-bold text-emerald-900">ความคืบหน้าการตรวจนับปี 2569:</span>
-              <span className="font-bold text-emerald-700 text-[22px]">
+              <span className="font-bold text-emerald-700 text-[32px]">
                 {auditPercent}% ({auditedCount.toLocaleString()} / {totalAssetsCount.toLocaleString()} ชิ้น)
               </span>
             </div>
@@ -214,7 +214,7 @@ export const DashboardOverview: React.FC<DashboardOverviewProps> = ({
               onClick={onOpenAuditScanner}
               className="w-full py-2.5 bg-emerald-600 hover:bg-emerald-500 text-white text-[15px] font-bold rounded-xl shadow-md shadow-emerald-900/30 transition-all flex items-center justify-center space-x-2"
             >
-              <ShieldCheck className="w-5 h-5" />
+              <ShieldCheck className="w-4 h-4" />
               <span>📱 เปิดระบบสแกน Mobile QR Code Audit Scanner</span>
             </button>
           </div>
