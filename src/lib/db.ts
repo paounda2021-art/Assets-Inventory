@@ -194,17 +194,14 @@ function seedDatabase() {
     insertManySubs();
   }
 
-  // 4. Seed Departments
-  const deptCount = (db.prepare('SELECT COUNT(*) as count FROM departments').get() as { count: number }).count;
-  if (deptCount === 0) {
-    const insertDept = db.prepare('INSERT OR IGNORE INTO departments (code, fullTitle) VALUES (?, ?)');
-    const insertManyDepts = db.transaction(() => {
-      for (const dept of DEPARTMENT_LIST) {
-        insertDept.run(dept.code, dept.fullTitle);
-      }
-    });
-    insertManyDepts();
-  }
+  // 4. Seed & Sync Departments
+  const insertDept = db.prepare('INSERT INTO departments (code, fullTitle) VALUES (?, ?) ON CONFLICT(code) DO UPDATE SET fullTitle = excluded.fullTitle');
+  const insertManyDepts = db.transaction(() => {
+    for (const dept of DEPARTMENT_LIST) {
+      insertDept.run(dept.code, dept.fullTitle);
+    }
+  });
+  insertManyDepts();
 
   // 5. Seed Initial Transfer Record
   const transferCount = (db.prepare('SELECT COUNT(*) as count FROM transfers').get() as { count: number }).count;
