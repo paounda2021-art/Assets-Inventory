@@ -54,18 +54,26 @@ export default function Home() {
   const [transferRecords, setTransferRecords] = useState<AssetTransferRecord[]>([]);
 
   // User Auth & Session State
-  const [currentUser, setCurrentUser] = useState<UserAccount | null>(OFFICIAL_USERS[2]); // Default to ranida.c
+  const [currentUser, setCurrentUser] = useState<UserAccount | null>(null);
   const [isLoginModalOpen, setIsLoginModalOpen] = useState<boolean>(false);
 
   // Load initial data from SQLite via API endpoints
   useEffect(() => {
-    // Restore user session from localStorage if available
+    // Restore user session from localStorage if available, or auto-open login modal
     const savedUserStr = localStorage.getItem('fmo_asset_user');
     if (savedUserStr) {
       try {
         const parsed = JSON.parse(savedUserStr);
-        if (parsed && parsed.username) setCurrentUser(parsed);
-      } catch (e) {}
+        if (parsed && parsed.username) {
+          setCurrentUser(parsed);
+        } else {
+          setIsLoginModalOpen(true);
+        }
+      } catch (e) {
+        setIsLoginModalOpen(true);
+      }
+    } else {
+      setIsLoginModalOpen(true);
     }
 
     async function loadData() {
