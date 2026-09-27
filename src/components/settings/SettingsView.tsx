@@ -300,77 +300,77 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
 
           <button
             onClick={() => setActiveSubMenu('categories')}
-            className={`w-full flex items-center justify-between p-3 rounded-xl text-[14px] font-bold transition-all ${
+            className={`w-full flex items-center justify-between p-3 rounded-xl text-[18px] font-bold transition-all ${
               activeSubMenu === 'categories'
                 ? 'bg-blue-600 text-white shadow-md shadow-blue-600/20'
                 : 'text-slate-700 hover:bg-slate-100'
             }`}
           >
             <div className="flex items-center space-x-2.5">
-              <FolderPlus className="w-4 h-4" />
+              <FolderPlus className="w-5 h-5" />
               <span>1. หมวดหมู่ & ชนิดครุภัณฑ์</span>
             </div>
-            <ChevronRight className={`w-4 h-4 ${activeSubMenu === 'categories' ? 'text-white' : 'text-slate-400'}`} />
+            <ChevronRight className={`w-5 h-5 ${activeSubMenu === 'categories' ? 'text-white' : 'text-slate-400'}`} />
           </button>
 
           <button
             onClick={() => setActiveSubMenu('departments')}
-            className={`w-full flex items-center justify-between p-3 rounded-xl text-[14px] font-bold transition-all ${
+            className={`w-full flex items-center justify-between p-3 rounded-xl text-[18px] font-bold transition-all ${
               activeSubMenu === 'departments'
                 ? 'bg-blue-600 text-white shadow-md shadow-blue-600/20'
                 : 'text-slate-700 hover:bg-slate-100'
             }`}
           >
             <div className="flex items-center space-x-2.5">
-              <Building2 className="w-4 h-4" />
+              <Building2 className="w-5 h-5" />
               <span>2. หน่วยงาน & รหัสผู้รับผิดชอบ</span>
             </div>
-            <ChevronRight className={`w-4 h-4 ${activeSubMenu === 'departments' ? 'text-white' : 'text-slate-400'}`} />
+            <ChevronRight className={`w-5 h-5 ${activeSubMenu === 'departments' ? 'text-white' : 'text-slate-400'}`} />
           </button>
 
           <button
             onClick={() => setActiveSubMenu('supplies')}
-            className={`w-full flex items-center justify-between p-3 rounded-xl text-[14px] font-bold transition-all ${
+            className={`w-full flex items-center justify-between p-3 rounded-xl text-[18px] font-bold transition-all ${
               activeSubMenu === 'supplies'
                 ? 'bg-blue-600 text-white shadow-md shadow-blue-600/20'
                 : 'text-slate-700 hover:bg-slate-100'
             }`}
           >
             <div className="flex items-center space-x-2.5">
-              <Boxes className="w-4 h-4" />
+              <Boxes className="w-5 h-5" />
               <span>3. หมวดหมู่ & หน่วยนับวัสดุ</span>
             </div>
-            <ChevronRight className={`w-4 h-4 ${activeSubMenu === 'supplies' ? 'text-white' : 'text-slate-400'}`} />
+            <ChevronRight className={`w-5 h-5 ${activeSubMenu === 'supplies' ? 'text-white' : 'text-slate-400'}`} />
           </button>
 
           <button
             onClick={() => setActiveSubMenu('depreciation')}
-            className={`w-full flex items-center justify-between p-3 rounded-xl text-[14px] font-bold transition-all ${
+            className={`w-full flex items-center justify-between p-3 rounded-xl text-[18px] font-bold transition-all ${
               activeSubMenu === 'depreciation'
                 ? 'bg-blue-600 text-white shadow-md shadow-blue-600/20'
                 : 'text-slate-700 hover:bg-slate-100'
             }`}
           >
             <div className="flex items-center space-x-2.5">
-              <TrendingDown className="w-4 h-4" />
+              <TrendingDown className="w-5 h-5" />
               <span>4. ค่าเสื่อมราคา & สถานะ</span>
             </div>
-            <ChevronRight className={`w-4 h-4 ${activeSubMenu === 'depreciation' ? 'text-white' : 'text-slate-400'}`} />
+            <ChevronRight className={`w-5 h-5 ${activeSubMenu === 'depreciation' ? 'text-white' : 'text-slate-400'}`} />
           </button>
 
           <button
             onClick={() => setActiveSubMenu('organization')}
-            className={`w-full flex items-center justify-between p-3 rounded-xl text-[14px] font-bold transition-all ${
+            className={`w-full flex items-center justify-between p-3 rounded-xl text-[18px] font-bold transition-all ${
               activeSubMenu === 'organization'
                 ? 'bg-blue-600 text-white shadow-md shadow-blue-600/20'
                 : 'text-slate-700 hover:bg-slate-100'
             }`}
           >
             <div className="flex items-center space-x-2.5">
-              <ShieldCheck className="w-4 h-4" />
+              <ShieldCheck className="w-5 h-5" />
               <span>5. ข้อมูลองค์กร & ผู้อนุมัติ</span>
             </div>
-            <ChevronRight className={`w-4 h-4 ${activeSubMenu === 'organization' ? 'text-white' : 'text-slate-400'}`} />
+            <ChevronRight className={`w-5 h-5 ${activeSubMenu === 'organization' ? 'text-white' : 'text-slate-400'}`} />
           </button>
 
           <div className="pt-3 border-t border-slate-100 p-2">
