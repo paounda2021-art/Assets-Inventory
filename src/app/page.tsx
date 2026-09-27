@@ -146,6 +146,16 @@ export default function Home() {
     }
   };
 
+  const handleAddMaintenanceRecord = (record: MaintenanceRecord) => {
+    setMaintenanceRecords(prev => [record, ...prev]);
+    addToast('success', 'บันทึกแจ้งซ่อมสำเร็จ!', `ลงทะเบียนแจ้งซ่อมครุภัณฑ์ ${record.assetCode} (${record.assetName}) เรียบร้อยแล้ว`);
+  };
+
+  const handleUpdateMaintenanceStatus = (id: string, status: 'pending' | 'in_progress' | 'completed' | 'cancelled') => {
+    setMaintenanceRecords(prev => prev.map(m => m.id === id ? { ...m, status } : m));
+    addToast('info', 'อัปเดตสถานะการซ่อม', `ปรับเปลี่ยนสถานะการซ่อมเรียบร้อยแล้ว`);
+  };
+
   // Master Handlers
   const handleAddCategory = async (newCat: CategoryOption) => {
     setCategories(prev => [...prev, newCat]);
@@ -653,7 +663,12 @@ export default function Home() {
 
         {/* Tab 4: Maintenance */}
         {activeTab === 'maintenance' && (
-          <MaintenanceList records={maintenanceRecords} />
+          <MaintenanceList
+            records={maintenanceRecords}
+            assets={assets}
+            onAddRecord={handleAddMaintenanceRecord}
+            onUpdateStatus={handleUpdateMaintenanceStatus}
+          />
         )}
 
         {/* Tab 5: Audit & Disposal */}
