@@ -98,7 +98,7 @@ export const LoginModal: React.FC<LoginModalProps> = ({
         </div>
 
         {/* Modal Body / Login Form */}
-        <div className="p-6 space-y-5 text-[18px]">
+        <div className="p-6 space-y-5">
           {errorMsg && (
             <div className="p-3 bg-rose-50 border border-rose-200 text-rose-700 rounded-xl text-[15px] font-semibold flex items-start gap-2">
               <span className="text-base">⚠️</span>
@@ -120,8 +120,8 @@ export const LoginModal: React.FC<LoginModalProps> = ({
                   value={username}
                   onChange={e => setUsername(e.target.value)}
                   placeholder="ระบุชื่อผู้ใช้งาน เช่น ranida.c"
-                  style={{ fontSize: '18px' }}
-                  className="w-full pl-11 pr-4 py-2.5 bg-slate-50 border border-slate-300 rounded-xl text-slate-900 font-mono font-medium outline-none focus:bg-white focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all text-[18px]"
+                  style={{ fontSize: '16px' }}
+                  className="w-full pl-11 pr-4 py-2.5 bg-slate-50 border border-slate-300 rounded-xl text-slate-900 font-mono font-medium outline-none focus:bg-white focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all text-[16px]"
                 />
               </div>
             </div>
@@ -138,8 +138,8 @@ export const LoginModal: React.FC<LoginModalProps> = ({
                   value={password}
                   onChange={e => setPassword(e.target.value)}
                   placeholder="รหัสพนักงาน 0717xxxx"
-                  style={{ fontSize: '18px' }}
-                  className="w-full pl-11 pr-4 py-2.5 bg-slate-50 border border-slate-300 rounded-xl text-slate-900 font-mono font-medium outline-none focus:bg-white focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all text-[18px]"
+                  style={{ fontSize: '16px' }}
+                  className="w-full pl-11 pr-4 py-2.5 bg-slate-50 border border-slate-300 rounded-xl text-slate-900 font-mono font-medium outline-none focus:bg-white focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all text-[16px]"
                 />
               </div>
             </div>
