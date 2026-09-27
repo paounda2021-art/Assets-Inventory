@@ -20,9 +20,11 @@ import {
   Building2, 
   FileText
 } from 'lucide-react';
+import { DEPARTMENT_LIST, DepartmentItem } from '../../data/departments';
 
 interface SuppliesListProps {
   supplies: SupplyItem[];
+  departments?: DepartmentItem[];
   onAddSupply?: (newItem: SupplyItem) => void;
   onUpdateSupply?: (updatedItem: SupplyItem) => void;
   onDeleteSupply?: (id: string) => void;
@@ -59,6 +61,7 @@ const UNIT_OPTIONS = [
 
 export const SuppliesList: React.FC<SuppliesListProps> = ({
   supplies,
+  departments = DEPARTMENT_LIST,
   onAddSupply,
   onUpdateSupply,
   onDeleteSupply,
@@ -643,12 +646,17 @@ export const SuppliesList: React.FC<SuppliesListProps> = ({
 
               <div>
                 <label className="block font-semibold text-slate-700 mb-1">หน่วยงานที่ขอเบิก:</label>
-                <input
-                  type="text"
+                <select
                   value={disburseDept}
                   onChange={(e) => setDisburseDept(e.target.value)}
-                  className="w-full border border-slate-300 rounded-lg px-3 py-1.5 text-xs font-semibold focus:ring-2 focus:ring-blue-500 focus:outline-none"
-                />
+                  className="w-full bg-white border border-slate-300 rounded-lg px-3 py-1.5 text-xs font-bold text-blue-900 focus:ring-2 focus:ring-blue-500 focus:outline-none cursor-pointer"
+                >
+                  {departments.map((dept, idx) => (
+                    <option key={`${dept.code}-${idx}`} value={dept.fullTitle}>
+                      {dept.fullTitle} ({dept.code})
+                    </option>
+                  ))}
+                </select>
               </div>
 
               <div>

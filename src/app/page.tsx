@@ -551,6 +551,7 @@ export default function Home() {
         {activeTab === 'supplies' && (
           <SuppliesList
             supplies={supplies}
+            departments={departments}
             onAddSupply={handleAddSupply}
             onUpdateSupply={handleUpdateSupply}
             onDeleteSupply={handleDeleteSupply}
