@@ -32,6 +32,7 @@ interface AssetTableProps {
   onOpenImportModal: () => void;
   onOpenQRPrintModal: (assets: Asset[]) => void;
   onOpenTransferModal?: (assets: Asset[]) => void;
+  onOpenDisburseModal?: (assets: Asset[]) => void;
   onTriggerToast: (type: 'success' | 'error' | 'warning' | 'info', title: string, message?: string) => void;
 }
 
@@ -44,6 +45,7 @@ export const AssetTable: React.FC<AssetTableProps> = ({
   onOpenImportModal,
   onOpenQRPrintModal,
   onOpenTransferModal,
+  onOpenDisburseModal,
   onTriggerToast,
 }) => {
   // Filters State
@@ -260,6 +262,19 @@ export const AssetTable: React.FC<AssetTableProps> = ({
           >
             <Truck className="w-3.5 h-3.5" />
             <span>🚚 ทำเรื่องโอนย้าย</span>
+          </button>
+
+          <button
+            disabled={selectedIds.length === 0}
+            onClick={() => onOpenDisburseModal ? onOpenDisburseModal(selectedAssetObjects) : null}
+            className={`flex items-center space-x-1.5 text-xs px-3 py-2 rounded-lg font-medium transition-all ${
+              selectedIds.length > 0
+                ? 'bg-blue-600 text-white hover:bg-blue-500 shadow-sm'
+                : 'bg-slate-200 text-slate-400 cursor-not-allowed'
+            }`}
+          >
+            <Plus className="w-3.5 h-3.5" />
+            <span>📤 เบิกจ่ายประจำตัว</span>
           </button>
 
           <button

@@ -17,6 +17,7 @@ import { MaintenanceList } from '../components/maintenance/MaintenanceList';
 import { SettingsView, CategoryOption, TypeOption, ResponsibleOption } from '../components/settings/SettingsView';
 import { TransactionsList } from '../components/transactions/TransactionsList';
 import { TransferAssetModal } from '../components/transactions/TransferAssetModal';
+import { DisbursePersonalModal } from '../components/transactions/DisbursePersonalModal';
 import { ToastContainer, ToastMessage, ToastType } from '../components/ui/Toast';
 
 import { INITIAL_SUPPLIES, INITIAL_MAINTENANCE } from '../data/mockAssets';
@@ -107,13 +108,21 @@ export default function Home() {
     loadData();
   }, []);
 
-  // Transfer Modals State
+  // Transfer & Disbursement Modals State
   const [isTransferModalOpen, setIsTransferModalOpen] = useState<boolean>(false);
   const [transferSelectedAssets, setTransferSelectedAssets] = useState<Asset[]>([]);
+
+  const [isDisburseModalOpen, setIsDisburseModalOpen] = useState<boolean>(false);
+  const [disburseSelectedAssets, setDisburseSelectedAssets] = useState<Asset[]>([]);
 
   const handleOpenTransferModal = (selected: Asset[] = []) => {
     setTransferSelectedAssets(selected);
     setIsTransferModalOpen(true);
+  };
+
+  const handleOpenDisburseModal = (selected: Asset[] = []) => {
+    setDisburseSelectedAssets(selected);
+    setIsDisburseModalOpen(true);
   };
 
   const handleConfirmTransfer = async (record: AssetTransferRecord, updatedAssetItems: Asset[]) => {
@@ -612,6 +621,7 @@ export default function Home() {
             onOpenImportModal={() => setIsImportOpen(true)}
             onOpenQRPrintModal={(selectedAssets) => setQrPrintAssets(selectedAssets)}
             onOpenTransferModal={handleOpenTransferModal}
+            onOpenDisburseModal={handleOpenDisburseModal}
             onTriggerToast={addToast}
           />
         )}
@@ -636,6 +646,7 @@ export default function Home() {
             assets={assets}
             transferRecords={transferRecords}
             onOpenTransferModal={handleOpenTransferModal}
+            onOpenDisburseModal={handleOpenDisburseModal}
             onTriggerToast={addToast}
           />
         )}
@@ -751,6 +762,15 @@ export default function Home() {
         allAssets={assets}
         departments={departments}
         onConfirmTransfer={handleConfirmTransfer}
+      />
+
+      <DisbursePersonalModal
+        isOpen={isDisburseModalOpen}
+        onClose={() => setIsDisburseModalOpen(false)}
+        selectedAssets={disburseSelectedAssets}
+        allAssets={assets}
+        departments={departments}
+        onConfirmDisburse={handleConfirmTransfer}
       />
 
       {/* Footer */}

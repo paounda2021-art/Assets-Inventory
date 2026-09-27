@@ -3,7 +3,7 @@ export type AssetStatus = 'active' | 'repair' | 'damaged' | 'pending_disposal' |
 export interface AssetHistory {
   id: string;
   date: string;
-  type: 'audit' | 'transfer' | 'registration' | 'repair' | 'disposal' | 'issuance';
+  type: 'audit' | 'transfer' | 'registration' | 'repair' | 'disposal' | 'issuance' | 'disbursement';
   title: string;
   by: string;
   detail: string;

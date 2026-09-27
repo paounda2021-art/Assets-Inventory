@@ -24,6 +24,7 @@ interface TransactionsListProps {
   assets: Asset[];
   transferRecords: AssetTransferRecord[];
   onOpenTransferModal: (selectedAssets?: Asset[]) => void;
+  onOpenDisburseModal?: (selectedAssets?: Asset[]) => void;
   onTriggerToast: (type: 'success' | 'error' | 'warning' | 'info', title: string, message?: string) => void;
 }
 
@@ -31,6 +32,7 @@ export const TransactionsList: React.FC<TransactionsListProps> = ({
   assets,
   transferRecords,
   onOpenTransferModal,
+  onOpenDisburseModal,
   onTriggerToast,
 }) => {
   const [searchQuery, setSearchQuery] = useState<string>('');
@@ -80,7 +82,7 @@ export const TransactionsList: React.FC<TransactionsListProps> = ({
             <span>🚚 ทำเรื่องโอนย้ายครุภัณฑ์</span>
           </button>
           <button
-            onClick={() => onTriggerToast('info', 'เบิกจ่ายครุภัณฑ์', 'ระบบบันทึกเบิกจ่ายอุปกรณ์ส่วนตัวกำลังเปิดใช้งาน')}
+            onClick={() => onOpenDisburseModal ? onOpenDisburseModal() : onTriggerToast('info', 'เบิกจ่ายครุภัณฑ์', 'ระบบบันทึกเบิกจ่ายอุปกรณ์ส่วนตัวกำลังเปิดใช้งาน')}
             className="flex items-center space-x-1.5 px-4 py-2 bg-blue-600 hover:bg-blue-500 text-white text-xs font-bold rounded-xl shadow-md transition-colors"
           >
             <Plus className="w-4 h-4" />
