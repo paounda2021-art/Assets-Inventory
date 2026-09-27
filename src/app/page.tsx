@@ -71,6 +71,13 @@ export default function Home() {
         if (jsonTransfers.success && jsonTransfers.data) {
           setTransferRecords(jsonTransfers.data);
         }
+
+        // 4. Fetch Supplies
+        const resSupplies = await fetch('/api/supplies');
+        const jsonSupplies = await resSupplies.json();
+        if (jsonSupplies.success && jsonSupplies.data && jsonSupplies.data.length > 0) {
+          setSupplies(jsonSupplies.data);
+        }
       } catch (err) {
         console.error('Failed to fetch initial data from SQLite backend:', err);
       }
@@ -238,16 +245,95 @@ export default function Home() {
     }
   };
 
-  const handleDisburseSupply = (id: string, qty: number) => {
+  const handleAddSupply = async (newSupply: SupplyItem) => {
+    setSupplies(prev => [newSupply, ...prev]);
+    try {
+      await fetch('/api/supplies', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(newSupply)
+      });
+    } catch (err) {
+      console.error('Failed to save new supply to SQLite:', err);
+    }
+  };
+
+  const handleUpdateSupply = async (updatedSupply: SupplyItem) => {
+    setSupplies(prev => prev.map(s => s.id === updatedSupply.id ? updatedSupply : s));
+    try {
+      await fetch('/api/supplies', {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(updatedSupply)
+      });
+    } catch (err) {
+      console.error('Failed to update supply in SQLite:', err);
+    }
+  };
+
+  const handleDeleteSupply = async (id: string) => {
+    setSupplies(prev => prev.filter(s => s.id !== id));
+    try {
+      await fetch(`/api/supplies?id=${encodeURIComponent(id)}`, {
+        method: 'DELETE'
+      });
+    } catch (err) {
+      console.error('Failed to delete supply in SQLite:', err);
+    }
+  };
+
+  const handleDisburseSupply = async (id: string, qty: number, requester?: string, department?: string, note?: string) => {
+    let targetItem: SupplyItem | null = null;
     setSupplies(prev => prev.map(item => {
       if (item.id === id) {
-        return {
+        targetItem = {
           ...item,
           currentStock: Math.max(0, item.currentStock - qty)
         };
+        return targetItem;
       }
       return item;
     }));
+
+    if (targetItem) {
+      try {
+        await fetch('/api/supplies', {
+          method: 'PUT',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(targetItem)
+        });
+      } catch (err) {
+        console.error('Failed to sync disburse supply:', err);
+      }
+    }
+  };
+
+  const handleRestockSupply = async (id: string, qty: number, unitPrice?: number, supplier?: string) => {
+    let targetItem: SupplyItem | null = null;
+    setSupplies(prev => prev.map(item => {
+      if (item.id === id) {
+        targetItem = {
+          ...item,
+          currentStock: item.currentStock + qty,
+          unitPrice: (unitPrice && unitPrice > 0) ? unitPrice : item.unitPrice,
+          lastRestockDate: new Date().toISOString().substring(0, 10)
+        };
+        return targetItem;
+      }
+      return item;
+    }));
+
+    if (targetItem) {
+      try {
+        await fetch('/api/supplies', {
+          method: 'PUT',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(targetItem)
+        });
+      } catch (err) {
+        console.error('Failed to sync restock supply:', err);
+      }
+    }
   };
 
   const handleConfirmAudit = async (assetId: string, note: string) => {
@@ -330,7 +416,11 @@ export default function Home() {
         {activeTab === 'supplies' && (
           <SuppliesList
             supplies={supplies}
+            onAddSupply={handleAddSupply}
+            onUpdateSupply={handleUpdateSupply}
+            onDeleteSupply={handleDeleteSupply}
             onDisburse={handleDisburseSupply}
+            onRestock={handleRestockSupply}
             onTriggerToast={addToast}
           />
         )}

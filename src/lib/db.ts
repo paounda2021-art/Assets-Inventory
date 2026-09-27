@@ -2,10 +2,11 @@ import Database from 'better-sqlite3';
 import path from 'path';
 import fs from 'fs';
 import { REAL_EXCEL_ASSETS } from '../data/excelAssets';
+import { INITIAL_SUPPLIES } from '../data/mockAssets';
 import { DEPARTMENT_LIST } from '../data/departments';
 import { CATEGORY_CODES, TYPE_CODES } from './codeGenerator';
 import { formatThaiDate } from './dateUtils';
-import { Asset } from '../types/asset';
+import { Asset, SupplyItem } from '../types/asset';
 
 const dbDir = path.join(process.cwd(), 'data');
 if (!fs.existsSync(dbDir)) {
@@ -82,6 +83,18 @@ db.exec(`
     attachmentName TEXT,
     attachmentUrl TEXT,
     status TEXT NOT NULL
+  );
+
+  CREATE TABLE IF NOT EXISTS supplies (
+    id TEXT PRIMARY KEY,
+    code TEXT NOT NULL,
+    name TEXT NOT NULL,
+    category TEXT NOT NULL,
+    unit TEXT NOT NULL,
+    minStock INTEGER NOT NULL,
+    currentStock INTEGER NOT NULL,
+    unitPrice REAL NOT NULL,
+    lastRestockDate TEXT
   );
 `);
 
@@ -205,8 +218,48 @@ function seedDatabase() {
       'completed'
     );
   }
+
+  // 6. Seed Supplies
+  const supplyCount = (db.prepare('SELECT COUNT(*) as count FROM supplies').get() as { count: number }).count;
+  if (supplyCount === 0) {
+    const insertSupply = db.prepare(`
+      INSERT OR IGNORE INTO supplies (id, code, name, category, unit, minStock, currentStock, unitPrice, lastRestockDate)
+      VALUES (@id, @code, @name, @category, @unit, @minStock, @currentStock, @unitPrice, @lastRestockDate)
+    `);
+    const insertManySupplies = db.transaction(() => {
+      for (const item of INITIAL_SUPPLIES) {
+        insertSupply.run(item);
+      }
+    });
+    insertManySupplies();
+  }
 }
 
 seedDatabase();
+
+export function getAllSupplies(): SupplyItem[] {
+  return db.prepare('SELECT * FROM supplies ORDER BY code ASC').all() as SupplyItem[];
+}
+
+export function saveSupply(item: SupplyItem) {
+  const stmt = db.prepare(`
+    INSERT INTO supplies (id, code, name, category, unit, minStock, currentStock, unitPrice, lastRestockDate)
+    VALUES (@id, @code, @name, @category, @unit, @minStock, @currentStock, @unitPrice, @lastRestockDate)
+    ON CONFLICT(id) DO UPDATE SET
+      code = excluded.code,
+      name = excluded.name,
+      category = excluded.category,
+      unit = excluded.unit,
+      minStock = excluded.minStock,
+      currentStock = excluded.currentStock,
+      unitPrice = excluded.unitPrice,
+      lastRestockDate = excluded.lastRestockDate
+  `);
+  stmt.run(item);
+}
+
+export function deleteSupply(id: string) {
+  db.prepare('DELETE FROM supplies WHERE id = ?').run(id);
+}
 
 export default db;
