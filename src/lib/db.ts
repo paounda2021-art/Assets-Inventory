@@ -4,7 +4,7 @@ import fs from 'fs';
 import { REAL_EXCEL_ASSETS } from '../data/excelAssets';
 import { INITIAL_SUPPLIES } from '../data/mockAssets';
 import { DEPARTMENT_LIST } from '../data/departments';
-import { CATEGORY_CODES, TYPE_CODES } from './codeGenerator';
+import { CATEGORY_CODES, TYPE_CODES, RESPONSIBLE_CODES } from './codeGenerator';
 import { formatThaiDate } from './dateUtils';
 import { Asset, SupplyItem } from '../types/asset';
 
@@ -95,6 +95,24 @@ db.exec(`
     currentStock INTEGER NOT NULL,
     unitPrice REAL NOT NULL,
     lastRestockDate TEXT
+  );
+
+  CREATE TABLE IF NOT EXISTS responsible_codes (
+    code TEXT PRIMARY KEY,
+    name TEXT NOT NULL
+  );
+
+  CREATE TABLE IF NOT EXISTS supply_categories (
+    name TEXT PRIMARY KEY
+  );
+
+  CREATE TABLE IF NOT EXISTS supply_units (
+    name TEXT PRIMARY KEY
+  );
+
+  CREATE TABLE IF NOT EXISTS system_config (
+    key TEXT PRIMARY KEY,
+    value TEXT NOT NULL
   );
 `);
 
@@ -233,6 +251,63 @@ function seedDatabase() {
     });
     insertManySupplies();
   }
+
+  // 7. Seed Responsible Codes
+  const respCount = (db.prepare('SELECT COUNT(*) as count FROM responsible_codes').get() as { count: number }).count;
+  if (respCount === 0) {
+    const insertResp = db.prepare('INSERT OR IGNORE INTO responsible_codes (code, name) VALUES (?, ?)');
+    const insertManyResp = db.transaction(() => {
+      for (const r of RESPONSIBLE_CODES) {
+        insertResp.run(r.code, r.name);
+      }
+    });
+    insertManyResp();
+  }
+
+  // 8. Seed Supply Categories
+  const supCatCount = (db.prepare('SELECT COUNT(*) as count FROM supply_categories').get() as { count: number }).count;
+  if (supCatCount === 0) {
+    const insertSupCat = db.prepare('INSERT OR IGNORE INTO supply_categories (name) VALUES (?)');
+    const defaultCats = ['วัสดุสำนักงาน', 'เครื่องเขียน', 'วัสดุคอมพิวเตอร์', 'วัสดุงานบ้านงานครัว', 'วัสดุไฟฟ้าและวิทยุ', 'วัสดุการเกษตร', 'อื่นๆ'];
+    const insertManySupCats = db.transaction(() => {
+      for (const c of defaultCats) {
+        insertSupCat.run(c);
+      }
+    });
+    insertManySupCats();
+  }
+
+  // 9. Seed Supply Units
+  const supUnitCount = (db.prepare('SELECT COUNT(*) as count FROM supply_units').get() as { count: number }).count;
+  if (supUnitCount === 0) {
+    const insertUnit = db.prepare('INSERT OR IGNORE INTO supply_units (name) VALUES (?)');
+    const defaultUnits = ['รีม', 'ด้าม', 'ตลับ', 'กล่อง', 'แผ่น', 'ชุด', 'เครื่อง', 'พวง', 'ม้วน', 'เล่ม', 'อัน', 'ขวด', 'ถุง'];
+    const insertManyUnits = db.transaction(() => {
+      for (const u of defaultUnits) {
+        insertUnit.run(u);
+      }
+    });
+    insertManyUnits();
+  }
+
+  // 10. Seed System Config
+  const cfgCount = (db.prepare('SELECT COUNT(*) as count FROM system_config').get() as { count: number }).count;
+  if (cfgCount === 0) {
+    const insertCfg = db.prepare('INSERT OR IGNORE INTO system_config (key, value) VALUES (?, ?)');
+    const defaultConfigs: Record<string, string> = {
+      orgName: 'องค์การสะพานปลา (Fish Marketing Organization)',
+      fiscalYear: '2569',
+      defaultApprover: 'ผู้อำนวยการองค์การสะพานปลา',
+      defaultDepreciationMethod: '20% ต่อปี (เส้นตรง)',
+      defaultUsefulLife: '5'
+    };
+    const insertManyCfgs = db.transaction(() => {
+      for (const [k, v] of Object.entries(defaultConfigs)) {
+        insertCfg.run(k, v);
+      }
+    });
+    insertManyCfgs();
+  }
 }
 
 seedDatabase();
@@ -260,6 +335,64 @@ export function saveSupply(item: SupplyItem) {
 
 export function deleteSupply(id: string) {
   db.prepare('DELETE FROM supplies WHERE id = ?').run(id);
+}
+
+export function getSettingsData() {
+  const categories = db.prepare('SELECT code, name FROM categories ORDER BY code ASC').all();
+  const subtypesRaw = db.prepare('SELECT categoryCode, code, name FROM subtypes ORDER BY code ASC').all() as any[];
+  const departments = db.prepare('SELECT code, fullTitle FROM departments ORDER BY code ASC').all();
+  const responsibleCodes = db.prepare('SELECT code, name FROM responsible_codes ORDER BY code ASC').all();
+  const supplyCategories = db.prepare('SELECT name FROM supply_categories ORDER BY name ASC').all().map((r: any) => r.name);
+  const supplyUnits = db.prepare('SELECT name FROM supply_units ORDER BY name ASC').all().map((r: any) => r.name);
+  const configRows = db.prepare('SELECT key, value FROM system_config').all() as any[];
+
+  const typeCodesMap: Record<string, { code: string; name: string }[]> = {};
+  for (const sub of subtypesRaw) {
+    if (!typeCodesMap[sub.categoryCode]) {
+      typeCodesMap[sub.categoryCode] = [];
+    }
+    typeCodesMap[sub.categoryCode].push({ code: sub.code, name: sub.name });
+  }
+
+  const systemConfig: Record<string, string> = {};
+  for (const cfg of configRows) {
+    systemConfig[cfg.key] = cfg.value;
+  }
+
+  return {
+    categories,
+    typeCodesMap,
+    departments,
+    responsibleCodes,
+    supplyCategories,
+    supplyUnits,
+    systemConfig
+  };
+}
+
+export function deleteCategory(code: string) {
+  db.prepare('DELETE FROM categories WHERE code = ?').run(code);
+  db.prepare('DELETE FROM subtypes WHERE categoryCode = ?').run(code);
+}
+
+export function deleteSubtype(categoryCode: string, code: string) {
+  db.prepare('DELETE FROM subtypes WHERE categoryCode = ? AND code = ?').run(categoryCode, code);
+}
+
+export function deleteDepartment(code: string) {
+  db.prepare('DELETE FROM departments WHERE code = ?').run(code);
+}
+
+export function deleteResponsibleCode(code: string) {
+  db.prepare('DELETE FROM responsible_codes WHERE code = ?').run(code);
+}
+
+export function deleteSupplyCategory(name: string) {
+  db.prepare('DELETE FROM supply_categories WHERE name = ?').run(name);
+}
+
+export function deleteSupplyUnit(name: string) {
+  db.prepare('DELETE FROM supply_units WHERE name = ?').run(name);
 }
 
 export default db;

@@ -14,7 +14,7 @@ import { ImportAssetModal } from '../components/assets/ImportAssetModal';
 import { DashboardOverview } from '../components/dashboard/DashboardOverview';
 import { SuppliesList } from '../components/inventory/SuppliesList';
 import { MaintenanceList } from '../components/maintenance/MaintenanceList';
-import { SettingsView, CategoryOption, TypeOption } from '../components/settings/SettingsView';
+import { SettingsView, CategoryOption, TypeOption, ResponsibleOption } from '../components/settings/SettingsView';
 import { TransactionsList } from '../components/transactions/TransactionsList';
 import { TransferAssetModal } from '../components/transactions/TransferAssetModal';
 import { ToastContainer, ToastMessage, ToastType } from '../components/ui/Toast';
@@ -22,16 +22,26 @@ import { ToastContainer, ToastMessage, ToastType } from '../components/ui/Toast'
 import { INITIAL_SUPPLIES, INITIAL_MAINTENANCE } from '../data/mockAssets';
 import { REAL_EXCEL_ASSETS } from '../data/excelAssets';
 import { DEPARTMENT_LIST, DepartmentItem } from '../data/departments';
-import { CATEGORY_CODES, TYPE_CODES } from '../lib/codeGenerator';
+import { CATEGORY_CODES, TYPE_CODES, RESPONSIBLE_CODES } from '../lib/codeGenerator';
 import { Asset, SupplyItem, MaintenanceRecord, AssetTransferRecord } from '../types/asset';
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState<TabType>('assets');
   
-  // Master Configuration State (Categories, Subtypes, Departments)
+  // Master Configuration State (Categories, Subtypes, Departments, Responsible Codes, Supply Masters, Config)
   const [categories, setCategories] = useState<CategoryOption[]>(CATEGORY_CODES);
   const [typeCodesMap, setTypeCodesMap] = useState<Record<string, TypeOption[]>>(TYPE_CODES);
   const [departments, setDepartments] = useState<DepartmentItem[]>(DEPARTMENT_LIST);
+  const [responsibleCodes, setResponsibleCodes] = useState<ResponsibleOption[]>(RESPONSIBLE_CODES);
+  const [supplyCategories, setSupplyCategories] = useState<string[]>(['วัสดุสำนักงาน', 'เครื่องเขียน', 'วัสดุคอมพิวเตอร์', 'วัสดุงานบ้านงานครัว', 'วัสดุไฟฟ้าและวิทยุ', 'วัสดุการเกษตร', 'อื่นๆ']);
+  const [supplyUnits, setSupplyUnits] = useState<string[]>(['รีม', 'ด้าม', 'ตลับ', 'กล่อง', 'แผ่น', 'ชุด', 'เครื่อง', 'พวง', 'ม้วน', 'เล่ม', 'อัน', 'ขวด', 'ถุง']);
+  const [systemConfig, setSystemConfig] = useState<Record<string, string>>({
+    orgName: 'องค์การสะพานปลา (Fish Marketing Organization)',
+    fiscalYear: '2569',
+    defaultApprover: 'ผู้อำนวยการองค์การสะพานปลา',
+    defaultDepreciationMethod: '20% ต่อปี (เส้นตรง)',
+    defaultUsefulLife: '5'
+  });
 
   // State Data (Only real 542 records from Excel file)
   const [assets, setAssets] = useState<Asset[]>(REAL_EXCEL_ASSETS);
@@ -62,6 +72,18 @@ export default function Home() {
           }
           if (jsonSettings.data.departments?.length > 0) {
             setDepartments(jsonSettings.data.departments);
+          }
+          if (jsonSettings.data.responsibleCodes?.length > 0) {
+            setResponsibleCodes(jsonSettings.data.responsibleCodes);
+          }
+          if (jsonSettings.data.supplyCategories?.length > 0) {
+            setSupplyCategories(jsonSettings.data.supplyCategories);
+          }
+          if (jsonSettings.data.supplyUnits?.length > 0) {
+            setSupplyUnits(jsonSettings.data.supplyUnits);
+          }
+          if (jsonSettings.data.systemConfig) {
+            setSystemConfig(jsonSettings.data.systemConfig);
           }
         }
 
@@ -156,6 +178,119 @@ export default function Home() {
     } catch (err) {
       console.error('Failed to sync new department:', err);
     }
+  };
+
+  const handleDeleteCategory = async (code: string) => {
+    setCategories(prev => prev.filter(c => c.code !== code));
+    try {
+      await fetch('/api/settings', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ action: 'deleteCategory', data: { code } })
+      });
+    } catch (err) { console.error('Failed to delete category:', err); }
+  };
+
+  const handleDeleteType = async (categoryCode: string, code: string) => {
+    setTypeCodesMap(prev => ({
+      ...prev,
+      [categoryCode]: (prev[categoryCode] || []).filter(t => t.code !== code)
+    }));
+    try {
+      await fetch('/api/settings', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ action: 'deleteType', data: { categoryCode, code } })
+      });
+    } catch (err) { console.error('Failed to delete type:', err); }
+  };
+
+  const handleDeleteDepartment = async (code: string) => {
+    setDepartments(prev => prev.filter(d => d.code !== code));
+    try {
+      await fetch('/api/settings', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ action: 'deleteDepartment', data: { code } })
+      });
+    } catch (err) { console.error('Failed to delete department:', err); }
+  };
+
+  const handleAddResponsibleCode = async (resp: ResponsibleOption) => {
+    setResponsibleCodes(prev => [resp, ...prev]);
+    try {
+      await fetch('/api/settings', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ action: 'addResponsibleCode', data: resp })
+      });
+    } catch (err) { console.error('Failed to add responsible code:', err); }
+  };
+
+  const handleDeleteResponsibleCode = async (code: string) => {
+    setResponsibleCodes(prev => prev.filter(r => r.code !== code));
+    try {
+      await fetch('/api/settings', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ action: 'deleteResponsibleCode', data: { code } })
+      });
+    } catch (err) { console.error('Failed to delete responsible code:', err); }
+  };
+
+  const handleAddSupplyCategory = async (name: string) => {
+    setSupplyCategories(prev => [...new Set([name, ...prev])]);
+    try {
+      await fetch('/api/settings', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ action: 'addSupplyCategory', data: { name } })
+      });
+    } catch (err) { console.error('Failed to add supply category:', err); }
+  };
+
+  const handleDeleteSupplyCategory = async (name: string) => {
+    setSupplyCategories(prev => prev.filter(c => c !== name));
+    try {
+      await fetch('/api/settings', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ action: 'deleteSupplyCategory', data: { name } })
+      });
+    } catch (err) { console.error('Failed to delete supply category:', err); }
+  };
+
+  const handleAddSupplyUnit = async (name: string) => {
+    setSupplyUnits(prev => [...new Set([name, ...prev])]);
+    try {
+      await fetch('/api/settings', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ action: 'addSupplyUnit', data: { name } })
+      });
+    } catch (err) { console.error('Failed to add supply unit:', err); }
+  };
+
+  const handleDeleteSupplyUnit = async (name: string) => {
+    setSupplyUnits(prev => prev.filter(u => u !== name));
+    try {
+      await fetch('/api/settings', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ action: 'deleteSupplyUnit', data: { name } })
+      });
+    } catch (err) { console.error('Failed to delete supply unit:', err); }
+  };
+
+  const handleSaveConfig = async (key: string, value: string) => {
+    setSystemConfig(prev => ({ ...prev, [key]: value }));
+    try {
+      await fetch('/api/settings', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ action: 'saveSystemConfig', data: { key, value } })
+      });
+    } catch (err) { console.error('Failed to save config:', err); }
   };
 
   // Toast Notifications State
@@ -462,9 +597,23 @@ export default function Home() {
             categories={categories}
             typeCodesMap={typeCodesMap}
             departments={departments}
+            responsibleCodes={responsibleCodes}
+            supplyCategories={supplyCategories}
+            supplyUnits={supplyUnits}
+            systemConfig={systemConfig}
             onAddCategory={handleAddCategory}
+            onDeleteCategory={handleDeleteCategory}
             onAddType={handleAddType}
+            onDeleteType={handleDeleteType}
             onAddDepartment={handleAddDepartment}
+            onDeleteDepartment={handleDeleteDepartment}
+            onAddResponsibleCode={handleAddResponsibleCode}
+            onDeleteResponsibleCode={handleDeleteResponsibleCode}
+            onAddSupplyCategory={handleAddSupplyCategory}
+            onDeleteSupplyCategory={handleDeleteSupplyCategory}
+            onAddSupplyUnit={handleAddSupplyUnit}
+            onDeleteSupplyUnit={handleDeleteSupplyUnit}
+            onSaveConfig={handleSaveConfig}
             onTriggerToast={addToast}
           />
         )}

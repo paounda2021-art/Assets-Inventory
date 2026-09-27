@@ -5,16 +5,23 @@ import {
   FolderPlus, 
   Layers, 
   Building2, 
+  Boxes,
+  TrendingDown,
+  ShieldCheck,
   Plus, 
   Check, 
   Search, 
   Trash2, 
   Settings as SettingsIcon,
   Tag,
-  AlertCircle
+  AlertCircle,
+  FileText,
+  UserCheck,
+  ChevronRight,
+  Info
 } from 'lucide-react';
 import { ToastType } from '../ui/Toast';
-import { DEPARTMENT_LIST, DepartmentItem } from '../../data/departments';
+import { DepartmentItem } from '../../data/departments';
 
 export interface CategoryOption {
   code: string;
@@ -26,13 +33,32 @@ export interface TypeOption {
   name: string;
 }
 
+export interface ResponsibleOption {
+  code: string;
+  name: string;
+}
+
 interface SettingsViewProps {
   categories: CategoryOption[];
   typeCodesMap: Record<string, TypeOption[]>;
   departments: DepartmentItem[];
+  responsibleCodes?: ResponsibleOption[];
+  supplyCategories?: string[];
+  supplyUnits?: string[];
+  systemConfig?: Record<string, string>;
   onAddCategory: (category: CategoryOption) => void;
+  onDeleteCategory?: (code: string) => void;
   onAddType: (categoryCode: string, typeItem: TypeOption) => void;
+  onDeleteType?: (categoryCode: string, code: string) => void;
   onAddDepartment: (dept: DepartmentItem) => void;
+  onDeleteDepartment?: (code: string) => void;
+  onAddResponsibleCode?: (resp: ResponsibleOption) => void;
+  onDeleteResponsibleCode?: (code: string) => void;
+  onAddSupplyCategory?: (name: string) => void;
+  onDeleteSupplyCategory?: (name: string) => void;
+  onAddSupplyUnit?: (name: string) => void;
+  onDeleteSupplyUnit?: (name: string) => void;
+  onSaveConfig?: (key: string, value: string) => void;
   onTriggerToast: (type: ToastType, title: string, message?: string) => void;
 }
 
@@ -40,25 +66,40 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
   categories,
   typeCodesMap,
   departments,
+  responsibleCodes = [],
+  supplyCategories = ['วัสดุสำนักงาน', 'เครื่องเขียน', 'วัสดุคอมพิวเตอร์', 'วัสดุงานบ้านงานครัว', 'วัสดุไฟฟ้าและวิทยุ', 'วัสดุการเกษตร', 'อื่นๆ'],
+  supplyUnits = ['รีม', 'ด้าม', 'ตลับ', 'กล่อง', 'แผ่น', 'ชุด', 'เครื่อง', 'พวง', 'ม้วน', 'เล่ม', 'อัน', 'ขวด', 'ถุง'],
+  systemConfig = {},
   onAddCategory,
+  onDeleteCategory,
   onAddType,
+  onDeleteType,
   onAddDepartment,
+  onDeleteDepartment,
+  onAddResponsibleCode,
+  onDeleteResponsibleCode,
+  onAddSupplyCategory,
+  onDeleteSupplyCategory,
+  onAddSupplyUnit,
+  onDeleteSupplyUnit,
+  onSaveConfig,
   onTriggerToast,
 }) => {
-  const [activeTab, setActiveTab] = useState<'categories' | 'departments'>('categories');
+  // Active Sidebar Sub-menu Tab State
+  const [activeSubMenu, setActiveSubMenu] = useState<
+    'categories' | 'departments' | 'supplies' | 'depreciation' | 'organization'
+  >('categories');
 
-  // New Category Form State
+  // --- 1. Asset Categories & Subtypes State ---
   const [newCatCode, setNewCatCode] = useState<string>('');
   const [newCatName, setNewCatName] = useState<string>('');
-
-  // New Subtype Form State
   const [selectedCatCodeForType, setSelectedCatCodeForType] = useState<string>(
     categories[0]?.code || '01'
   );
   const [newTypeCode, setNewTypeCode] = useState<string>('');
   const [newTypeName, setNewTypeName] = useState<string>('');
 
-  // Auto calculate NEXT Category Code (e.g. 13)
+  // Auto calculate NEXT Category Code
   useEffect(() => {
     const maxCatNum = categories.reduce((max, cat) => {
       const num = parseInt(cat.code, 10);
@@ -68,7 +109,7 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
     setNewCatCode(nextCat);
   }, [categories]);
 
-  // Auto calculate NEXT Subtype Code for selected category (e.g. 009)
+  // Auto calculate NEXT Subtype Code for selected category
   useEffect(() => {
     const currentSubtypes = typeCodesMap[selectedCatCodeForType] || [];
     const maxTypeNum = currentSubtypes.reduce((max, t) => {
@@ -79,37 +120,41 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
     setNewTypeCode(nextType);
   }, [selectedCatCodeForType, typeCodesMap]);
 
-  // New Department Form State
+  // --- 2. Departments & Responsible Codes State ---
   const [newDeptCode, setNewDeptCode] = useState<string>('');
   const [newDeptTitle, setNewDeptTitle] = useState<string>('');
   const [deptSearch, setDeptSearch] = useState<string>('');
 
-  // Filter Subtypes for selected Category
-  const currentSubtypes = typeCodesMap[selectedCatCodeForType] || [];
+  const [newRespCode, setNewRespCode] = useState<string>('');
+  const [newRespName, setNewRespName] = useState<string>('');
 
+  // --- 3. Supply Categories & Units State ---
+  const [newSupCatName, setNewSupCatName] = useState<string>('');
+  const [newSupUnitName, setNewSupUnitName] = useState<string>('');
+
+  // --- 4 & 5. Config Form State ---
+  const [orgName, setOrgName] = useState<string>(systemConfig.orgName || 'องค์การสะพานปลา (Fish Marketing Organization)');
+  const [fiscalYear, setFiscalYear] = useState<string>(systemConfig.fiscalYear || '2569');
+  const [defaultApprover, setDefaultApprover] = useState<string>(systemConfig.defaultApprover || 'ผู้อำนวยการองค์การสะพานปลา');
+  const [usefulLife, setUsefulLife] = useState<string>(systemConfig.defaultUsefulLife || '5');
+  const [depreciationRate, setDepreciationRate] = useState<string>(systemConfig.defaultDepreciationMethod || '20% ต่อปี (เส้นตรง)');
+
+  // Handlers for Category & Subtype
   const handleCreateCategory = (e: React.FormEvent) => {
     e.preventDefault();
     if (!newCatCode.trim() || !newCatName.trim()) {
-      onTriggerToast('warning', 'ข้อมูลไม่ครบถ้วน', 'กรุณาระบุทั้งรหัสประเภทและชื่อประเภท');
+      onTriggerToast('warning', 'ข้อมูลไม่ครบถ้วน', 'กรุณาระบุทั้งรหัสหมวดหมู่และชื่อหมวดหมู่');
       return;
     }
-
     const formattedCode = newCatCode.padStart(2, '0');
-    // Check duplicate
     if (categories.some(c => c.code === formattedCode)) {
-      onTriggerToast('error', 'รหัสประเภทซ้ำ', `รหัสประเภท ${formattedCode} มีอยู่ในระบบแล้ว`);
+      onTriggerToast('error', 'รหัสหมวดหมู่ซ้ำ', `รหัสหมวดหมู่ ${formattedCode} มีอยู่แล้วในระบบ`);
       return;
     }
-
-    const newCategory: CategoryOption = {
-      code: formattedCode,
-      name: `${formattedCode} ${newCatName.trim()}`,
-    };
-
-    onAddCategory(newCategory);
-    onTriggerToast('success', 'เพิ่มประเภทครุภัณฑ์สำเร็จ', `เพิ่มหมวด ${newCategory.name} เรียบร้อยแล้ว`);
-    setNewCatCode('');
+    const newCat = { code: formattedCode, name: `${formattedCode} ${newCatName.trim()}` };
+    onAddCategory(newCat);
     setNewCatName('');
+    onTriggerToast('success', 'เพิ่มหมวดหมู่สำเร็จ!', `เพิ่มหมวดหมู่ครุภัณฑ์ใหม่ ${newCat.name} เรียบร้อยแล้ว`);
   };
 
   const handleCreateType = (e: React.FormEvent) => {
@@ -118,364 +163,735 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
       onTriggerToast('warning', 'ข้อมูลไม่ครบถ้วน', 'กรุณาระบุทั้งรหัสชนิดและชื่อชนิดครุภัณฑ์');
       return;
     }
-
     const formattedCode = newTypeCode.padStart(3, '0');
-    // Check duplicate
-    if (currentSubtypes.some(t => t.code === formattedCode)) {
-      onTriggerToast('error', 'รหัสชนิดซ้ำ', `รหัสชนิด ${formattedCode} มีในหมวดนี้แล้ว`);
+    const existingSubtypes = typeCodesMap[selectedCatCodeForType] || [];
+    if (existingSubtypes.some(t => t.code === formattedCode)) {
+      onTriggerToast('error', 'รหัสชนิดซ้ำ', `รหัสชนิด ${formattedCode} มีอยู่แล้วในหมวดหมู่นี้`);
       return;
     }
-
-    const newTypeItem: TypeOption = {
-      code: formattedCode,
-      name: `${formattedCode} ${newTypeName.trim()}`,
-    };
-
+    const newTypeItem = { code: formattedCode, name: `${formattedCode} ${newTypeName.trim()}` };
     onAddType(selectedCatCodeForType, newTypeItem);
-    onTriggerToast('success', 'เพิ่มชนิดครุภัณฑ์สำเร็จ', `เพิ่มชนิด ${newTypeItem.name} ในหมวด ${selectedCatCodeForType} เรียบร้อยแล้ว`);
-    setNewTypeCode('');
     setNewTypeName('');
+    onTriggerToast('success', 'เพิ่มชนิดครุภัณฑ์สำเร็จ!', `เพิ่มชนิด ${newTypeItem.name} เรียบร้อยแล้ว`);
   };
 
+  // Handlers for Department & Responsible Code
   const handleCreateDepartment = (e: React.FormEvent) => {
     e.preventDefault();
     if (!newDeptCode.trim() || !newDeptTitle.trim()) {
-      onTriggerToast('warning', 'ข้อมูลไม่ครบถ้วน', 'กรุณาระบุตัวย่อและชื่อหน่วยงาน');
+      onTriggerToast('warning', 'ข้อมูลไม่ครบถ้วน', 'กรุณากรอกทั้งรหัสย่อและชื่อเต็มหน่วยงาน');
       return;
     }
-
-    const code = newDeptCode.trim();
-    if (departments.some(d => d.code.toLowerCase() === code.toLowerCase())) {
-      onTriggerToast('error', 'ตัวย่อซ้ำ', `ตัวย่อหน่วยงาน ${code} มีในระบบแล้ว`);
+    const codeUpper = newDeptCode.trim().toUpperCase();
+    if (departments.some(d => d.code.toUpperCase() === codeUpper)) {
+      onTriggerToast('error', 'รหัสหน่วยงานซ้ำ', `รหัสหน่วยงาน ${codeUpper} มีอยู่แล้วในระบบ`);
       return;
     }
-
-    const newDept: DepartmentItem = {
-      code,
-      fullTitle: `${code} - ${newDeptTitle.trim()}`,
-    };
-
+    const newDept = { code: codeUpper, fullTitle: newDeptTitle.trim() };
     onAddDepartment(newDept);
-    onTriggerToast('success', 'เพิ่มหน่วยงานสำเร็จ', `เพิ่มตัวย่อ ${code} เข้าสู่ระบบเรียบร้อย`);
     setNewDeptCode('');
     setNewDeptTitle('');
+    onTriggerToast('success', 'เพิ่มหน่วยงานสำเร็จ!', `เพิ่มหน่วยงาน ${newDept.code} - ${newDept.fullTitle} เรียบร้อย`);
   };
 
-  const filteredDepartments = departments.filter(d =>
+  const handleCreateRespCode = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!newRespCode.trim() || !newRespName.trim()) {
+      onTriggerToast('warning', 'ข้อมูลไม่ครบถ้วน', 'กรุณากรอกรหัสและชื่อผู้รับผิดชอบ');
+      return;
+    }
+    const codeFormatted = newRespCode.trim().padStart(2, '0');
+    const newResp = { code: codeFormatted, name: `${codeFormatted} - ${newRespName.trim()}` };
+    if (onAddResponsibleCode) {
+      onAddResponsibleCode(newResp);
+    }
+    setNewRespCode('');
+    setNewRespName('');
+    onTriggerToast('success', 'เพิ่มรหัสผู้รับผิดชอบสำเร็จ!', `บันทึกรหัส ${newResp.code} เรียบร้อยแล้ว`);
+  };
+
+  // Handlers for Supply Categories & Units
+  const handleCreateSupplyCat = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!newSupCatName.trim()) return;
+    if (onAddSupplyCategory) {
+      onAddSupplyCategory(newSupCatName.trim());
+    }
+    setNewSupCatName('');
+    onTriggerToast('success', 'เพิ่มหมวดหมู่วัสดุสำเร็จ!', `เพิ่ม ${newSupCatName.trim()} เรียบร้อย`);
+  };
+
+  const handleCreateSupplyUnit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!newSupUnitName.trim()) return;
+    if (onAddSupplyUnit) {
+      onAddSupplyUnit(newSupUnitName.trim());
+    }
+    setNewSupUnitName('');
+    onTriggerToast('success', 'เพิ่มหน่วยนับสำเร็จ!', `เพิ่มหน่วยนับ ${newSupUnitName.trim()} เรียบร้อย`);
+  };
+
+  // Save Org & Config
+  const handleSaveConfigForm = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (onSaveConfig) {
+      onSaveConfig('orgName', orgName);
+      onSaveConfig('fiscalYear', fiscalYear);
+      onSaveConfig('defaultApprover', defaultApprover);
+      onSaveConfig('defaultUsefulLife', usefulLife);
+      onSaveConfig('defaultDepreciationMethod', depreciationRate);
+    }
+    onTriggerToast('success', 'บันทึกการตั้งค่าสำเร็จ!', 'อัปเดตข้อมูลองค์กรและการตั้งค่าระบบเรียบร้อยแล้ว');
+  };
+
+  const filteredDepts = departments.filter(d => 
     d.code.toLowerCase().includes(deptSearch.toLowerCase()) ||
     d.fullTitle.toLowerCase().includes(deptSearch.toLowerCase())
   );
 
-  return (
-    <div className="space-y-6">
-      {/* Header Banner */}
-      <div className="bg-slate-900 text-white rounded-2xl p-6 shadow-md border border-slate-800 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
-        <div>
-          <div className="flex items-center gap-2">
-            <SettingsIcon className="w-6 h-6 text-blue-400" />
-            <h2 className="text-xl font-bold">⚙️ ตั้งค่าระบบและโครงสร้างข้อมูล (System Master Settings)</h2>
-          </div>
-          <p className="text-xs text-slate-300 mt-1">
-            จัดการประเภทครุภัณฑ์ (Category), ชนิดครุภัณฑ์ (Subtype), และโครงสร้างตัวย่อหน่วยงาน/ผู้ถือครอง
-          </p>
-        </div>
+  const currentSubtypes = typeCodesMap[selectedCatCodeForType] || [];
 
-        {/* Tab Buttons */}
-        <div className="flex bg-slate-800 p-1 rounded-xl border border-slate-700">
-          <button
-            onClick={() => setActiveTab('categories')}
-            className={`px-4 py-2 text-xs font-semibold rounded-lg transition-colors flex items-center gap-2 ${
-              activeTab === 'categories'
-                ? 'bg-blue-600 text-white shadow-sm'
-                : 'text-slate-400 hover:text-white'
-            }`}
-          >
-            <FolderPlus className="w-4 h-4" />
-            ประเภทและชนิดครุภัณฑ์
-          </button>
-          <button
-            onClick={() => setActiveTab('departments')}
-            className={`px-4 py-2 text-xs font-semibold rounded-lg transition-colors flex items-center gap-2 ${
-              activeTab === 'departments'
-                ? 'bg-blue-600 text-white shadow-sm'
-                : 'text-slate-400 hover:text-white'
-            }`}
-          >
-            <Building2 className="w-4 h-4" />
-            ตัวย่อหน่วยงาน ({departments.length})
-          </button>
+  return (
+    <div className="space-y-5 text-slate-800">
+      
+      {/* Top Main Title Bar */}
+      <div className="flex items-center justify-between bg-white p-4 rounded-2xl border border-slate-200 shadow-xs">
+        <div>
+          <h2 className="text-lg font-extrabold text-slate-900 flex items-center space-x-2">
+            <SettingsIcon className="w-6 h-6 text-blue-600 animate-spin-slow" />
+            <span>6. ตั้งค่าระบบ (System Configuration & Master Data)</span>
+          </h2>
+          <p className="text-xs text-slate-500 mt-0.5">
+            บริหารจัดการข้อมูลหลัก (Master Data) โครงสร้างองค์กร รหัสรันระบบ และการตั้งค่าพื้นฐานสำหรับทั้งองค์กร
+          </p>
         </div>
       </div>
 
-      {/* Tab 1: Category & Subtype Manager */}
-      {activeTab === 'categories' && (
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-          
-          {/* Box 1: Categories Manager */}
-          <div className="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm space-y-5">
-            <div className="flex items-center justify-between border-b border-slate-100 pb-3">
-              <div className="flex items-center gap-2">
-                <div className="p-2 bg-blue-50 text-blue-600 rounded-lg">
-                  <FolderPlus className="w-5 h-5" />
-                </div>
-                <div>
-                  <h3 className="text-base font-bold text-slate-900">1. จัดการประเภทครุภัณฑ์ (Category)</h3>
-                  <p className="text-xs text-slate-500">รหัสประเภท 2 หลัก (เช่น 01, 02, 13)</p>
-                </div>
-              </div>
-              <span className="text-xs font-bold bg-blue-100 text-blue-800 px-2.5 py-1 rounded-full">
-                {categories.length} ประเภท
-              </span>
-            </div>
-
-            {/* Add Category Form */}
-            <form onSubmit={handleCreateCategory} className="bg-slate-50 p-4 rounded-xl border border-slate-200 space-y-3">
-              <h4 className="text-xs font-bold text-slate-800 flex items-center gap-1.5">
-                <Plus className="w-4 h-4 text-blue-600" />
-                เพิ่มประเภทครุภัณฑ์ใหม่
-              </h4>
-              <div className="grid grid-cols-3 gap-2">
-                <div>
-                  <label className="block text-[11px] font-medium text-slate-600 mb-1">รหัส 2 หลัก</label>
-                  <input
-                    type="text"
-                    maxLength={2}
-                    placeholder="เช่น 13"
-                    value={newCatCode}
-                    onChange={(e) => setNewCatCode(e.target.value)}
-                    className="w-full px-3 py-1.5 border border-slate-300 rounded-lg text-xs font-mono font-bold focus:ring-2 focus:ring-blue-500"
-                    required
-                  />
-                </div>
-                <div className="col-span-2">
-                  <label className="block text-[11px] font-medium text-slate-600 mb-1">ชื่อประเภทครุภัณฑ์</label>
-                  <input
-                    type="text"
-                    placeholder="เช่น ครุภัณฑ์สำรวจและวิจัย"
-                    value={newCatName}
-                    onChange={(e) => setNewCatName(e.target.value)}
-                    className="w-full px-3 py-1.5 border border-slate-300 rounded-lg text-xs focus:ring-2 focus:ring-blue-500"
-                    required
-                  />
-                </div>
-              </div>
-              <button
-                type="submit"
-                className="w-full py-2 bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold rounded-lg shadow-xs flex items-center justify-center gap-1 transition-colors"
-              >
-                <Plus className="w-4 h-4" />
-                บันทึกเพิ่มประเภทครุภัณฑ์
-              </button>
-            </form>
-
-            {/* Existing Categories List */}
-            <div className="space-y-2 max-h-80 overflow-y-auto pr-1">
-              <h4 className="text-xs font-semibold text-slate-600">รายการประเภทครุภัณฑ์ทั้งหมด</h4>
-              <div className="divide-y divide-slate-100 border border-slate-200 rounded-xl overflow-hidden">
-                {categories.map((cat) => (
-                  <div key={cat.code} className="p-3 bg-white hover:bg-slate-50 flex items-center justify-between text-xs">
-                    <div className="flex items-center gap-2">
-                      <span className="px-2 py-0.5 bg-slate-100 text-slate-800 font-mono font-bold rounded">
-                        {cat.code}
-                      </span>
-                      <span className="font-medium text-slate-800">{cat.name}</span>
-                    </div>
-                    <span className="text-[11px] text-slate-400">
-                      {(typeCodesMap[cat.code] || []).length} ชนิด
-                    </span>
-                  </div>
-                ))}
-              </div>
-            </div>
+      {/* Main Layout: Left Sub-Menu Sidebar (260px) + Right Detail Panel */}
+      <div className="flex flex-col md:flex-row gap-5 items-start">
+        
+        {/* LEFT SUB-MENU SIDEBAR */}
+        <div className="w-full md:w-64 bg-white rounded-2xl border border-slate-200 p-3 shadow-xs space-y-1 shrink-0">
+          <div className="px-3 py-2 text-[11px] font-bold text-slate-400 uppercase tracking-wider">
+            เมนูตั้งค่าระบบ (Settings Menu)
           </div>
 
-          {/* Box 2: Subtypes Manager */}
-          <div className="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm space-y-5">
-            <div className="flex items-center justify-between border-b border-slate-100 pb-3">
-              <div className="flex items-center gap-2">
-                <div className="p-2 bg-emerald-50 text-emerald-600 rounded-lg">
-                  <Layers className="w-5 h-5" />
-                </div>
-                <div>
-                  <h3 className="text-base font-bold text-slate-900">2. จัดการชนิดครุภัณฑ์ (Subtype)</h3>
-                  <p className="text-xs text-slate-500">รหัสชนิด 3 หลัก (เช่น 001, 002, 009)</p>
-                </div>
-              </div>
-              <span className="text-xs font-bold bg-emerald-100 text-emerald-800 px-2.5 py-1 rounded-full">
-                {currentSubtypes.length} ชนิด
-              </span>
+          <button
+            onClick={() => setActiveSubMenu('categories')}
+            className={`w-full flex items-center justify-between p-3 rounded-xl text-xs font-bold transition-all ${
+              activeSubMenu === 'categories'
+                ? 'bg-blue-600 text-white shadow-md shadow-blue-600/20'
+                : 'text-slate-700 hover:bg-slate-100'
+            }`}
+          >
+            <div className="flex items-center space-x-2.5">
+              <FolderPlus className="w-4 h-4" />
+              <span>1. หมวดหมู่ & ชนิดครุภัณฑ์</span>
             </div>
+            <ChevronRight className={`w-4 h-4 ${activeSubMenu === 'categories' ? 'text-white' : 'text-slate-400'}`} />
+          </button>
 
-            {/* Select Category */}
-            <div>
-              <label className="block text-xs font-semibold text-slate-700 mb-1">เลือกประเภทครุภัณฑ์ที่ต้องการจัดการชนิด</label>
-              <select
-                value={selectedCatCodeForType}
-                onChange={(e) => setSelectedCatCodeForType(e.target.value)}
-                className="w-full px-3 py-2 border border-slate-300 rounded-xl text-xs bg-slate-50 font-medium text-slate-800 focus:ring-2 focus:ring-emerald-500"
-              >
-                {categories.map((cat) => (
-                  <option key={cat.code} value={cat.code}>
-                    {cat.name} (มี { (typeCodesMap[cat.code] || []).length } ชนิด)
-                  </option>
-                ))}
-              </select>
+          <button
+            onClick={() => setActiveSubMenu('departments')}
+            className={`w-full flex items-center justify-between p-3 rounded-xl text-xs font-bold transition-all ${
+              activeSubMenu === 'departments'
+                ? 'bg-blue-600 text-white shadow-md shadow-blue-600/20'
+                : 'text-slate-700 hover:bg-slate-100'
+            }`}
+          >
+            <div className="flex items-center space-x-2.5">
+              <Building2 className="w-4 h-4" />
+              <span>2. หน่วยงาน & รหัสผู้รับผิดชอบ</span>
             </div>
+            <ChevronRight className={`w-4 h-4 ${activeSubMenu === 'departments' ? 'text-white' : 'text-slate-400'}`} />
+          </button>
 
-            {/* Add Subtype Form */}
-            <form onSubmit={handleCreateType} className="bg-emerald-50/50 p-4 rounded-xl border border-emerald-200 space-y-3">
-              <h4 className="text-xs font-bold text-emerald-900 flex items-center gap-1.5">
-                <Plus className="w-4 h-4 text-emerald-600" />
-                เพิ่มชนิดครุภัณฑ์ใหม่ในหมวด {selectedCatCodeForType}
-              </h4>
-              <div className="grid grid-cols-3 gap-2">
-                <div>
-                  <label className="block text-[11px] font-medium text-slate-600 mb-1">รหัส 3 หลัก</label>
-                  <input
-                    type="text"
-                    maxLength={3}
-                    placeholder="เช่น 009"
-                    value={newTypeCode}
-                    onChange={(e) => setNewTypeCode(e.target.value)}
-                    className="w-full px-3 py-1.5 border border-slate-300 rounded-lg text-xs font-mono font-bold focus:ring-2 focus:ring-emerald-500"
-                    required
-                  />
-                </div>
-                <div className="col-span-2">
-                  <label className="block text-[11px] font-medium text-slate-600 mb-1">ชื่อชนิดครุภัณฑ์</label>
-                  <input
-                    type="text"
-                    placeholder="เช่น โดรนสำรวจทางอากาศ"
-                    value={newTypeName}
-                    onChange={(e) => setNewTypeName(e.target.value)}
-                    className="w-full px-3 py-1.5 border border-slate-300 rounded-lg text-xs focus:ring-2 focus:ring-emerald-500"
-                    required
-                  />
-                </div>
+          <button
+            onClick={() => setActiveSubMenu('supplies')}
+            className={`w-full flex items-center justify-between p-3 rounded-xl text-xs font-bold transition-all ${
+              activeSubMenu === 'supplies'
+                ? 'bg-blue-600 text-white shadow-md shadow-blue-600/20'
+                : 'text-slate-700 hover:bg-slate-100'
+            }`}
+          >
+            <div className="flex items-center space-x-2.5">
+              <Boxes className="w-4 h-4" />
+              <span>3. หมวดหมู่ & หน่วยนับวัสดุ</span>
+            </div>
+            <ChevronRight className={`w-4 h-4 ${activeSubMenu === 'supplies' ? 'text-white' : 'text-slate-400'}`} />
+          </button>
+
+          <button
+            onClick={() => setActiveSubMenu('depreciation')}
+            className={`w-full flex items-center justify-between p-3 rounded-xl text-xs font-bold transition-all ${
+              activeSubMenu === 'depreciation'
+                ? 'bg-blue-600 text-white shadow-md shadow-blue-600/20'
+                : 'text-slate-700 hover:bg-slate-100'
+            }`}
+          >
+            <div className="flex items-center space-x-2.5">
+              <TrendingDown className="w-4 h-4" />
+              <span>4. ค่าเสื่อมราคา & สถานะ</span>
+            </div>
+            <ChevronRight className={`w-4 h-4 ${activeSubMenu === 'depreciation' ? 'text-white' : 'text-slate-400'}`} />
+          </button>
+
+          <button
+            onClick={() => setActiveSubMenu('organization')}
+            className={`w-full flex items-center justify-between p-3 rounded-xl text-xs font-bold transition-all ${
+              activeSubMenu === 'organization'
+                ? 'bg-blue-600 text-white shadow-md shadow-blue-600/20'
+                : 'text-slate-700 hover:bg-slate-100'
+            }`}
+          >
+            <div className="flex items-center space-x-2.5">
+              <ShieldCheck className="w-4 h-4" />
+              <span>5. ข้อมูลองค์กร & ผู้อนุมัติ</span>
+            </div>
+            <ChevronRight className={`w-4 h-4 ${activeSubMenu === 'organization' ? 'text-white' : 'text-slate-400'}`} />
+          </button>
+
+          <div className="pt-3 border-t border-slate-100 p-2">
+            <div className="p-3 bg-slate-50 border border-slate-200 rounded-xl text-[11px] text-slate-500 space-y-1">
+              <div className="font-bold text-slate-700 flex items-center gap-1">
+                <Info className="w-3.5 h-3.5 text-blue-600" />
+                <span>คำแนะนำการใช้งาน:</span>
               </div>
-              <button
-                type="submit"
-                className="w-full py-2 bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold rounded-lg shadow-xs flex items-center justify-center gap-1 transition-colors"
-              >
-                <Plus className="w-4 h-4" />
-                บันทึกเพิ่มชนิดครุภัณฑ์
-              </button>
-            </form>
+              <div>ข้อมูลที่ตั้งค่าจะถูกนำไปซิงค์ใช้กับแบบฟอร์มลงทะเบียน พัสดุ และรายงานทั่วทั้งระบบทันที</div>
+            </div>
+          </div>
+        </div>
 
-            {/* Existing Subtypes List */}
-            <div className="space-y-2 max-h-64 overflow-y-auto pr-1">
-              <h4 className="text-xs font-semibold text-slate-600">ชนิดครุภัณฑ์ในหมวดนี้</h4>
-              {currentSubtypes.length === 0 ? (
-                <div className="p-4 text-center text-xs text-slate-400 bg-slate-50 rounded-xl border border-dashed border-slate-200">
-                  ยังไม่มีชนิดครุภัณฑ์ในหมวดนี้ กดเพิ่มชนิดด้านบนได้ทันที
+        {/* RIGHT DETAIL PANEL */}
+        <div className="flex-1 w-full space-y-5">
+          
+          {/* ================= PANEL 1: CATEGORIES & SUBTYPES ================= */}
+          {activeSubMenu === 'categories' && (
+            <div className="space-y-5">
+              {/* Category Section */}
+              <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs space-y-4">
+                <div className="flex items-center justify-between border-b border-slate-100 pb-3">
+                  <h3 className="font-bold text-sm text-slate-900 flex items-center space-x-2">
+                    <FolderPlus className="w-4 h-4 text-blue-600" />
+                    <span>จัดการหมวดหมู่ครุภัณฑ์หลัก (Asset Categories - 2 หลัก)</span>
+                  </h3>
+                  <span className="text-xs bg-blue-50 text-blue-700 px-2.5 py-1 rounded-full font-bold border border-blue-200">
+                    ทั้งหมด {categories.length} หมวดหมู่
+                  </span>
                 </div>
-              ) : (
-                <div className="divide-y divide-slate-100 border border-slate-200 rounded-xl overflow-hidden">
-                  {currentSubtypes.map((typeItem) => (
-                    <div key={typeItem.code} className="p-2.5 bg-white hover:bg-slate-50 flex items-center justify-between text-xs">
-                      <div className="flex items-center gap-2">
-                        <span className="px-2 py-0.5 bg-emerald-100 text-emerald-800 font-mono font-bold rounded">
-                          {typeItem.code}
+
+                <form onSubmit={handleCreateCategory} className="grid grid-cols-1 sm:grid-cols-3 gap-3 bg-slate-50 p-4 rounded-xl border border-slate-200 text-xs">
+                  <div>
+                    <label className="block font-semibold text-slate-700 mb-1">รหัสหมวดหมู่ (2 หลัก):</label>
+                    <input
+                      type="text"
+                      maxLength={2}
+                      value={newCatCode}
+                      onChange={(e) => setNewCatCode(e.target.value)}
+                      placeholder="เช่น 13"
+                      className="w-full bg-white border border-slate-300 rounded-lg px-3 py-2 text-xs font-bold text-blue-900 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                    />
+                  </div>
+
+                  <div>
+                    <label className="block font-semibold text-slate-700 mb-1">ชื่อหมวดหมู่ครุภัณฑ์:</label>
+                    <input
+                      type="text"
+                      value={newCatName}
+                      onChange={(e) => setNewCatName(e.target.value)}
+                      placeholder="เช่น ครุภัณฑ์การศึกษา..."
+                      className="w-full bg-white border border-slate-300 rounded-lg px-3 py-2 text-xs font-bold focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                    />
+                  </div>
+
+                  <div className="flex items-end">
+                    <button
+                      type="submit"
+                      className="w-full py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-lg text-xs font-bold shadow-md shadow-blue-600/20 flex items-center justify-center space-x-1.5 transition-all"
+                    >
+                      <Plus className="w-4 h-4" />
+                      <span>+ เพิ่มหมวดหมู่หลัก</span>
+                    </button>
+                  </div>
+                </form>
+
+                {/* List Table of Categories */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 text-xs">
+                  {categories.map((cat) => (
+                    <div key={cat.code} className="p-3 bg-white border border-slate-200 rounded-xl flex items-center justify-between hover:border-blue-300 transition-all">
+                      <div className="flex items-center space-x-2">
+                        <span className="px-2 py-1 bg-blue-100 text-blue-800 font-bold rounded-md">
+                          {cat.code}
                         </span>
-                        <span className="font-medium text-slate-800">{typeItem.name}</span>
+                        <span className="font-bold text-slate-800">{cat.name}</span>
                       </div>
+                      {onDeleteCategory && (
+                        <button
+                          onClick={() => onDeleteCategory(cat.code)}
+                          title="ลบหมวดหมู่"
+                          className="p-1 text-slate-400 hover:text-rose-600 rounded transition-colors"
+                        >
+                          <Trash2 className="w-3.5 h-3.5" />
+                        </button>
+                      )}
                     </div>
                   ))}
                 </div>
-              )}
-            </div>
-
-          </div>
-
-        </div>
-      )}
-
-      {/* Tab 2: Department Abbreviations Manager */}
-      {activeTab === 'departments' && (
-        <div className="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm space-y-6">
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-100 pb-4">
-            <div>
-              <h3 className="text-base font-bold text-slate-900 flex items-center gap-2">
-                <Building2 className="w-5 h-5 text-blue-600" />
-                รายชื่อหน่วยงานและผู้ถือครองจากไฟล์ .txt ({departments.length} รายการ)
-              </h3>
-              <p className="text-xs text-slate-500 mt-0.5">
-                รายการตัวย่อในวงเล็บและตัวย่อแผนก สำหรับใช้เป็นตัวเลือก Dropdown ทั้งหมดในระบบ
-              </p>
-            </div>
-
-            {/* Search Box */}
-            <div className="relative w-full sm:w-72">
-              <Search className="w-4 h-4 absolute left-3 top-2.5 text-slate-400" />
-              <input
-                type="text"
-                placeholder="ค้นหาตัวย่อ หรือชื่อหน่วยงาน..."
-                value={deptSearch}
-                onChange={(e) => setDeptSearch(e.target.value)}
-                className="w-full pl-9 pr-3 py-1.5 border border-slate-300 rounded-xl text-xs focus:ring-2 focus:ring-blue-500"
-              />
-            </div>
-          </div>
-
-          {/* Add Custom Department Form */}
-          <form onSubmit={handleCreateDepartment} className="bg-blue-50/60 p-4 rounded-xl border border-blue-200 space-y-3">
-            <h4 className="text-xs font-bold text-blue-900 flex items-center gap-1.5">
-              <Plus className="w-4 h-4 text-blue-600" />
-              เพิ่มตัวย่อหน่วยงานใหม่
-            </h4>
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
-              <div>
-                <label className="block text-[11px] font-medium text-slate-600 mb-1">ตัวย่อ (เช่น ฝตน., สพด., ผสบ.)</label>
-                <input
-                  type="text"
-                  placeholder="เช่น ฝสส."
-                  value={newDeptCode}
-                  onChange={(e) => setNewDeptCode(e.target.value)}
-                  className="w-full px-3 py-1.5 border border-slate-300 rounded-lg text-xs font-bold focus:ring-2 focus:ring-blue-500"
-                  required
-                />
               </div>
-              <div className="sm:col-span-2">
-                <label className="block text-[11px] font-medium text-slate-600 mb-1">ชื่อเต็มหน่วยงาน</label>
-                <input
-                  type="text"
-                  placeholder="เช่น ฝ่ายส่งเสริมและพัฒนาประมง"
-                  value={newDeptTitle}
-                  onChange={(e) => setNewDeptTitle(e.target.value)}
-                  className="w-full px-3 py-1.5 border border-slate-300 rounded-lg text-xs focus:ring-2 focus:ring-blue-500"
-                  required
-                />
-              </div>
-            </div>
-            <button
-              type="submit"
-              className="py-2 px-4 bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold rounded-lg shadow-xs flex items-center gap-1 transition-colors ml-auto"
-            >
-              <Plus className="w-4 h-4" />
-              บันทึกเพิ่มหน่วยงาน
-            </button>
-          </form>
 
-          {/* Department List Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 max-h-96 overflow-y-auto pr-1">
-            {filteredDepartments.map((dept, idx) => (
-              <div
-                key={`${dept.code}-${idx}`}
-                className="p-3 bg-slate-50 hover:bg-blue-50/50 border border-slate-200 rounded-xl flex items-center justify-between text-xs transition-colors"
-              >
-                <div className="flex items-center gap-2 overflow-hidden">
-                  <span className="px-2.5 py-1 bg-blue-600 text-white font-bold rounded-md shrink-0 shadow-xs">
-                    {dept.code}
-                  </span>
-                  <span className="text-slate-700 truncate font-medium" title={dept.fullTitle}>
-                    {dept.fullTitle}
-                  </span>
+              {/* Subtype Section */}
+              <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs space-y-4">
+                <div className="flex items-center justify-between border-b border-slate-100 pb-3">
+                  <h3 className="font-bold text-sm text-slate-900 flex items-center space-x-2">
+                    <Layers className="w-4 h-4 text-emerald-600" />
+                    <span>จัดการชนิดครุภัณฑ์ย่อย (Subtypes / Kinds - 3 หลัก)</span>
+                  </h3>
+                </div>
+
+                <div className="flex items-center space-x-3 text-xs">
+                  <span className="font-bold text-slate-700">เลือกหมวดหมู่หลัก:</span>
+                  <select
+                    value={selectedCatCodeForType}
+                    onChange={(e) => setSelectedCatCodeForType(e.target.value)}
+                    className="bg-white border border-slate-300 rounded-lg px-3 py-1.5 text-xs font-bold text-blue-900 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                  >
+                    {categories.map((c) => (
+                      <option key={c.code} value={c.code}>{c.name}</option>
+                    ))}
+                  </select>
+                </div>
+
+                <form onSubmit={handleCreateType} className="grid grid-cols-1 sm:grid-cols-3 gap-3 bg-slate-50 p-4 rounded-xl border border-slate-200 text-xs">
+                  <div>
+                    <label className="block font-semibold text-slate-700 mb-1">รหัสชนิด (3 หลัก):</label>
+                    <input
+                      type="text"
+                      maxLength={3}
+                      value={newTypeCode}
+                      onChange={(e) => setNewTypeCode(e.target.value)}
+                      placeholder="เช่น 009"
+                      className="w-full bg-white border border-slate-300 rounded-lg px-3 py-2 text-xs font-bold text-emerald-800 focus:ring-2 focus:ring-emerald-500 focus:outline-none"
+                    />
+                  </div>
+
+                  <div>
+                    <label className="block font-semibold text-slate-700 mb-1">ชื่อชนิดครุภัณฑ์ย่อย:</label>
+                    <input
+                      type="text"
+                      value={newTypeName}
+                      onChange={(e) => setNewTypeName(e.target.value)}
+                      placeholder="เช่น โต๊ะประชุมไม้..."
+                      className="w-full bg-white border border-slate-300 rounded-lg px-3 py-2 text-xs font-bold focus:ring-2 focus:ring-emerald-500 focus:outline-none"
+                    />
+                  </div>
+
+                  <div className="flex items-end">
+                    <button
+                      type="submit"
+                      className="w-full py-2 bg-emerald-600 hover:bg-emerald-500 text-white rounded-lg text-xs font-bold shadow-md shadow-emerald-600/20 flex items-center justify-center space-x-1.5 transition-all"
+                    >
+                      <Plus className="w-4 h-4" />
+                      <span>+ เพิ่มชนิดย่อย</span>
+                    </button>
+                  </div>
+                </form>
+
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
+                  {currentSubtypes.map((sub) => (
+                    <div key={sub.code} className="p-2.5 bg-slate-50 border border-slate-200 rounded-lg flex items-center justify-between hover:bg-white transition-all">
+                      <div className="flex items-center space-x-2">
+                        <span className="px-2 py-0.5 bg-emerald-100 text-emerald-900 font-bold rounded">
+                          {sub.code}
+                        </span>
+                        <span className="font-bold text-slate-800">{sub.name}</span>
+                      </div>
+                      {onDeleteType && (
+                        <button
+                          onClick={() => onDeleteType(selectedCatCodeForType, sub.code)}
+                          title="ลบชนิดย่อย"
+                          className="p-1 text-slate-400 hover:text-rose-600 rounded"
+                        >
+                          <Trash2 className="w-3.5 h-3.5" />
+                        </button>
+                      )}
+                    </div>
+                  ))}
                 </div>
               </div>
-            ))}
-          </div>
+            </div>
+          )}
+
+          {/* ================= PANEL 2: DEPARTMENTS & RESPONSIBLE CODES ================= */}
+          {activeSubMenu === 'departments' && (
+            <div className="space-y-5">
+              {/* Department Section */}
+              <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs space-y-4">
+                <div className="flex items-center justify-between border-b border-slate-100 pb-3">
+                  <h3 className="font-bold text-sm text-slate-900 flex items-center space-x-2">
+                    <Building2 className="w-4 h-4 text-blue-600" />
+                    <span>จัดการรายชื่อหน่วยงาน / ฝ่าย (Department List)</span>
+                  </h3>
+                  <span className="text-xs bg-blue-50 text-blue-700 px-2.5 py-1 rounded-full font-bold border border-blue-200">
+                    ทั้งหมด {departments.length} หน่วยงาน
+                  </span>
+                </div>
+
+                <form onSubmit={handleCreateDepartment} className="grid grid-cols-1 sm:grid-cols-3 gap-3 bg-slate-50 p-4 rounded-xl border border-slate-200 text-xs">
+                  <div>
+                    <label className="block font-semibold text-slate-700 mb-1">รหัสย่อหน่วยงาน:</label>
+                    <input
+                      type="text"
+                      value={newDeptCode}
+                      onChange={(e) => setNewDeptCode(e.target.value)}
+                      placeholder="เช่น สทส., สลข., สนอ."
+                      className="w-full bg-white border border-slate-300 rounded-lg px-3 py-2 text-xs font-bold text-blue-900 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                    />
+                  </div>
+
+                  <div>
+                    <label className="block font-semibold text-slate-700 mb-1">ชื่อเต็มหน่วยงาน:</label>
+                    <input
+                      type="text"
+                      value={newDeptTitle}
+                      onChange={(e) => setNewDeptTitle(e.target.value)}
+                      placeholder="เช่น สำนักเทคโนโลยีสารสนเทศ..."
+                      className="w-full bg-white border border-slate-300 rounded-lg px-3 py-2 text-xs font-bold focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                    />
+                  </div>
+
+                  <div className="flex items-end">
+                    <button
+                      type="submit"
+                      className="w-full py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-lg text-xs font-bold shadow-md shadow-blue-600/20 flex items-center justify-center space-x-1.5 transition-all"
+                    >
+                      <Plus className="w-4 h-4" />
+                      <span>+ เพิ่มหน่วยงาน</span>
+                    </button>
+                  </div>
+                </form>
+
+                <div className="relative">
+                  <Search className="w-4 h-4 text-slate-400 absolute left-3 top-2.5" />
+                  <input
+                    type="text"
+                    value={deptSearch}
+                    onChange={(e) => setDeptSearch(e.target.value)}
+                    placeholder="ค้นหารหัสหรือชื่อหน่วยงาน..."
+                    className="w-full bg-slate-50 border border-slate-300 rounded-lg pl-9 pr-3 py-1.5 text-xs focus:ring-2 focus:ring-blue-500 focus:bg-white focus:outline-none"
+                  />
+                </div>
+
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs max-h-72 overflow-y-auto pr-1">
+                  {filteredDepts.map((d) => (
+                    <div key={d.code} className="p-3 bg-white border border-slate-200 rounded-xl flex items-center justify-between hover:border-blue-300 transition-all">
+                      <div className="flex items-center space-x-2">
+                        <span className="px-2 py-1 bg-blue-100 text-blue-900 font-bold rounded">
+                          {d.code}
+                        </span>
+                        <span className="font-bold text-slate-800">{d.fullTitle}</span>
+                      </div>
+                      {onDeleteDepartment && (
+                        <button
+                          onClick={() => onDeleteDepartment(d.code)}
+                          title="ลบหน่วยงาน"
+                          className="p-1 text-slate-400 hover:text-rose-600 rounded"
+                        >
+                          <Trash2 className="w-3.5 h-3.5" />
+                        </button>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* Responsible Codes Section */}
+              <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs space-y-4">
+                <div className="flex items-center justify-between border-b border-slate-100 pb-3">
+                  <h3 className="font-bold text-sm text-slate-900 flex items-center space-x-2">
+                    <Tag className="w-4 h-4 text-indigo-600" />
+                    <span>จัดการรหัสผู้รับผิดชอบ (Responsible Codes - สูตรสร้างรหัสครุภัณฑ์)</span>
+                  </h3>
+                </div>
+
+                <form onSubmit={handleCreateRespCode} className="grid grid-cols-1 sm:grid-cols-3 gap-3 bg-slate-50 p-4 rounded-xl border border-slate-200 text-xs">
+                  <div>
+                    <label className="block font-semibold text-slate-700 mb-1">รหัสผู้รับผิดชอบ (2 หลัก):</label>
+                    <input
+                      type="text"
+                      maxLength={2}
+                      value={newRespCode}
+                      onChange={(e) => setNewRespCode(e.target.value)}
+                      placeholder="เช่น 24"
+                      className="w-full bg-white border border-slate-300 rounded-lg px-3 py-2 text-xs font-bold text-indigo-900 focus:ring-2 focus:ring-indigo-500 focus:outline-none"
+                    />
+                  </div>
+
+                  <div>
+                    <label className="block font-semibold text-slate-700 mb-1">ชื่อผู้รับผิดชอบ / สาขา:</label>
+                    <input
+                      type="text"
+                      value={newRespName}
+                      onChange={(e) => setNewRespName(e.target.value)}
+                      placeholder="เช่น ท่าเทียบเรือประมงใหม่..."
+                      className="w-full bg-white border border-slate-300 rounded-lg px-3 py-2 text-xs font-bold focus:ring-2 focus:ring-indigo-500 focus:outline-none"
+                    />
+                  </div>
+
+                  <div className="flex items-end">
+                    <button
+                      type="submit"
+                      className="w-full py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg text-xs font-bold shadow-md shadow-indigo-600/20 flex items-center justify-center space-x-1.5 transition-all"
+                    >
+                      <Plus className="w-4 h-4" />
+                      <span>+ เพิ่มรหัสผู้รับผิดชอบ</span>
+                    </button>
+                  </div>
+                </form>
+
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 text-xs max-h-60 overflow-y-auto pr-1">
+                  {responsibleCodes.map((r) => (
+                    <div key={r.code} className="p-2.5 bg-slate-50 border border-slate-200 rounded-lg flex items-center justify-between">
+                      <div className="font-bold text-slate-800">{r.name}</div>
+                      {onDeleteResponsibleCode && (
+                        <button
+                          onClick={() => onDeleteResponsibleCode(r.code)}
+                          className="p-1 text-slate-400 hover:text-rose-600 rounded"
+                        >
+                          <Trash2 className="w-3.5 h-3.5" />
+                        </button>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          )}
+
+          {/* ================= PANEL 3: SUPPLY CATEGORIES & UNITS ================= */}
+          {activeSubMenu === 'supplies' && (
+            <div className="space-y-5">
+              {/* Supply Categories Section */}
+              <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs space-y-4">
+                <div className="flex items-center justify-between border-b border-slate-100 pb-3">
+                  <h3 className="font-bold text-sm text-slate-900 flex items-center space-x-2">
+                    <Boxes className="w-4 h-4 text-blue-600" />
+                    <span>จัดการหมวดหมู่วัสดุสิ้นเปลือง (Supply Categories)</span>
+                  </h3>
+                </div>
+
+                <form onSubmit={handleCreateSupplyCat} className="flex gap-3 text-xs">
+                  <input
+                    type="text"
+                    value={newSupCatName}
+                    onChange={(e) => setNewSupCatName(e.target.value)}
+                    placeholder="พิมพ์ชื่อหมวดหมู่วัสดุสิ้นเปลือง เช่น วัสดุทำความสะอาด..."
+                    className="flex-1 bg-white border border-slate-300 rounded-lg px-3 py-2 text-xs font-bold focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                  />
+                  <button
+                    type="submit"
+                    className="px-4 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-lg text-xs font-bold shadow-md shadow-blue-600/20 flex items-center space-x-1"
+                  >
+                    <Plus className="w-4 h-4" />
+                    <span>+ เพิ่มหมวดหมู่</span>
+                  </button>
+                </form>
+
+                <div className="flex flex-wrap gap-2 text-xs">
+                  {supplyCategories.map((cat) => (
+                    <div key={cat} className="px-3 py-1.5 bg-blue-50 border border-blue-200 text-blue-900 font-bold rounded-xl flex items-center space-x-2">
+                      <span>{cat}</span>
+                      {onDeleteSupplyCategory && (
+                        <button onClick={() => onDeleteSupplyCategory(cat)} className="text-slate-400 hover:text-rose-600">
+                          <Trash2 className="w-3.5 h-3.5" />
+                        </button>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* Supply Units Section */}
+              <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs space-y-4">
+                <div className="flex items-center justify-between border-b border-slate-100 pb-3">
+                  <h3 className="font-bold text-sm text-slate-900 flex items-center space-x-2">
+                    <Tag className="w-4 h-4 text-emerald-600" />
+                    <span>จัดการหน่วยนับพัสดุ (Units of Measurement)</span>
+                  </h3>
+                </div>
+
+                <form onSubmit={handleCreateSupplyUnit} className="flex gap-3 text-xs">
+                  <input
+                    type="text"
+                    value={newSupUnitName}
+                    onChange={(e) => setNewSupUnitName(e.target.value)}
+                    placeholder="พิมพ์หน่วยนับใหม่ เช่น แฟ้ม, ม้วน, แท่ง..."
+                    className="flex-1 bg-white border border-slate-300 rounded-lg px-3 py-2 text-xs font-bold focus:ring-2 focus:ring-emerald-500 focus:outline-none"
+                  />
+                  <button
+                    type="submit"
+                    className="px-4 py-2 bg-emerald-600 hover:bg-emerald-500 text-white rounded-lg text-xs font-bold shadow-md shadow-emerald-600/20 flex items-center space-x-1"
+                  >
+                    <Plus className="w-4 h-4" />
+                    <span>+ เพิ่มหน่วยนับ</span>
+                  </button>
+                </form>
+
+                <div className="flex flex-wrap gap-2 text-xs">
+                  {supplyUnits.map((unit) => (
+                    <div key={unit} className="px-3 py-1.5 bg-emerald-50 border border-emerald-200 text-emerald-900 font-bold rounded-xl flex items-center space-x-2">
+                      <span>{unit}</span>
+                      {onDeleteSupplyUnit && (
+                        <button onClick={() => onDeleteSupplyUnit(unit)} className="text-slate-400 hover:text-rose-600">
+                          <Trash2 className="w-3.5 h-3.5" />
+                        </button>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          )}
+
+          {/* ================= PANEL 4: DEPRECIATION & STATUS SETTINGS ================= */}
+          {activeSubMenu === 'depreciation' && (
+            <div className="space-y-5">
+              <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs space-y-4">
+                <div className="border-b border-slate-100 pb-3">
+                  <h3 className="font-bold text-sm text-slate-900 flex items-center space-x-2">
+                    <TrendingDown className="w-4 h-4 text-blue-600" />
+                    <span>การตั้งค่าอัตราค่าเสื่อมราคาและอายุการใช้งานมาตรฐาน</span>
+                  </h3>
+                </div>
+
+                <form onSubmit={handleSaveConfigForm} className="space-y-4 text-xs">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div>
+                      <label className="block font-semibold text-slate-700 mb-1">อายุการใช้งานมาตรฐาน (ปี):</label>
+                      <input
+                        type="number"
+                        value={usefulLife}
+                        onChange={(e) => setUsefulLife(e.target.value)}
+                        className="w-full border border-slate-300 rounded-lg px-3 py-2 text-xs font-bold text-blue-900 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                      />
+                    </div>
+
+                    <div>
+                      <label className="block font-semibold text-slate-700 mb-1">วิธีการคำนวณค่าเสื่อมราคามาตรฐาน:</label>
+                      <input
+                        type="text"
+                        value={depreciationRate}
+                        onChange={(e) => setDepreciationRate(e.target.value)}
+                        className="w-full border border-slate-300 rounded-lg px-3 py-2 text-xs font-bold focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                      />
+                    </div>
+                  </div>
+
+                  <div className="flex justify-end">
+                    <button
+                      type="submit"
+                      className="px-5 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-xl text-xs font-bold shadow-md shadow-blue-600/20 flex items-center space-x-1.5"
+                    >
+                      <Check className="w-4 h-4" />
+                      <span>บันทึกการตั้งค่าค่าเสื่อม</span>
+                    </button>
+                  </div>
+                </form>
+              </div>
+
+              {/* Status Definitions Card */}
+              <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs space-y-3">
+                <h3 className="font-bold text-sm text-slate-900 flex items-center space-x-2 border-b border-slate-100 pb-3">
+                  <Tag className="w-4 h-4 text-amber-500" />
+                  <span>คำนิยามสถานะครุภัณฑ์ในระบบ (Asset Status Definitions)</span>
+                </h3>
+
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+                  <div className="p-3 bg-emerald-50 border border-emerald-200 rounded-xl space-y-1">
+                    <div className="font-bold text-emerald-900">🟢 ใช้งานปกติ (Active)</div>
+                    <div className="text-slate-600">ครุภัณฑ์สภาพดี พร้อมใช้งานประจำวัน</div>
+                  </div>
+
+                  <div className="p-3 bg-amber-50 border border-amber-200 rounded-xl space-y-1">
+                    <div className="font-bold text-amber-900">🟡 ส่งซ่อม (Repair)</div>
+                    <div className="text-slate-600">อยู่ระหว่างส่งซ่อมแซมศูนย์บริการ</div>
+                  </div>
+
+                  <div className="p-3 bg-rose-50 border border-rose-200 rounded-xl space-y-1">
+                    <div className="font-bold text-rose-900">🔴 ชำรุดรอจำหน่าย (Damaged)</div>
+                    <div className="text-slate-600">ชำรุดไม่คุ้มซ่อมแซม รอดำเนินการตัดจำหน่าย</div>
+                  </div>
+
+                  <div className="p-3 bg-slate-100 border border-slate-300 rounded-xl space-y-1">
+                    <div className="font-bold text-slate-900">⚪ ตัดจำหน่ายแล้ว (Disposed)</div>
+                    <div className="text-slate-600">อนุมัติตัดจำหน่ายออกจากทะเบียนพัสดุองค์กรแล้ว</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
+
+          {/* ================= PANEL 5: ORGANIZATION & APPROVERS PROFILE ================= */}
+          {activeSubMenu === 'organization' && (
+            <div className="space-y-5">
+              <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs space-y-4">
+                <div className="border-b border-slate-100 pb-3">
+                  <h3 className="font-bold text-sm text-slate-900 flex items-center space-x-2">
+                    <ShieldCheck className="w-4 h-4 text-blue-600" />
+                    <span>ข้อมูลองค์กรและผู้อนุมัติเอกสารพัสดุ</span>
+                  </h3>
+                </div>
+
+                <form onSubmit={handleSaveConfigForm} className="space-y-4 text-xs">
+                  <div>
+                    <label className="block font-semibold text-slate-700 mb-1">ชื่อหน่วยงาน / องค์กรหลัก:</label>
+                    <input
+                      type="text"
+                      value={orgName}
+                      onChange={(e) => setOrgName(e.target.value)}
+                      className="w-full border border-slate-300 rounded-lg px-3 py-2 text-xs font-bold text-slate-900 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                    />
+                  </div>
+
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div>
+                      <label className="block font-semibold text-slate-700 mb-1">ปีงบประมาณปัจจุบัน:</label>
+                      <input
+                        type="text"
+                        value={fiscalYear}
+                        onChange={(e) => setFiscalYear(e.target.value)}
+                        className="w-full border border-slate-300 rounded-lg px-3 py-2 text-xs font-bold text-blue-900 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                      />
+                    </div>
+
+                    <div>
+                      <label className="block font-semibold text-slate-700 mb-1">ตำแหน่งผู้อนุมัติโอนย้าย/ตัดจำหน่าย:</label>
+                      <input
+                        type="text"
+                        value={defaultApprover}
+                        onChange={(e) => setDefaultApprover(e.target.value)}
+                        className="w-full border border-slate-300 rounded-lg px-3 py-2 text-xs font-bold text-slate-800 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                      />
+                    </div>
+                  </div>
+
+                  <div className="flex justify-end pt-2">
+                    <button
+                      type="submit"
+                      className="px-5 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-xl text-xs font-bold shadow-md shadow-blue-600/20 flex items-center space-x-1.5"
+                    >
+                      <Check className="w-4 h-4" />
+                      <span>บันทึกข้อมูลองค์กร</span>
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          )}
+
         </div>
-      )}
+
+      </div>
+
     </div>
   );
 };
